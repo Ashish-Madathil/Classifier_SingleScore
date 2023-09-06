@@ -1,6 +1,5 @@
 import torch
-from torch.utils.data import Dataset, Dataloader
-from torchvision import transforms
+from torch.utils.data import Dataset
 import pandas as pd
 from PIL import Image
 
@@ -24,4 +23,4 @@ class EmbryoDataset(Dataset):
         
         return image, label
     
-    
+
