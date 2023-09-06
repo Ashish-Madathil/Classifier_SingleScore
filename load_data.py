@@ -28,7 +28,7 @@ def split_indices(n, train_pct, val_pct, seed=None, stratify=None):
 
     return train_indices, val_indices, test_indices
 
-full_dataset = EmbryoDataset(txt_path=".txt", transform=transform)
+full_dataset = EmbryoDataset(txt_path="ed4_as_target.txt", transform=transform)
 train_indices, val_indices, test_indices = split_indices(len(full_dataset), train_pct=0.6, val_pct=0.2, seed=42, stratify=full_dataset.label_list)
 
 train_sampler = SubsetRandomSampler(train_indices)
