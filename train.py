@@ -8,7 +8,7 @@ from load_data import train_loader, val_loader
 learning_rate = 0.001
 batch_size = 32
 num_epochs = 100
-
+losses = []
 
 
 # Initialize Model and Optimizer
@@ -28,6 +28,7 @@ for epoch in range(num_epochs):
         # Forward pass
         outputs = model(images)
         loss = criterion(outputs, labels)
+        losses.append(loss.detach().cpu().numpy())
 
         # Backward pass and optimization
         optimizer.zero_grad()
