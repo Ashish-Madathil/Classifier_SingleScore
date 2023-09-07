@@ -2,7 +2,7 @@ import torch
 import torch.optim as optim
 from Classifier import Classifier
 import torch.nn as nn
-from load_data import train_loader, val_loader
+from stratified_sampling import train_loader, val_loader
 
 # Hyperparameters
 learning_rate = 0.001
