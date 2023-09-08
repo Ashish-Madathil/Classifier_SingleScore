@@ -10,7 +10,8 @@ from torch.utils.data import Dataset, SubsetRandomSampler, DataLoader
 import matplotlib.pyplot as plt
 
 # Local imports
-from Classifier import Classifier
+# from Classifier import Classifier
+from resnet_18 import ResNet18Classifier
 from stratified_sampling import split_indices
 from embryo_dataset import EmbryoDataset
 
@@ -53,7 +54,8 @@ test_loader = DataLoader(dataset=full_dataset, batch_size=32, sampler=test_sampl
 
 # Initialize Model and Optimizer
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = Classifier().to(device)
+# model = Classifier().to(device)
+model = ResNet18Classifier(num_classes=5).to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 num_classes = 5
