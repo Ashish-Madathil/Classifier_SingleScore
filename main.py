@@ -7,6 +7,7 @@ import torchvision.transforms as transforms
 import csv
 from PIL import Image
 from torch.utils.data import Dataset, SubsetRandomSampler, DataLoader
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 import matplotlib.pyplot as plt
 
 # Local imports
@@ -15,18 +16,10 @@ from resnet_18 import ResNet18Classifier
 from stratified_sampling import split_indices
 from embryo_dataset import EmbryoDataset
 
-# # Global Variables (can be moved to a configuration file or passed as arguments later)
-# MODEL_PATH = "model.pth"
-# CSV_FILENAME = 'results.csv'
-# TRAIN_PCT = 0.6
-# VAL_PCT = 0.2
-# LEARNING_RATE = 0.001
-# BATCH_SIZE = 32
-# NUM_EPOCHS = 100
 
 # Hyperparameters
-learning_rate = 0.00001
-batch_size = 32
+learning_rate = 0.0001
+batch_size = 128
 num_epochs = 300
 losses = []
 
@@ -44,55 +37,54 @@ train_sampler = SubsetRandomSampler(train_indices)
 val_sampler = SubsetRandomSampler(val_indices)
 test_sampler = SubsetRandomSampler(test_indices)
 
-train_loader = DataLoader(dataset=full_dataset, batch_size=32, sampler=train_sampler)
-val_loader = DataLoader(dataset=full_dataset, batch_size=32, sampler=val_sampler)
-test_loader = DataLoader(dataset=full_dataset, batch_size=32, sampler=test_sampler)
+train_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=train_sampler)
+val_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=val_sampler)
+test_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=test_sampler)
 
-# for images, labels in train_loader:
-#     print(images.size(), labels.size())
-#     break
 
 # Initialize Model and Optimizer
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # model = Classifier().to(device)
 model = ResNet18Classifier(num_classes=5).to(device)
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)
+# optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=1e-4)
+# optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
+scheduler = ReduceLROnPlateau(optimizer, 'min')  # 'min' indicates reducing LR when a quantity (val loss in our case) stops decreasing
 num_classes = 5
 true_positives = torch.zeros(num_classes)
+valloss =[]
+val_acc = []
 
 
-# # Small subset of the dataset for testing
-# subset_data = torch.utils.data.Subset(full_dataset, indices=range(32))
-# loader = DataLoader(subset_data, batch_size=32)
-
-# for images, labels in loader:
-#     outputs = model(images.to(device))
-#     print(outputs.size(), labels.size())
+# Early Stopping
+patience = 100  # Number of epochs to wait for improvement before stopping
+best_valid_loss = float('inf')
+best_valid_epoch = 0
 
 # Training Loop
 for epoch in range(num_epochs):
     model.train()
+    tr_loss = 0
     for images, labels in train_loader:
-        # print(images.size(), labels.size())
         images, labels = images.to(device), labels.long().to(device)
 
         # Forward pass
         outputs = model(images)
-        # print('OUTPUTS : ', outputs.size())
-        # print('LABELS : ', labels.size(), labels)
         loss = criterion(outputs, labels)
-        losses.append(loss.detach().cpu().numpy())
+        # losses.append(loss.detach().cpu().numpy())
+        tr_loss += loss.item()
 
         # Backward pass and optimization
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
+    tr_loss /= len(train_loader)  #average loss per batch for the epoch
+    losses.append(tr_loss)
     # Validation
     model.eval()
     val_loss = 0
-    valloss =[]
     correct = 0
     true_positives.fill_(0)
     total_per_class = torch.zeros(num_classes)
@@ -102,52 +94,64 @@ for epoch in range(num_epochs):
             images, labels = images.to(device), labels.long().to(device)
             outputs = model(images)
             val_loss += criterion(outputs, labels).item()
-            valloss.append(val_loss)
             _, predicted = outputs.max(1)
             correct += predicted.eq(labels).sum().item()
 
             for i in range(num_classes):
-                true_positives[i] += (predicted == labels).logical_and(predicted == i).sum().item()
+                true_positives[i] += ((predicted == labels) & (predicted == i)).sum().item()
                 total_per_class[i] += (labels == i).sum().item()
 
-    # val_loss /= len(val_loader.dataset)
-    # accuracy = 100. * correct / len(val_loader.dataset)
-    val_loss /= len(val_indices)
-    # valloss.append(val_loss)
+
+    val_loss /= len(val_loader)
     accuracy = 100. * correct / len(val_indices)
-    # print('Accuracy : ', accuracy)
+
+    scheduler.step(val_loss)
+
+    valloss.append(val_loss)
+    val_acc.append(accuracy)
+
+    # Early Stopping
+    if val_loss < best_valid_loss:
+        best_valid_loss = val_loss
+        best_valid_epoch = epoch
+        # Save the model checkpoint whenever validation loss improves
+        torch.save(model.state_dict(), 'best_model_checkpoint_resnet18_tunedAdam.pth')
+    if epoch - best_valid_epoch >= patience:
+        print(f"Validation loss hasn't improved for {patience} epochs. Stopping training.")
+        break
+
     print(f"Epoch [{epoch+1}/{num_epochs}], Train Loss: {loss.item():.4f}, Val Loss: {val_loss:.4f}, Val Accuracy: {100. * correct / len(val_indices):.2f}%")
     for i in range(num_classes):
         print(f"Class {i} Recall: {true_positives[i] / total_per_class[i]:.2f} True Positives: {true_positives[i]}/{total_per_class[i]}")
-        # print(f"Class {i} True Positives: {true_positives[i]}/{total_per_class[i]}")
 
 # Save model
-torch.save(model.state_dict(), f'model.pth')
+torch.save(model.state_dict(), f'model_resnet18_tunedAdam.pth')
 print('Finished Training. Model Saved')
 # Graph it out!
-avg_losses = [sum(losses[i:i+46])/46 for i in range(0, 13800, 46)] # 9200 = 300 epochs * 46 batches
-plt.plot(range(num_epochs), avg_losses)
-plt.ylabel("Average Loss")
+plt.plot(losses)
+plt.ylabel("Training Loss")
 plt.xlabel('Epoch')
 plt.title("Training Loss over Epochs")
-
-# Save the figure as a PNG file
-plt.savefig("training_loss_plot.png", dpi=300)
+plt.savefig("training_loss_plot_resnet18_tunedAdam.png", dpi=300)
 plt.clf()
-avg_vallosses = [sum(valloss[i:i+46])/46 for i in range(0, 13800, 46)]
-plt.plot(range(num_epochs), avg_vallosses)
-plt.ylabel("Average Validation Loss")
+
+plt.plot(valloss)
+plt.ylabel("Validation Loss")
 plt.xlabel('Epoch')
 plt.title("Validation Loss over Epochs")
+plt.savefig("val_loss_plot_resnet18_tunedAdam.png", dpi=300)
+plt.clf()
 
-# Save the figure as a PNG file
-plt.savefig("val_loss_plot.png", dpi=300)
-
+plt.plot(val_acc)
+plt.ylabel("Validation Accuracy")
+plt.xlabel('Epoch')
+plt.title("Validation Accuracy over Epochs")
+plt.savefig("val_accuracy_plot_resnet18_tunedAdam.png", dpi=300)
 
 
 #INFERENCE
 
-def infer_and_write_results(model, dataloader, dataset, device, csv_filename='results.csv'):
+def infer_and_write_results(model, dataloader, indices, dataset, device, csv_filename='results.csv'):
     """
     Use the trained model to make predictions on the dataloader and save results in a CSV.
     """
@@ -162,6 +166,7 @@ def infer_and_write_results(model, dataloader, dataset, device, csv_filename='re
         with torch.no_grad():
             for images, labels in dataloader:
                 images = images.to(device)
+                labels = labels.to(device)
 
                 # Make predictions
                 outputs = model(images)
@@ -174,14 +179,18 @@ def infer_and_write_results(model, dataloader, dataset, device, csv_filename='re
                     # Correct or not
                     if pred.item() == gt.item():
                         correct +=1
+    accuracy = 100. * correct / len(indices)
+    print(f'Accuracy on test data: {accuracy:.2f}% ({correct}/{len(indices)})')
+
 
     print(f'We got {correct} correct!')
 
 
 # Load trained model
-model_path = "model.pth"
-model = Classifier().to(device)
+model_path = "model_resnet18_tunedAdam.pth"
+# model = Classifier().to(device)
+model = ResNet18Classifier(num_classes=5).to(device)
 model.load_state_dict(torch.load(model_path))
 
 # Call the function
-infer_and_write_results(model, test_loader, full_dataset, device, 'results.csv')
+infer_and_write_results(model, test_loader, test_indices, full_dataset, device, 'results_resnet18_tuned.csv')
