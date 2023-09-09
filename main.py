@@ -19,13 +19,22 @@ from embryo_dataset import EmbryoDataset
 
 # Hyperparameters
 learning_rate = 0.0001
+lower_lr = 0.00001
 batch_size = 128
-num_epochs = 300
+num_epochs = 200
+NUM_EPOCHS_BEFORE_FINE_TUNING = 60
 losses = []
 
 #Assuming these are required transforms
+# transform = transforms.Compose([
+#     transforms.Resize((224,224)),
+#     transforms.ToTensor(),
+# ])
 transform = transforms.Compose([
-    transforms.Resize((224,224)),
+    transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),
+    transforms.RandomHorizontalFlip(),
+    transforms.RandomRotation(degrees=15),
+    transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15, hue=0.1),
     transforms.ToTensor(),
 ])
 
@@ -41,13 +50,27 @@ train_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=t
 val_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=val_sampler)
 test_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=test_sampler)
 
+# for images, labels in train_loader:
+#     print(images.size(), labels.size())
+#     break
 
 # Initialize Model and Optimizer
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # model = Classifier().to(device)
 model = ResNet18Classifier(num_classes=5).to(device)
+
+# Freeze all layers
+for param in model.resnet18.parameters():
+    param.requires_grad = False
+
+# Unfreeze the last layer
+for param in model.resnet18.fc.parameters():
+    param.requires_grad = True
+
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)
+# optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)
+optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=learning_rate, weight_decay=1e-4)
+
 # optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=1e-4)
 # optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
 scheduler = ReduceLROnPlateau(optimizer, 'min')  # 'min' indicates reducing LR when a quantity (val loss in our case) stops decreasing
@@ -58,19 +81,27 @@ val_acc = []
 
 
 # Early Stopping
-patience = 100  # Number of epochs to wait for improvement before stopping
+patience = 50  # Number of epochs to wait for improvement before stopping
 best_valid_loss = float('inf')
 best_valid_epoch = 0
 
 # Training Loop
 for epoch in range(num_epochs):
+    # Check if we should start fine-tuning
+    if epoch == NUM_EPOCHS_BEFORE_FINE_TUNING:
+        for param in model.resnet18.parameters():
+            param.requires_grad = True
+        optimizer = optim.Adam(model.parameters(), lr=lower_lr, weight_decay=1e-4)
     model.train()
     tr_loss = 0
     for images, labels in train_loader:
+        # print(images.size(), labels.size())
         images, labels = images.to(device), labels.long().to(device)
 
         # Forward pass
         outputs = model(images)
+        # print('OUTPUTS : ', outputs.size())
+        # print('LABELS : ', labels.size(), labels)
         loss = criterion(outputs, labels)
         # losses.append(loss.detach().cpu().numpy())
         tr_loss += loss.item()
@@ -115,7 +146,7 @@ for epoch in range(num_epochs):
         best_valid_loss = val_loss
         best_valid_epoch = epoch
         # Save the model checkpoint whenever validation loss improves
-        torch.save(model.state_dict(), 'best_model_checkpoint_resnet18_tunedAdam.pth')
+        torch.save(model.state_dict(), 'best_model_checkpoint_resnet18_finetuned.pth')
     if epoch - best_valid_epoch >= patience:
         print(f"Validation loss hasn't improved for {patience} epochs. Stopping training.")
         break
@@ -125,28 +156,29 @@ for epoch in range(num_epochs):
         print(f"Class {i} Recall: {true_positives[i] / total_per_class[i]:.2f} True Positives: {true_positives[i]}/{total_per_class[i]}")
 
 # Save model
-torch.save(model.state_dict(), f'model_resnet18_tunedAdam.pth')
+torch.save(model.state_dict(), f'model_resnet18_finetuned.pth')
 print('Finished Training. Model Saved')
 # Graph it out!
 plt.plot(losses)
 plt.ylabel("Training Loss")
 plt.xlabel('Epoch')
 plt.title("Training Loss over Epochs")
-plt.savefig("training_loss_plot_resnet18_tunedAdam.png", dpi=300)
+plt.savefig("training_loss_plot_resnet18_finetuned.png", dpi=300)
 plt.clf()
 
 plt.plot(valloss)
 plt.ylabel("Validation Loss")
 plt.xlabel('Epoch')
 plt.title("Validation Loss over Epochs")
-plt.savefig("val_loss_plot_resnet18_tunedAdam.png", dpi=300)
+plt.savefig("val_loss_plot_resnet18_finetuned.png", dpi=300)
 plt.clf()
 
 plt.plot(val_acc)
 plt.ylabel("Validation Accuracy")
 plt.xlabel('Epoch')
 plt.title("Validation Accuracy over Epochs")
-plt.savefig("val_accuracy_plot_resnet18_tunedAdam.png", dpi=300)
+plt.savefig("val_accuracy_plot_resnet18_finetuned.png", dpi=300)
+
 
 
 #INFERENCE
@@ -187,7 +219,7 @@ def infer_and_write_results(model, dataloader, indices, dataset, device, csv_fil
 
 
 # Load trained model
-model_path = "model_resnet18_tunedAdam.pth"
+model_path = "model_resnet18_finetuned.pth"
 # model = Classifier().to(device)
 model = ResNet18Classifier(num_classes=5).to(device)
 model.load_state_dict(torch.load(model_path))
