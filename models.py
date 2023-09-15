@@ -7,11 +7,11 @@ class ResNet18Classifier(nn.Module):
         super(ResNet18Classifier, self).__init__()
         self.resnet18 = models.resnet18(pretrained=True)
         num_features = self.resnet18.fc.in_features
-        # self.resnet18.fc = nn.Linear(num_features, num_classes)
-        self.resnet18.fc = nn.Sequential(
-            nn.Dropout(0.5),
-            nn.Linear(num_features, num_classes)
-        )
+        self.resnet18.fc = nn.Linear(num_features, num_classes)
+        # self.resnet18.fc = nn.Sequential(
+        #     nn.Dropout(0.4),
+        #     nn.Linear(num_features, num_classes)
+        # )
 
     def forward(self, x):
         return self.resnet18(x)
@@ -22,7 +22,6 @@ class GoogLeNetClassifier(nn.Module):
     def __init__(self, num_classes):
         super(GoogLeNetClassifier, self).__init__()
         self.googlenet = models.googlenet(pretrained=True)
-        # Modify the last fully connected layer for your number of classes
         self.googlenet.fc = nn.Linear(self.googlenet.fc.in_features, num_classes)
 
     def forward(self, x):
@@ -60,16 +59,16 @@ class ResNet50Classifier(nn.Module):
         # Load pre-trained ResNet50 and remove its classifier
         self.features = nn.Sequential(*list(self.resnet50.children())[:-1])  # Remove the classifier
         # Spatially average the output feature map of the modified ResNet50
-        self.global_avg_pool = nn.AdaptiveAvgPool2d((1, 1))          
+        self.pool = nn.AdaptiveAvgPool2d((1, 1))          
         # Add dropout and the classifier
-        self.dropout = nn.Dropout(0.5)
+        self.dropout = nn.Dropout(0.4)
         self.classifier = nn.Linear(num_ftrs, num_classes)              
 
 
     def forward(self, x):
         # return self.resnet50(x) 
         x = self.features(x)
-        x = self.global_avg_pool(x)
+        x = self.pool(x)
         x = x.view(x.size(0), -1)  # Flatten the tensor
         x = self.dropout(x)
         
