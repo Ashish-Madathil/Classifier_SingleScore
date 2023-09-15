@@ -1,0 +1,2248 @@
+2023-09-15 16:50:48,522 - 1464, 488, 488
+2023-09-15 16:50:59,089 - Epoch [1/300], Train Loss: 1.5117, Val Loss: 1.5299, Val Accuracy: 35.66%
+2023-09-15 16:50:59,089 - Class 0 Recall: 0.17 True Positives: 14.0/83.0
+2023-09-15 16:50:59,089 - Class 1 Recall: 0.01 True Positives: 1.0/77.0
+2023-09-15 16:50:59,089 - Class 2 Recall: 0.01 True Positives: 1.0/97.0
+2023-09-15 16:50:59,089 - Class 3 Recall: 0.00 True Positives: 0.0/73.0
+2023-09-15 16:50:59,089 - Class 4 Recall: 1.00 True Positives: 158.0/158.0
+2023-09-15 16:51:08,891 - Epoch [2/300], Train Loss: 1.2806, Val Loss: 1.3696, Val Accuracy: 48.57%
+2023-09-15 16:51:08,892 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:51:08,892 - Class 1 Recall: 0.22 True Positives: 17.0/77.0
+2023-09-15 16:51:08,892 - Class 2 Recall: 0.13 True Positives: 13.0/97.0
+2023-09-15 16:51:08,893 - Class 3 Recall: 0.10 True Positives: 7.0/73.0
+2023-09-15 16:51:08,893 - Class 4 Recall: 0.90 True Positives: 142.0/158.0
+2023-09-15 16:51:18,765 - Epoch [3/300], Train Loss: 1.0563, Val Loss: 1.2147, Val Accuracy: 55.33%
+2023-09-15 16:51:18,766 - Class 0 Recall: 0.78 True Positives: 65.0/83.0
+2023-09-15 16:51:18,767 - Class 1 Recall: 0.31 True Positives: 24.0/77.0
+2023-09-15 16:51:18,767 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:51:18,767 - Class 3 Recall: 0.30 True Positives: 22.0/73.0
+2023-09-15 16:51:18,767 - Class 4 Recall: 0.70 True Positives: 111.0/158.0
+2023-09-15 16:51:28,612 - Epoch [4/300], Train Loss: 0.9146, Val Loss: 1.0877, Val Accuracy: 57.79%
+2023-09-15 16:51:28,613 - Class 0 Recall: 0.83 True Positives: 69.0/83.0
+2023-09-15 16:51:28,613 - Class 1 Recall: 0.31 True Positives: 24.0/77.0
+2023-09-15 16:51:28,613 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:51:28,613 - Class 3 Recall: 0.37 True Positives: 27.0/73.0
+2023-09-15 16:51:28,613 - Class 4 Recall: 0.71 True Positives: 112.0/158.0
+2023-09-15 16:51:38,395 - Epoch [5/300], Train Loss: 0.8331, Val Loss: 1.0314, Val Accuracy: 58.81%
+2023-09-15 16:51:38,396 - Class 0 Recall: 0.78 True Positives: 65.0/83.0
+2023-09-15 16:51:38,396 - Class 1 Recall: 0.45 True Positives: 35.0/77.0
+2023-09-15 16:51:38,396 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:51:38,396 - Class 3 Recall: 0.42 True Positives: 31.0/73.0
+2023-09-15 16:51:38,397 - Class 4 Recall: 0.67 True Positives: 106.0/158.0
+2023-09-15 16:51:48,292 - Epoch [6/300], Train Loss: 0.6443, Val Loss: 1.0040, Val Accuracy: 59.02%
+2023-09-15 16:51:48,293 - Class 0 Recall: 0.82 True Positives: 68.0/83.0
+2023-09-15 16:51:48,293 - Class 1 Recall: 0.47 True Positives: 36.0/77.0
+2023-09-15 16:51:48,293 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:51:48,293 - Class 3 Recall: 0.40 True Positives: 29.0/73.0
+2023-09-15 16:51:48,293 - Class 4 Recall: 0.66 True Positives: 105.0/158.0
+2023-09-15 16:51:58,301 - Epoch [7/300], Train Loss: 0.4772, Val Loss: 0.9829, Val Accuracy: 59.84%
+2023-09-15 16:51:58,302 - Class 0 Recall: 0.80 True Positives: 66.0/83.0
+2023-09-15 16:51:58,302 - Class 1 Recall: 0.49 True Positives: 38.0/77.0
+2023-09-15 16:51:58,302 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:51:58,302 - Class 3 Recall: 0.40 True Positives: 29.0/73.0
+2023-09-15 16:51:58,303 - Class 4 Recall: 0.69 True Positives: 109.0/158.0
+2023-09-15 16:52:08,259 - Epoch [8/300], Train Loss: 0.4218, Val Loss: 0.9802, Val Accuracy: 59.63%
+2023-09-15 16:52:08,260 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:52:08,260 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 16:52:08,260 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:52:08,260 - Class 3 Recall: 0.36 True Positives: 26.0/73.0
+2023-09-15 16:52:08,260 - Class 4 Recall: 0.70 True Positives: 111.0/158.0
+2023-09-15 16:52:17,402 - Epoch [9/300], Train Loss: 0.2503, Val Loss: 0.9907, Val Accuracy: 60.04%
+2023-09-15 16:52:17,402 - Class 0 Recall: 0.75 True Positives: 62.0/83.0
+2023-09-15 16:52:17,402 - Class 1 Recall: 0.51 True Positives: 39.0/77.0
+2023-09-15 16:52:17,402 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:52:17,402 - Class 3 Recall: 0.36 True Positives: 26.0/73.0
+2023-09-15 16:52:17,402 - Class 4 Recall: 0.73 True Positives: 115.0/158.0
+2023-09-15 16:52:26,545 - Epoch [10/300], Train Loss: 0.2266, Val Loss: 1.0116, Val Accuracy: 61.27%
+2023-09-15 16:52:26,545 - Class 0 Recall: 0.67 True Positives: 56.0/83.0
+2023-09-15 16:52:26,545 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:52:26,545 - Class 2 Recall: 0.57 True Positives: 55.0/97.0
+2023-09-15 16:52:26,545 - Class 3 Recall: 0.30 True Positives: 22.0/73.0
+2023-09-15 16:52:26,545 - Class 4 Recall: 0.77 True Positives: 122.0/158.0
+2023-09-15 16:52:35,736 - Epoch [11/300], Train Loss: 0.1593, Val Loss: 1.0497, Val Accuracy: 61.48%
+2023-09-15 16:52:35,736 - Class 0 Recall: 0.77 True Positives: 64.0/83.0
+2023-09-15 16:52:35,736 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 16:52:35,736 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:52:35,736 - Class 3 Recall: 0.29 True Positives: 21.0/73.0
+2023-09-15 16:52:35,736 - Class 4 Recall: 0.77 True Positives: 122.0/158.0
+2023-09-15 16:52:44,965 - Epoch [12/300], Train Loss: 0.1474, Val Loss: 1.0775, Val Accuracy: 61.48%
+2023-09-15 16:52:44,965 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:52:44,965 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:52:44,965 - Class 2 Recall: 0.56 True Positives: 54.0/97.0
+2023-09-15 16:52:44,965 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 16:52:44,965 - Class 4 Recall: 0.78 True Positives: 124.0/158.0
+2023-09-15 16:52:54,116 - Epoch [13/300], Train Loss: 0.0810, Val Loss: 1.1138, Val Accuracy: 61.48%
+2023-09-15 16:52:54,116 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:52:54,116 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:52:54,116 - Class 2 Recall: 0.56 True Positives: 54.0/97.0
+2023-09-15 16:52:54,116 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:52:54,116 - Class 4 Recall: 0.79 True Positives: 125.0/158.0
+2023-09-15 16:53:03,334 - Epoch [14/300], Train Loss: 0.0489, Val Loss: 1.1308, Val Accuracy: 61.07%
+2023-09-15 16:53:03,334 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:53:03,334 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:53:03,334 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:53:03,334 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:53:03,334 - Class 4 Recall: 0.79 True Positives: 125.0/158.0
+2023-09-15 16:53:12,489 - Epoch [15/300], Train Loss: 0.0461, Val Loss: 1.1314, Val Accuracy: 61.48%
+2023-09-15 16:53:12,489 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:53:12,489 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:53:12,489 - Class 2 Recall: 0.56 True Positives: 54.0/97.0
+2023-09-15 16:53:12,489 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:53:12,489 - Class 4 Recall: 0.78 True Positives: 124.0/158.0
+2023-09-15 16:53:21,712 - Epoch [16/300], Train Loss: 0.0719, Val Loss: 1.1729, Val Accuracy: 61.27%
+2023-09-15 16:53:21,712 - Class 0 Recall: 0.73 True Positives: 61.0/83.0
+2023-09-15 16:53:21,712 - Class 1 Recall: 0.55 True Positives: 42.0/77.0
+2023-09-15 16:53:21,712 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 16:53:21,712 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:53:21,712 - Class 4 Recall: 0.82 True Positives: 130.0/158.0
+2023-09-15 16:53:30,882 - Epoch [17/300], Train Loss: 0.0498, Val Loss: 1.2066, Val Accuracy: 61.68%
+2023-09-15 16:53:30,882 - Class 0 Recall: 0.67 True Positives: 56.0/83.0
+2023-09-15 16:53:30,882 - Class 1 Recall: 0.62 True Positives: 48.0/77.0
+2023-09-15 16:53:30,882 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:53:30,882 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:53:30,883 - Class 4 Recall: 0.80 True Positives: 126.0/158.0
+2023-09-15 16:53:40,029 - Epoch [18/300], Train Loss: 0.0255, Val Loss: 1.2289, Val Accuracy: 61.68%
+2023-09-15 16:53:40,029 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:53:40,030 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:53:40,030 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:53:40,030 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 16:53:40,030 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:53:49,210 - Epoch [19/300], Train Loss: 0.0266, Val Loss: 1.2306, Val Accuracy: 62.50%
+2023-09-15 16:53:49,210 - Class 0 Recall: 0.75 True Positives: 62.0/83.0
+2023-09-15 16:53:49,210 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:53:49,210 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:53:49,210 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:53:49,211 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 16:53:58,368 - Epoch [20/300], Train Loss: 0.0241, Val Loss: 1.2141, Val Accuracy: 61.89%
+2023-09-15 16:53:58,368 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:53:58,368 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:53:58,368 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:53:58,368 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:53:58,368 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:54:07,560 - Epoch [21/300], Train Loss: 0.0200, Val Loss: 1.2543, Val Accuracy: 61.89%
+2023-09-15 16:54:07,561 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:54:07,561 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:54:07,561 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:54:07,561 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:54:07,561 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 16:54:16,793 - Epoch [22/300], Train Loss: 0.0223, Val Loss: 1.2337, Val Accuracy: 62.09%
+2023-09-15 16:54:16,793 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:54:16,793 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:54:16,793 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:54:16,793 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 16:54:16,793 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:54:26,430 - Epoch [23/300], Train Loss: 0.0301, Val Loss: 1.2348, Val Accuracy: 60.66%
+2023-09-15 16:54:26,430 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:54:26,430 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 16:54:26,430 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:54:26,430 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:54:26,430 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 16:54:35,837 - Epoch [24/300], Train Loss: 0.0192, Val Loss: 1.2272, Val Accuracy: 62.50%
+2023-09-15 16:54:35,837 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:54:35,837 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:54:35,838 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:54:35,838 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 16:54:35,838 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:54:45,076 - Epoch [25/300], Train Loss: 0.0225, Val Loss: 1.2342, Val Accuracy: 61.27%
+2023-09-15 16:54:45,076 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:54:45,076 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:54:45,076 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:54:45,076 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:54:45,076 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:54:54,312 - Epoch [26/300], Train Loss: 0.0212, Val Loss: 1.2263, Val Accuracy: 60.86%
+2023-09-15 16:54:54,312 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:54:54,312 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 16:54:54,312 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 16:54:54,312 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:54:54,312 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:55:03,555 - Epoch [27/300], Train Loss: 0.0219, Val Loss: 1.2452, Val Accuracy: 60.66%
+2023-09-15 16:55:03,555 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:55:03,555 - Class 1 Recall: 0.55 True Positives: 42.0/77.0
+2023-09-15 16:55:03,555 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:55:03,555 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:55:03,555 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 16:55:12,815 - Epoch [28/300], Train Loss: 0.0311, Val Loss: 1.2577, Val Accuracy: 61.07%
+2023-09-15 16:55:12,815 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:55:12,815 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:55:12,815 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:55:12,815 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:55:12,815 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:55:22,043 - Epoch [29/300], Train Loss: 0.0288, Val Loss: 1.3050, Val Accuracy: 61.48%
+2023-09-15 16:55:22,044 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:55:22,044 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:55:22,044 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:55:22,044 - Class 3 Recall: 0.21 True Positives: 15.0/73.0
+2023-09-15 16:55:22,044 - Class 4 Recall: 0.84 True Positives: 133.0/158.0
+2023-09-15 16:55:31,372 - Epoch [30/300], Train Loss: 0.0128, Val Loss: 1.2444, Val Accuracy: 61.07%
+2023-09-15 16:55:31,372 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:55:31,372 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:55:31,372 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:55:31,372 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:55:31,372 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:55:40,640 - Epoch [31/300], Train Loss: 0.0364, Val Loss: 1.2417, Val Accuracy: 61.07%
+2023-09-15 16:55:40,641 - Class 0 Recall: 0.73 True Positives: 61.0/83.0
+2023-09-15 16:55:40,641 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:55:40,641 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 16:55:40,641 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:55:40,641 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:55:49,907 - Epoch [32/300], Train Loss: 0.0432, Val Loss: 1.2484, Val Accuracy: 61.89%
+2023-09-15 16:55:49,907 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:55:49,907 - Class 1 Recall: 0.61 True Positives: 47.0/77.0
+2023-09-15 16:55:49,907 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:55:49,907 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:55:49,907 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:55:59,175 - Epoch [33/300], Train Loss: 0.0224, Val Loss: 1.2412, Val Accuracy: 61.27%
+2023-09-15 16:55:59,175 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:55:59,175 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:55:59,175 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:55:59,175 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 16:55:59,176 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:56:08,436 - Epoch [34/300], Train Loss: 0.0524, Val Loss: 1.2655, Val Accuracy: 60.86%
+2023-09-15 16:56:08,436 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:56:08,436 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 16:56:08,436 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:56:08,437 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:56:08,437 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:56:17,743 - Epoch [35/300], Train Loss: 0.0226, Val Loss: 1.2627, Val Accuracy: 61.48%
+2023-09-15 16:56:17,743 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:56:17,743 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:56:17,743 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:56:17,743 - Class 3 Recall: 0.21 True Positives: 15.0/73.0
+2023-09-15 16:56:17,743 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 16:56:27,014 - Epoch [36/300], Train Loss: 0.0204, Val Loss: 1.2630, Val Accuracy: 60.25%
+2023-09-15 16:56:27,014 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:56:27,014 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:56:27,014 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:56:27,014 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:56:27,014 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:56:36,273 - Epoch [37/300], Train Loss: 0.0240, Val Loss: 1.2475, Val Accuracy: 62.09%
+2023-09-15 16:56:36,273 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:56:36,273 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:56:36,273 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:56:36,273 - Class 3 Recall: 0.29 True Positives: 21.0/73.0
+2023-09-15 16:56:36,273 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:56:45,556 - Epoch [38/300], Train Loss: 0.0378, Val Loss: 1.2559, Val Accuracy: 61.27%
+2023-09-15 16:56:45,556 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:56:45,556 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:56:45,557 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:56:45,557 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:56:45,557 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:56:55,020 - Epoch [39/300], Train Loss: 0.0274, Val Loss: 1.2687, Val Accuracy: 61.27%
+2023-09-15 16:56:55,021 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:56:55,021 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:56:55,021 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:56:55,021 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:56:55,021 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:57:04,400 - Epoch [40/300], Train Loss: 0.0324, Val Loss: 1.2708, Val Accuracy: 61.68%
+2023-09-15 16:57:04,400 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:57:04,400 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:57:04,400 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:57:04,400 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:57:04,400 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:57:13,721 - Epoch [41/300], Train Loss: 0.0221, Val Loss: 1.2727, Val Accuracy: 61.68%
+2023-09-15 16:57:13,721 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:57:13,721 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:57:13,721 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:57:13,721 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:57:13,721 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:57:23,018 - Epoch [42/300], Train Loss: 0.0318, Val Loss: 1.2541, Val Accuracy: 60.86%
+2023-09-15 16:57:23,018 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:57:23,018 - Class 1 Recall: 0.55 True Positives: 42.0/77.0
+2023-09-15 16:57:23,018 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:57:23,018 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:57:23,018 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:57:32,283 - Epoch [43/300], Train Loss: 0.0337, Val Loss: 1.2535, Val Accuracy: 61.27%
+2023-09-15 16:57:32,283 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:57:32,283 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:57:32,283 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:57:32,283 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:57:32,283 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:57:41,718 - Epoch [44/300], Train Loss: 0.0277, Val Loss: 1.2768, Val Accuracy: 60.86%
+2023-09-15 16:57:41,718 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:57:41,718 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:57:41,718 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:57:41,718 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:57:41,718 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 16:57:51,117 - Epoch [45/300], Train Loss: 0.0191, Val Loss: 1.2569, Val Accuracy: 61.27%
+2023-09-15 16:57:51,117 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:57:51,117 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:57:51,117 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:57:51,117 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:57:51,117 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:58:00,371 - Epoch [46/300], Train Loss: 0.0227, Val Loss: 1.2536, Val Accuracy: 59.84%
+2023-09-15 16:58:00,371 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:58:00,371 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 16:58:00,371 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 16:58:00,371 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:58:00,371 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:58:09,739 - Epoch [47/300], Train Loss: 0.0323, Val Loss: 1.2436, Val Accuracy: 60.86%
+2023-09-15 16:58:09,739 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 16:58:09,739 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:58:09,739 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:58:09,739 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:58:09,739 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:58:19,192 - Epoch [48/300], Train Loss: 0.0172, Val Loss: 1.2516, Val Accuracy: 61.07%
+2023-09-15 16:58:19,192 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:58:19,192 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:58:19,192 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:58:19,192 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:58:19,192 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:58:28,516 - Epoch [49/300], Train Loss: 0.0220, Val Loss: 1.2893, Val Accuracy: 59.84%
+2023-09-15 16:58:28,516 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:58:28,516 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 16:58:28,516 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 16:58:28,517 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:58:28,517 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 16:58:37,917 - Epoch [50/300], Train Loss: 0.0272, Val Loss: 1.2490, Val Accuracy: 61.07%
+2023-09-15 16:58:37,917 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:58:37,917 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:58:37,917 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:58:37,917 - Class 3 Recall: 0.30 True Positives: 22.0/73.0
+2023-09-15 16:58:37,917 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:58:47,260 - Epoch [51/300], Train Loss: 0.0221, Val Loss: 1.2480, Val Accuracy: 60.86%
+2023-09-15 16:58:47,260 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:58:47,260 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:58:47,260 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 16:58:47,260 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:58:47,260 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:58:56,535 - Epoch [52/300], Train Loss: 0.0169, Val Loss: 1.2467, Val Accuracy: 61.48%
+2023-09-15 16:58:56,535 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:58:56,536 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:58:56,536 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:58:56,536 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:58:56,536 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 16:59:05,927 - Epoch [53/300], Train Loss: 0.0187, Val Loss: 1.2801, Val Accuracy: 61.07%
+2023-09-15 16:59:05,927 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:59:05,927 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 16:59:05,928 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 16:59:05,928 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 16:59:05,928 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 16:59:15,204 - Epoch [54/300], Train Loss: 0.0254, Val Loss: 1.2557, Val Accuracy: 61.27%
+2023-09-15 16:59:15,204 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:59:15,204 - Class 1 Recall: 0.60 True Positives: 46.0/77.0
+2023-09-15 16:59:15,204 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:59:15,204 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 16:59:15,204 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:59:24,635 - Epoch [55/300], Train Loss: 0.0211, Val Loss: 1.2625, Val Accuracy: 61.27%
+2023-09-15 16:59:24,635 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 16:59:24,635 - Class 1 Recall: 0.61 True Positives: 47.0/77.0
+2023-09-15 16:59:24,635 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 16:59:24,635 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:59:24,635 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:59:34,327 - Epoch [56/300], Train Loss: 0.0139, Val Loss: 1.2233, Val Accuracy: 61.89%
+2023-09-15 16:59:34,327 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:59:34,327 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 16:59:34,327 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 16:59:34,327 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 16:59:34,327 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:59:43,849 - Epoch [57/300], Train Loss: 0.0199, Val Loss: 1.2502, Val Accuracy: 61.48%
+2023-09-15 16:59:43,849 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 16:59:43,849 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:59:43,849 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 16:59:43,849 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 16:59:43,849 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 16:59:53,198 - Epoch [58/300], Train Loss: 0.0202, Val Loss: 1.2743, Val Accuracy: 60.86%
+2023-09-15 16:59:53,199 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 16:59:53,199 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 16:59:53,199 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 16:59:53,199 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 16:59:53,199 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:00:02,848 - Epoch [59/300], Train Loss: 0.0212, Val Loss: 1.2410, Val Accuracy: 60.66%
+2023-09-15 17:00:02,848 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:00:02,848 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:00:02,848 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:00:02,848 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:00:02,848 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:00:12,388 - Epoch [60/300], Train Loss: 0.0297, Val Loss: 1.2473, Val Accuracy: 60.45%
+2023-09-15 17:00:12,388 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:00:12,388 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:00:12,388 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:00:12,388 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:00:12,388 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:00:21,723 - Epoch [61/300], Train Loss: 0.0206, Val Loss: 1.2411, Val Accuracy: 62.09%
+2023-09-15 17:00:21,723 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:00:21,723 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:00:21,723 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:00:21,723 - Class 3 Recall: 0.29 True Positives: 21.0/73.0
+2023-09-15 17:00:21,723 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:00:31,193 - Epoch [62/300], Train Loss: 0.0143, Val Loss: 1.2642, Val Accuracy: 61.89%
+2023-09-15 17:00:31,194 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:00:31,194 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:00:31,194 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:00:31,194 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:00:31,194 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:00:40,632 - Epoch [63/300], Train Loss: 0.0263, Val Loss: 1.2621, Val Accuracy: 61.89%
+2023-09-15 17:00:40,633 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:00:40,633 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:00:40,633 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:00:40,633 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:00:40,633 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:00:50,017 - Epoch [64/300], Train Loss: 0.0723, Val Loss: 1.2468, Val Accuracy: 60.25%
+2023-09-15 17:00:50,017 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:00:50,017 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 17:00:50,017 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:00:50,017 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:00:50,017 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:00:59,409 - Epoch [65/300], Train Loss: 0.0171, Val Loss: 1.2751, Val Accuracy: 61.07%
+2023-09-15 17:00:59,409 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:00:59,409 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:00:59,409 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:00:59,409 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:00:59,409 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:01:08,638 - Epoch [66/300], Train Loss: 0.0143, Val Loss: 1.2569, Val Accuracy: 61.48%
+2023-09-15 17:01:08,638 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:01:08,638 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:01:08,638 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:01:08,638 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:01:08,638 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:01:17,990 - Epoch [67/300], Train Loss: 0.0247, Val Loss: 1.2518, Val Accuracy: 61.07%
+2023-09-15 17:01:17,990 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:01:17,990 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:01:17,990 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:01:17,991 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:01:17,991 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:01:27,271 - Epoch [68/300], Train Loss: 0.0179, Val Loss: 1.2686, Val Accuracy: 61.68%
+2023-09-15 17:01:27,272 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:01:27,272 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:01:27,272 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:01:27,272 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:01:27,272 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:01:36,506 - Epoch [69/300], Train Loss: 0.0187, Val Loss: 1.2413, Val Accuracy: 61.07%
+2023-09-15 17:01:36,507 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:01:36,507 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:01:36,507 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:01:36,507 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:01:36,507 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:01:46,006 - Epoch [70/300], Train Loss: 0.0187, Val Loss: 1.2419, Val Accuracy: 60.66%
+2023-09-15 17:01:46,006 - Class 0 Recall: 0.73 True Positives: 61.0/83.0
+2023-09-15 17:01:46,006 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:01:46,006 - Class 2 Recall: 0.47 True Positives: 46.0/97.0
+2023-09-15 17:01:46,006 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:01:46,006 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:01:55,579 - Epoch [71/300], Train Loss: 0.0510, Val Loss: 1.2692, Val Accuracy: 61.89%
+2023-09-15 17:01:55,579 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:01:55,579 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:01:55,579 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:01:55,579 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:01:55,579 - Class 4 Recall: 0.80 True Positives: 126.0/158.0
+2023-09-15 17:02:05,032 - Epoch [72/300], Train Loss: 0.0308, Val Loss: 1.2713, Val Accuracy: 60.45%
+2023-09-15 17:02:05,032 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:02:05,032 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:02:05,032 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:02:05,032 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:02:05,032 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:02:14,388 - Epoch [73/300], Train Loss: 0.0249, Val Loss: 1.2530, Val Accuracy: 61.07%
+2023-09-15 17:02:14,388 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:02:14,388 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:02:14,388 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:02:14,388 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:02:14,388 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:02:23,736 - Epoch [74/300], Train Loss: 0.0565, Val Loss: 1.2610, Val Accuracy: 60.66%
+2023-09-15 17:02:23,736 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:02:23,736 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:02:23,736 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:02:23,736 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:02:23,736 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:02:33,197 - Epoch [75/300], Train Loss: 0.0433, Val Loss: 1.2634, Val Accuracy: 60.66%
+2023-09-15 17:02:33,197 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:02:33,197 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:02:33,197 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:02:33,197 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:02:33,198 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:02:42,537 - Epoch [76/300], Train Loss: 0.0374, Val Loss: 1.2735, Val Accuracy: 60.86%
+2023-09-15 17:02:42,537 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:02:42,537 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:02:42,537 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:02:42,537 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:02:42,537 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:02:51,892 - Epoch [77/300], Train Loss: 0.0573, Val Loss: 1.2445, Val Accuracy: 61.48%
+2023-09-15 17:02:51,892 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:02:51,892 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:02:51,892 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:02:51,892 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:02:51,892 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:03:01,162 - Epoch [78/300], Train Loss: 0.0284, Val Loss: 1.2609, Val Accuracy: 59.63%
+2023-09-15 17:03:01,163 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:03:01,163 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 17:03:01,163 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:03:01,163 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:03:01,163 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:03:10,660 - Epoch [79/300], Train Loss: 0.0665, Val Loss: 1.2441, Val Accuracy: 60.66%
+2023-09-15 17:03:10,660 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:03:10,660 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:03:10,660 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:03:10,660 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:03:10,660 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:03:20,160 - Epoch [80/300], Train Loss: 0.0287, Val Loss: 1.2419, Val Accuracy: 62.50%
+2023-09-15 17:03:20,160 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:03:20,160 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:03:20,160 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:03:20,160 - Class 3 Recall: 0.29 True Positives: 21.0/73.0
+2023-09-15 17:03:20,160 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:03:29,869 - Epoch [81/300], Train Loss: 0.0183, Val Loss: 1.2592, Val Accuracy: 60.66%
+2023-09-15 17:03:29,869 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:03:29,869 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 17:03:29,869 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:03:29,869 - Class 3 Recall: 0.29 True Positives: 21.0/73.0
+2023-09-15 17:03:29,869 - Class 4 Recall: 0.80 True Positives: 126.0/158.0
+2023-09-15 17:03:39,381 - Epoch [82/300], Train Loss: 0.0201, Val Loss: 1.2720, Val Accuracy: 60.86%
+2023-09-15 17:03:39,381 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:03:39,381 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:03:39,381 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:03:39,381 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:03:39,381 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:03:48,657 - Epoch [83/300], Train Loss: 0.0338, Val Loss: 1.2376, Val Accuracy: 62.09%
+2023-09-15 17:03:48,657 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:03:48,657 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:03:48,658 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:03:48,658 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:03:48,658 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:03:58,007 - Epoch [84/300], Train Loss: 0.0189, Val Loss: 1.2514, Val Accuracy: 61.48%
+2023-09-15 17:03:58,007 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:03:58,007 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:03:58,007 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:03:58,007 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:03:58,007 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:04:07,526 - Epoch [85/300], Train Loss: 0.0278, Val Loss: 1.2600, Val Accuracy: 61.89%
+2023-09-15 17:04:07,526 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:04:07,526 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:04:07,526 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:04:07,526 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:04:07,526 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:04:16,996 - Epoch [86/300], Train Loss: 0.0209, Val Loss: 1.2551, Val Accuracy: 61.89%
+2023-09-15 17:04:16,996 - Class 0 Recall: 0.73 True Positives: 61.0/83.0
+2023-09-15 17:04:16,996 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:04:16,996 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:04:16,996 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:04:16,996 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:04:26,309 - Epoch [87/300], Train Loss: 0.0478, Val Loss: 1.2656, Val Accuracy: 60.86%
+2023-09-15 17:04:26,309 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:04:26,309 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:04:26,309 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:04:26,309 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:04:26,310 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:04:35,794 - Epoch [88/300], Train Loss: 0.0177, Val Loss: 1.2564, Val Accuracy: 61.89%
+2023-09-15 17:04:35,794 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:04:35,794 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:04:35,794 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:04:35,794 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:04:35,794 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:04:45,231 - Epoch [89/300], Train Loss: 0.0309, Val Loss: 1.2703, Val Accuracy: 61.07%
+2023-09-15 17:04:45,231 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:04:45,231 - Class 1 Recall: 0.60 True Positives: 46.0/77.0
+2023-09-15 17:04:45,231 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:04:45,231 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:04:45,231 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:04:54,524 - Epoch [90/300], Train Loss: 0.0577, Val Loss: 1.2749, Val Accuracy: 61.27%
+2023-09-15 17:04:54,524 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:04:54,524 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:04:54,524 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:04:54,524 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:04:54,524 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:05:04,080 - Epoch [91/300], Train Loss: 0.0232, Val Loss: 1.2536, Val Accuracy: 60.66%
+2023-09-15 17:05:04,080 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:05:04,080 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:05:04,081 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:05:04,081 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:05:04,081 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:05:13,524 - Epoch [92/300], Train Loss: 0.0277, Val Loss: 1.2745, Val Accuracy: 61.27%
+2023-09-15 17:05:13,524 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:05:13,524 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:05:13,524 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:05:13,524 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:05:13,524 - Class 4 Recall: 0.83 True Positives: 131.0/158.0
+2023-09-15 17:05:22,860 - Epoch [93/300], Train Loss: 0.0621, Val Loss: 1.2661, Val Accuracy: 61.27%
+2023-09-15 17:05:22,860 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:05:22,860 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:05:22,860 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:05:22,860 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:05:22,860 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:05:32,198 - Epoch [94/300], Train Loss: 0.0134, Val Loss: 1.2698, Val Accuracy: 61.07%
+2023-09-15 17:05:32,198 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:05:32,198 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:05:32,198 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:05:32,198 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:05:32,198 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:05:41,435 - Epoch [95/300], Train Loss: 0.0394, Val Loss: 1.2858, Val Accuracy: 61.48%
+2023-09-15 17:05:41,435 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:05:41,435 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:05:41,435 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:05:41,435 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:05:41,435 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 17:05:50,976 - Epoch [96/300], Train Loss: 0.0166, Val Loss: 1.2698, Val Accuracy: 61.07%
+2023-09-15 17:05:50,976 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:05:50,976 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:05:50,976 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:05:50,976 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:05:50,976 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:06:00,326 - Epoch [97/300], Train Loss: 0.0176, Val Loss: 1.2294, Val Accuracy: 61.48%
+2023-09-15 17:06:00,326 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:06:00,326 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:06:00,326 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:06:00,326 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:06:00,326 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:06:10,022 - Epoch [98/300], Train Loss: 0.0337, Val Loss: 1.2493, Val Accuracy: 61.07%
+2023-09-15 17:06:10,022 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:06:10,022 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:06:10,022 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:06:10,022 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:06:10,022 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:06:19,579 - Epoch [99/300], Train Loss: 0.0391, Val Loss: 1.2634, Val Accuracy: 60.45%
+2023-09-15 17:06:19,579 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:06:19,579 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 17:06:19,579 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:06:19,579 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:06:19,579 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:06:28,962 - Epoch [100/300], Train Loss: 0.0384, Val Loss: 1.2548, Val Accuracy: 60.86%
+2023-09-15 17:06:28,962 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:06:28,962 - Class 1 Recall: 0.60 True Positives: 46.0/77.0
+2023-09-15 17:06:28,962 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:06:28,962 - Class 3 Recall: 0.21 True Positives: 15.0/73.0
+2023-09-15 17:06:28,962 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 17:06:38,248 - Epoch [101/300], Train Loss: 0.0173, Val Loss: 1.2614, Val Accuracy: 60.86%
+2023-09-15 17:06:38,248 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:06:38,248 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:06:38,248 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:06:38,248 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:06:38,248 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:06:47,477 - Epoch [102/300], Train Loss: 0.0249, Val Loss: 1.2569, Val Accuracy: 61.48%
+2023-09-15 17:06:47,478 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:06:47,478 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:06:47,478 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:06:47,478 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:06:47,478 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:06:56,835 - Epoch [103/300], Train Loss: 0.0239, Val Loss: 1.2555, Val Accuracy: 61.48%
+2023-09-15 17:06:56,835 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:06:56,835 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:06:56,835 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:06:56,835 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:06:56,835 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:07:06,056 - Epoch [104/300], Train Loss: 0.0319, Val Loss: 1.2635, Val Accuracy: 61.48%
+2023-09-15 17:07:06,056 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:07:06,056 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:07:06,056 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:07:06,056 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:07:06,056 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:07:15,271 - Epoch [105/300], Train Loss: 0.0360, Val Loss: 1.2595, Val Accuracy: 61.68%
+2023-09-15 17:07:15,271 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:07:15,271 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:07:15,271 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:07:15,271 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:07:15,271 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:07:24,468 - Epoch [106/300], Train Loss: 0.0270, Val Loss: 1.2639, Val Accuracy: 61.07%
+2023-09-15 17:07:24,468 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:07:24,468 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:07:24,468 - Class 2 Recall: 0.47 True Positives: 46.0/97.0
+2023-09-15 17:07:24,468 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:07:24,468 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:07:33,730 - Epoch [107/300], Train Loss: 0.0452, Val Loss: 1.2409, Val Accuracy: 60.66%
+2023-09-15 17:07:33,730 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:07:33,730 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:07:33,730 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:07:33,730 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:07:33,730 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:07:42,997 - Epoch [108/300], Train Loss: 0.0229, Val Loss: 1.2868, Val Accuracy: 61.07%
+2023-09-15 17:07:42,997 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:07:42,997 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:07:42,997 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:07:42,997 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:07:42,998 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:07:52,196 - Epoch [109/300], Train Loss: 0.0198, Val Loss: 1.2645, Val Accuracy: 60.66%
+2023-09-15 17:07:52,196 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:07:52,196 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:07:52,196 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:07:52,196 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:07:52,196 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:08:01,410 - Epoch [110/300], Train Loss: 0.0165, Val Loss: 1.2741, Val Accuracy: 61.27%
+2023-09-15 17:08:01,410 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:08:01,410 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:08:01,410 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:08:01,410 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:08:01,410 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:08:10,641 - Epoch [111/300], Train Loss: 0.0359, Val Loss: 1.2626, Val Accuracy: 60.86%
+2023-09-15 17:08:10,641 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:08:10,641 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:08:10,641 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:08:10,641 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:08:10,641 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:08:19,839 - Epoch [112/300], Train Loss: 0.0343, Val Loss: 1.2563, Val Accuracy: 61.27%
+2023-09-15 17:08:19,839 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:08:19,840 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:08:19,840 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:08:19,840 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:08:19,840 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:08:29,049 - Epoch [113/300], Train Loss: 0.0204, Val Loss: 1.2440, Val Accuracy: 61.07%
+2023-09-15 17:08:29,049 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:08:29,049 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:08:29,049 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:08:29,049 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:08:29,049 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:08:38,248 - Epoch [114/300], Train Loss: 0.0195, Val Loss: 1.2459, Val Accuracy: 60.86%
+2023-09-15 17:08:38,248 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:08:38,248 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:08:38,248 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:08:38,248 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:08:38,248 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:08:47,525 - Epoch [115/300], Train Loss: 0.0503, Val Loss: 1.2570, Val Accuracy: 60.86%
+2023-09-15 17:08:47,525 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:08:47,525 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:08:47,526 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:08:47,526 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:08:47,526 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:08:56,772 - Epoch [116/300], Train Loss: 0.0338, Val Loss: 1.2538, Val Accuracy: 60.66%
+2023-09-15 17:08:56,772 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:08:56,772 - Class 1 Recall: 0.55 True Positives: 42.0/77.0
+2023-09-15 17:08:56,772 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:08:56,772 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:08:56,772 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:09:06,003 - Epoch [117/300], Train Loss: 0.0158, Val Loss: 1.2420, Val Accuracy: 62.09%
+2023-09-15 17:09:06,003 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:09:06,003 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:09:06,004 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:09:06,004 - Class 3 Recall: 0.27 True Positives: 20.0/73.0
+2023-09-15 17:09:06,004 - Class 4 Recall: 0.80 True Positives: 126.0/158.0
+2023-09-15 17:09:15,217 - Epoch [118/300], Train Loss: 0.0265, Val Loss: 1.2836, Val Accuracy: 61.89%
+2023-09-15 17:09:15,217 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:09:15,217 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:09:15,217 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:09:15,217 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:09:15,217 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:09:24,448 - Epoch [119/300], Train Loss: 0.0271, Val Loss: 1.2445, Val Accuracy: 60.66%
+2023-09-15 17:09:24,448 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:09:24,448 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:09:24,448 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:09:24,448 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:09:24,448 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:09:33,773 - Epoch [120/300], Train Loss: 0.0276, Val Loss: 1.2461, Val Accuracy: 60.86%
+2023-09-15 17:09:33,773 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:09:33,773 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 17:09:33,773 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:09:33,773 - Class 3 Recall: 0.30 True Positives: 22.0/73.0
+2023-09-15 17:09:33,773 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:09:43,186 - Epoch [121/300], Train Loss: 0.0272, Val Loss: 1.2783, Val Accuracy: 60.45%
+2023-09-15 17:09:43,186 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:09:43,186 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:09:43,187 - Class 2 Recall: 0.47 True Positives: 46.0/97.0
+2023-09-15 17:09:43,187 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:09:43,187 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:09:52,504 - Epoch [122/300], Train Loss: 0.0182, Val Loss: 1.2597, Val Accuracy: 61.48%
+2023-09-15 17:09:52,504 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:09:52,504 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:09:52,504 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:09:52,504 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:09:52,504 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:10:01,956 - Epoch [123/300], Train Loss: 0.0236, Val Loss: 1.2383, Val Accuracy: 61.48%
+2023-09-15 17:10:01,956 - Class 0 Recall: 0.73 True Positives: 61.0/83.0
+2023-09-15 17:10:01,956 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:10:01,956 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:10:01,956 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:10:01,956 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:10:11,189 - Epoch [124/300], Train Loss: 0.0194, Val Loss: 1.2708, Val Accuracy: 60.45%
+2023-09-15 17:10:11,189 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:10:11,190 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:10:11,190 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:10:11,190 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:10:11,190 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:10:20,651 - Epoch [125/300], Train Loss: 0.0166, Val Loss: 1.2681, Val Accuracy: 61.48%
+2023-09-15 17:10:20,651 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:10:20,651 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:10:20,651 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:10:20,651 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:10:20,651 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:10:30,010 - Epoch [126/300], Train Loss: 0.0166, Val Loss: 1.2411, Val Accuracy: 61.07%
+2023-09-15 17:10:30,011 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:10:30,011 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:10:30,011 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:10:30,011 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:10:30,011 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:10:39,247 - Epoch [127/300], Train Loss: 0.0371, Val Loss: 1.2448, Val Accuracy: 60.66%
+2023-09-15 17:10:39,247 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:10:39,247 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 17:10:39,247 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:10:39,247 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:10:39,247 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 17:10:48,618 - Epoch [128/300], Train Loss: 0.0220, Val Loss: 1.2540, Val Accuracy: 61.07%
+2023-09-15 17:10:48,618 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:10:48,618 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:10:48,618 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:10:48,618 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:10:48,618 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:10:58,023 - Epoch [129/300], Train Loss: 0.0263, Val Loss: 1.2613, Val Accuracy: 61.48%
+2023-09-15 17:10:58,023 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:10:58,023 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:10:58,023 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:10:58,023 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:10:58,023 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:11:07,227 - Epoch [130/300], Train Loss: 0.0278, Val Loss: 1.2551, Val Accuracy: 60.66%
+2023-09-15 17:11:07,227 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:11:07,227 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 17:11:07,227 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:11:07,227 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:11:07,227 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:11:16,460 - Epoch [131/300], Train Loss: 0.0289, Val Loss: 1.2925, Val Accuracy: 60.25%
+2023-09-15 17:11:16,460 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:11:16,460 - Class 1 Recall: 0.55 True Positives: 42.0/77.0
+2023-09-15 17:11:16,460 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:11:16,460 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:11:16,460 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:11:25,766 - Epoch [132/300], Train Loss: 0.0460, Val Loss: 1.2533, Val Accuracy: 61.07%
+2023-09-15 17:11:25,766 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:11:25,766 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:11:25,766 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:11:25,766 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:11:25,766 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:11:35,213 - Epoch [133/300], Train Loss: 0.0182, Val Loss: 1.2475, Val Accuracy: 61.89%
+2023-09-15 17:11:35,213 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:11:35,213 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:11:35,214 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:11:35,214 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:11:35,214 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:11:44,680 - Epoch [134/300], Train Loss: 0.0250, Val Loss: 1.2434, Val Accuracy: 61.07%
+2023-09-15 17:11:44,680 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:11:44,680 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:11:44,680 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:11:44,680 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:11:44,680 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:11:54,188 - Epoch [135/300], Train Loss: 0.0292, Val Loss: 1.2451, Val Accuracy: 60.66%
+2023-09-15 17:11:54,188 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:11:54,188 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:11:54,188 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:11:54,188 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:11:54,188 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:12:03,697 - Epoch [136/300], Train Loss: 0.0204, Val Loss: 1.2825, Val Accuracy: 61.48%
+2023-09-15 17:12:03,697 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:12:03,698 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:12:03,698 - Class 2 Recall: 0.52 True Positives: 50.0/97.0
+2023-09-15 17:12:03,698 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:12:03,698 - Class 4 Recall: 0.82 True Positives: 129.0/158.0
+2023-09-15 17:12:13,206 - Epoch [137/300], Train Loss: 0.0202, Val Loss: 1.2805, Val Accuracy: 62.09%
+2023-09-15 17:12:13,206 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:12:13,206 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:12:13,206 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:12:13,206 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:12:13,206 - Class 4 Recall: 0.82 True Positives: 130.0/158.0
+2023-09-15 17:12:22,643 - Epoch [138/300], Train Loss: 0.0189, Val Loss: 1.2828, Val Accuracy: 61.48%
+2023-09-15 17:12:22,644 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:12:22,644 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:12:22,644 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:12:22,644 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:12:22,644 - Class 4 Recall: 0.84 True Positives: 132.0/158.0
+2023-09-15 17:12:31,867 - Epoch [139/300], Train Loss: 0.0194, Val Loss: 1.2904, Val Accuracy: 61.07%
+2023-09-15 17:12:31,867 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:12:31,867 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:12:31,868 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:12:31,868 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:12:31,868 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:12:41,173 - Epoch [140/300], Train Loss: 0.0165, Val Loss: 1.2620, Val Accuracy: 60.25%
+2023-09-15 17:12:41,173 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:12:41,173 - Class 1 Recall: 0.56 True Positives: 43.0/77.0
+2023-09-15 17:12:41,174 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:12:41,174 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:12:41,174 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:12:50,637 - Epoch [141/300], Train Loss: 0.0263, Val Loss: 1.2682, Val Accuracy: 60.86%
+2023-09-15 17:12:50,638 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:12:50,638 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:12:50,638 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:12:50,638 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:12:50,638 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:12:59,822 - Epoch [142/300], Train Loss: 0.0200, Val Loss: 1.2722, Val Accuracy: 60.86%
+2023-09-15 17:12:59,822 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:12:59,822 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:12:59,822 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:12:59,822 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:12:59,822 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:13:09,018 - Epoch [143/300], Train Loss: 0.0236, Val Loss: 1.2381, Val Accuracy: 61.68%
+2023-09-15 17:13:09,018 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:13:09,018 - Class 1 Recall: 0.61 True Positives: 47.0/77.0
+2023-09-15 17:13:09,018 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:13:09,018 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:13:09,018 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:13:18,215 - Epoch [144/300], Train Loss: 0.0371, Val Loss: 1.2683, Val Accuracy: 60.86%
+2023-09-15 17:13:18,215 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:13:18,215 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:13:18,215 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:13:18,215 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:13:18,215 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:13:27,407 - Epoch [145/300], Train Loss: 0.0205, Val Loss: 1.2511, Val Accuracy: 60.86%
+2023-09-15 17:13:27,407 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:13:27,407 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:13:27,407 - Class 2 Recall: 0.51 True Positives: 49.0/97.0
+2023-09-15 17:13:27,407 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:13:27,407 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:13:36,630 - Epoch [146/300], Train Loss: 0.0312, Val Loss: 1.2608, Val Accuracy: 61.27%
+2023-09-15 17:13:36,630 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:13:36,630 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:13:36,630 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:13:36,630 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:13:36,630 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:13:45,819 - Epoch [147/300], Train Loss: 0.0172, Val Loss: 1.2394, Val Accuracy: 61.07%
+2023-09-15 17:13:45,819 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:13:45,819 - Class 1 Recall: 0.53 True Positives: 41.0/77.0
+2023-09-15 17:13:45,819 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:13:45,819 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:13:45,819 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:13:55,027 - Epoch [148/300], Train Loss: 0.0225, Val Loss: 1.2587, Val Accuracy: 61.27%
+2023-09-15 17:13:55,027 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:13:55,027 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:13:55,027 - Class 2 Recall: 0.54 True Positives: 52.0/97.0
+2023-09-15 17:13:55,027 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:13:55,027 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:14:04,228 - Epoch [149/300], Train Loss: 0.0168, Val Loss: 1.2721, Val Accuracy: 60.86%
+2023-09-15 17:14:04,228 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:14:04,228 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:14:04,228 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:14:04,228 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:14:04,228 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:14:13,488 - Epoch [150/300], Train Loss: 0.0135, Val Loss: 1.2561, Val Accuracy: 60.04%
+2023-09-15 17:14:13,488 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:14:13,488 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:14:13,488 - Class 2 Recall: 0.49 True Positives: 48.0/97.0
+2023-09-15 17:14:13,488 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:14:13,488 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:14:22,696 - Epoch [151/300], Train Loss: 0.0232, Val Loss: 1.2703, Val Accuracy: 61.89%
+2023-09-15 17:14:22,696 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:14:22,697 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:14:22,697 - Class 2 Recall: 0.55 True Positives: 53.0/97.0
+2023-09-15 17:14:22,697 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:14:22,697 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:14:31,916 - Epoch [152/300], Train Loss: 0.0138, Val Loss: 1.2588, Val Accuracy: 61.07%
+2023-09-15 17:14:31,916 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:14:31,916 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:14:31,916 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:14:31,916 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:14:31,916 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:14:41,184 - Epoch [153/300], Train Loss: 0.0299, Val Loss: 1.2490, Val Accuracy: 61.68%
+2023-09-15 17:14:41,184 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:14:41,184 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:14:41,184 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:14:41,184 - Class 3 Recall: 0.26 True Positives: 19.0/73.0
+2023-09-15 17:14:41,184 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:14:50,382 - Epoch [154/300], Train Loss: 0.0252, Val Loss: 1.2541, Val Accuracy: 61.89%
+2023-09-15 17:14:50,382 - Class 0 Recall: 0.73 True Positives: 61.0/83.0
+2023-09-15 17:14:50,382 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:14:50,382 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:14:50,382 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:14:50,382 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:14:59,615 - Epoch [155/300], Train Loss: 0.0230, Val Loss: 1.2769, Val Accuracy: 61.07%
+2023-09-15 17:14:59,616 - Class 0 Recall: 0.69 True Positives: 57.0/83.0
+2023-09-15 17:14:59,616 - Class 1 Recall: 0.60 True Positives: 46.0/77.0
+2023-09-15 17:14:59,616 - Class 2 Recall: 0.53 True Positives: 51.0/97.0
+2023-09-15 17:14:59,616 - Class 3 Recall: 0.22 True Positives: 16.0/73.0
+2023-09-15 17:14:59,616 - Class 4 Recall: 0.81 True Positives: 128.0/158.0
+2023-09-15 17:15:08,848 - Epoch [156/300], Train Loss: 0.0409, Val Loss: 1.2692, Val Accuracy: 60.25%
+2023-09-15 17:15:08,848 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:15:08,848 - Class 1 Recall: 0.58 True Positives: 45.0/77.0
+2023-09-15 17:15:08,849 - Class 2 Recall: 0.47 True Positives: 46.0/97.0
+2023-09-15 17:15:08,849 - Class 3 Recall: 0.25 True Positives: 18.0/73.0
+2023-09-15 17:15:08,849 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:15:18,099 - Epoch [157/300], Train Loss: 0.0234, Val Loss: 1.2619, Val Accuracy: 60.45%
+2023-09-15 17:15:18,099 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:15:18,099 - Class 1 Recall: 0.57 True Positives: 44.0/77.0
+2023-09-15 17:15:18,099 - Class 2 Recall: 0.48 True Positives: 47.0/97.0
+2023-09-15 17:15:18,099 - Class 3 Recall: 0.23 True Positives: 17.0/73.0
+2023-09-15 17:15:18,099 - Class 4 Recall: 0.80 True Positives: 127.0/158.0
+2023-09-15 17:15:27,378 - Validation loss hasn't improved for 150 epochs. Stopping training.
+2023-09-15 17:15:28,138 - Finished Training. Model Saved
+2023-09-15 17:15:30,256 - Accuracy on test data: 60.66% (296/488)
+2023-09-15 17:15:30,256 - We got 296 correct!
+2023-09-15 17:16:00,393 - 1464, 488, 488
+2023-09-15 17:16:11,762 - Epoch [1/300], Train Loss: 1.5223, Val Loss: 1.5071, Val Accuracy: 35.25%
+2023-09-15 17:16:11,763 - Class 0 Recall: 0.40 True Positives: 33.0/83.0
+2023-09-15 17:16:11,763 - Class 1 Recall: 0.32 True Positives: 30.0/95.0
+2023-09-15 17:16:11,763 - Class 2 Recall: 0.19 True Positives: 20.0/105.0
+2023-09-15 17:16:11,763 - Class 3 Recall: 0.48 True Positives: 32.0/67.0
+2023-09-15 17:16:11,763 - Class 4 Recall: 0.41 True Positives: 57.0/138.0
+2023-09-15 17:16:53,855 - 1464, 488, 488
+2023-09-15 17:17:05,084 - Epoch [1/300], Train Loss: 1.4764, Val Loss: 1.5531, Val Accuracy: 38.32%
+2023-09-15 17:17:05,085 - Class 0 Recall: 0.08 True Positives: 7.0/83.0
+2023-09-15 17:17:05,085 - Class 1 Recall: 0.74 True Positives: 70.0/95.0
+2023-09-15 17:17:05,085 - Class 2 Recall: 0.00 True Positives: 0.0/105.0
+2023-09-15 17:17:05,085 - Class 3 Recall: 0.00 True Positives: 0.0/67.0
+2023-09-15 17:17:05,085 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:17:14,965 - Epoch [2/300], Train Loss: 1.2260, Val Loss: 1.4269, Val Accuracy: 44.67%
+2023-09-15 17:17:14,965 - Class 0 Recall: 0.60 True Positives: 50.0/83.0
+2023-09-15 17:17:14,966 - Class 1 Recall: 0.39 True Positives: 37.0/95.0
+2023-09-15 17:17:14,966 - Class 2 Recall: 0.05 True Positives: 5.0/105.0
+2023-09-15 17:17:14,966 - Class 3 Recall: 0.03 True Positives: 2.0/67.0
+2023-09-15 17:17:14,966 - Class 4 Recall: 0.90 True Positives: 124.0/138.0
+2023-09-15 17:17:24,875 - Epoch [3/300], Train Loss: 1.0202, Val Loss: 1.2465, Val Accuracy: 54.71%
+2023-09-15 17:17:24,876 - Class 0 Recall: 0.76 True Positives: 63.0/83.0
+2023-09-15 17:17:24,876 - Class 1 Recall: 0.59 True Positives: 56.0/95.0
+2023-09-15 17:17:24,876 - Class 2 Recall: 0.25 True Positives: 26.0/105.0
+2023-09-15 17:17:24,877 - Class 3 Recall: 0.13 True Positives: 9.0/67.0
+2023-09-15 17:17:24,877 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:17:34,887 - Epoch [4/300], Train Loss: 1.0442, Val Loss: 1.1394, Val Accuracy: 54.30%
+2023-09-15 17:17:34,888 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:17:34,888 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:17:34,888 - Class 2 Recall: 0.36 True Positives: 38.0/105.0
+2023-09-15 17:17:34,888 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:17:34,889 - Class 4 Recall: 0.75 True Positives: 104.0/138.0
+2023-09-15 17:17:44,794 - Epoch [5/300], Train Loss: 0.6960, Val Loss: 1.0850, Val Accuracy: 55.53%
+2023-09-15 17:17:44,795 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:17:44,795 - Class 1 Recall: 0.42 True Positives: 40.0/95.0
+2023-09-15 17:17:44,795 - Class 2 Recall: 0.50 True Positives: 53.0/105.0
+2023-09-15 17:17:44,795 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:17:44,795 - Class 4 Recall: 0.74 True Positives: 102.0/138.0
+2023-09-15 17:17:54,822 - Epoch [6/300], Train Loss: 0.6091, Val Loss: 1.0373, Val Accuracy: 57.38%
+2023-09-15 17:17:54,822 - Class 0 Recall: 0.71 True Positives: 59.0/83.0
+2023-09-15 17:17:54,822 - Class 1 Recall: 0.48 True Positives: 46.0/95.0
+2023-09-15 17:17:54,823 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:17:54,823 - Class 3 Recall: 0.31 True Positives: 21.0/67.0
+2023-09-15 17:17:54,823 - Class 4 Recall: 0.71 True Positives: 98.0/138.0
+2023-09-15 17:18:04,815 - Epoch [7/300], Train Loss: 0.4728, Val Loss: 1.0209, Val Accuracy: 58.40%
+2023-09-15 17:18:04,815 - Class 0 Recall: 0.72 True Positives: 60.0/83.0
+2023-09-15 17:18:04,815 - Class 1 Recall: 0.48 True Positives: 46.0/95.0
+2023-09-15 17:18:04,816 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:18:04,816 - Class 3 Recall: 0.28 True Positives: 19.0/67.0
+2023-09-15 17:18:04,816 - Class 4 Recall: 0.73 True Positives: 101.0/138.0
+2023-09-15 17:18:14,946 - Epoch [8/300], Train Loss: 0.4606, Val Loss: 1.0130, Val Accuracy: 58.40%
+2023-09-15 17:18:14,947 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:18:14,947 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:18:14,947 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:18:14,947 - Class 3 Recall: 0.31 True Positives: 21.0/67.0
+2023-09-15 17:18:14,948 - Class 4 Recall: 0.69 True Positives: 95.0/138.0
+2023-09-15 17:18:24,134 - Epoch [9/300], Train Loss: 0.2989, Val Loss: 1.0156, Val Accuracy: 57.79%
+2023-09-15 17:18:24,134 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:18:24,134 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:18:24,134 - Class 2 Recall: 0.59 True Positives: 62.0/105.0
+2023-09-15 17:18:24,135 - Class 3 Recall: 0.31 True Positives: 21.0/67.0
+2023-09-15 17:18:24,135 - Class 4 Recall: 0.70 True Positives: 96.0/138.0
+2023-09-15 17:18:33,373 - Epoch [10/300], Train Loss: 0.2215, Val Loss: 1.0204, Val Accuracy: 57.58%
+2023-09-15 17:18:33,373 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:18:33,373 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:18:33,373 - Class 2 Recall: 0.58 True Positives: 61.0/105.0
+2023-09-15 17:18:33,373 - Class 3 Recall: 0.34 True Positives: 23.0/67.0
+2023-09-15 17:18:33,373 - Class 4 Recall: 0.69 True Positives: 95.0/138.0
+2023-09-15 17:18:42,559 - Epoch [11/300], Train Loss: 0.1314, Val Loss: 1.0526, Val Accuracy: 57.17%
+2023-09-15 17:18:42,560 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:18:42,560 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:18:42,560 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:18:42,560 - Class 3 Recall: 0.36 True Positives: 24.0/67.0
+2023-09-15 17:18:42,560 - Class 4 Recall: 0.70 True Positives: 97.0/138.0
+2023-09-15 17:18:51,761 - Epoch [12/300], Train Loss: 0.1564, Val Loss: 1.0748, Val Accuracy: 57.38%
+2023-09-15 17:18:51,761 - Class 0 Recall: 0.70 True Positives: 58.0/83.0
+2023-09-15 17:18:51,762 - Class 1 Recall: 0.47 True Positives: 45.0/95.0
+2023-09-15 17:18:51,762 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:18:51,762 - Class 3 Recall: 0.30 True Positives: 20.0/67.0
+2023-09-15 17:18:51,762 - Class 4 Recall: 0.72 True Positives: 99.0/138.0
+2023-09-15 17:19:01,041 - Epoch [13/300], Train Loss: 0.0722, Val Loss: 1.0813, Val Accuracy: 57.58%
+2023-09-15 17:19:01,041 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:19:01,041 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:19:01,041 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:19:01,041 - Class 3 Recall: 0.28 True Positives: 19.0/67.0
+2023-09-15 17:19:01,041 - Class 4 Recall: 0.72 True Positives: 100.0/138.0
+2023-09-15 17:19:10,254 - Epoch [14/300], Train Loss: 0.0687, Val Loss: 1.1168, Val Accuracy: 57.79%
+2023-09-15 17:19:10,254 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:19:10,254 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:19:10,254 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:19:10,254 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:19:10,254 - Class 4 Recall: 0.78 True Positives: 108.0/138.0
+2023-09-15 17:19:19,540 - Epoch [15/300], Train Loss: 0.0652, Val Loss: 1.1281, Val Accuracy: 57.99%
+2023-09-15 17:19:19,540 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:19:19,540 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:19:19,540 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:19:19,540 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:19:19,540 - Class 4 Recall: 0.77 True Positives: 106.0/138.0
+2023-09-15 17:19:28,793 - Epoch [16/300], Train Loss: 0.0551, Val Loss: 1.1667, Val Accuracy: 57.99%
+2023-09-15 17:19:28,793 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:19:28,793 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:19:28,793 - Class 2 Recall: 0.50 True Positives: 52.0/105.0
+2023-09-15 17:19:28,793 - Class 3 Recall: 0.27 True Positives: 18.0/67.0
+2023-09-15 17:19:28,793 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:19:38,035 - Epoch [17/300], Train Loss: 0.0324, Val Loss: 1.1937, Val Accuracy: 59.02%
+2023-09-15 17:19:38,035 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:19:38,035 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:19:38,035 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:19:38,035 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:19:38,035 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:19:47,325 - Epoch [18/300], Train Loss: 0.0382, Val Loss: 1.2051, Val Accuracy: 58.40%
+2023-09-15 17:19:47,325 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:19:47,325 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:19:47,325 - Class 2 Recall: 0.50 True Positives: 52.0/105.0
+2023-09-15 17:19:47,325 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:19:47,325 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:19:56,636 - Epoch [19/300], Train Loss: 0.0204, Val Loss: 1.2282, Val Accuracy: 59.02%
+2023-09-15 17:19:56,636 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:19:56,637 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:19:56,637 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:19:56,637 - Class 3 Recall: 0.27 True Positives: 18.0/67.0
+2023-09-15 17:19:56,637 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:20:05,885 - Epoch [20/300], Train Loss: 0.0301, Val Loss: 1.2223, Val Accuracy: 59.22%
+2023-09-15 17:20:05,885 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:20:05,885 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:20:05,885 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:20:05,885 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:20:05,885 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:20:15,206 - Epoch [21/300], Train Loss: 0.0232, Val Loss: 1.2379, Val Accuracy: 58.20%
+2023-09-15 17:20:15,206 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:20:15,206 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:20:15,206 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:20:15,206 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:20:15,206 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:20:24,453 - Epoch [22/300], Train Loss: 0.0308, Val Loss: 1.2438, Val Accuracy: 58.81%
+2023-09-15 17:20:24,453 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:20:24,453 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:20:24,453 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:20:24,454 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:20:24,454 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:20:33,837 - Epoch [23/300], Train Loss: 0.0513, Val Loss: 1.2553, Val Accuracy: 57.79%
+2023-09-15 17:20:33,837 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:20:33,837 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:20:33,837 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:20:33,837 - Class 3 Recall: 0.18 True Positives: 12.0/67.0
+2023-09-15 17:20:33,837 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:20:43,375 - Epoch [24/300], Train Loss: 0.0182, Val Loss: 1.2541, Val Accuracy: 58.40%
+2023-09-15 17:20:43,375 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:20:43,375 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:20:43,375 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:20:43,375 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:20:43,375 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:20:52,874 - Epoch [25/300], Train Loss: 0.0169, Val Loss: 1.2438, Val Accuracy: 58.40%
+2023-09-15 17:20:52,874 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:20:52,874 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:20:52,874 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:20:52,874 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:20:52,874 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:21:02,454 - Epoch [26/300], Train Loss: 0.0203, Val Loss: 1.2673, Val Accuracy: 57.99%
+2023-09-15 17:21:02,454 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:21:02,454 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:21:02,454 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:21:02,454 - Class 3 Recall: 0.19 True Positives: 13.0/67.0
+2023-09-15 17:21:02,454 - Class 4 Recall: 0.83 True Positives: 114.0/138.0
+2023-09-15 17:21:11,859 - Epoch [27/300], Train Loss: 0.0180, Val Loss: 1.2307, Val Accuracy: 57.99%
+2023-09-15 17:21:11,859 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:21:11,859 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:21:11,859 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:21:11,859 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:21:11,859 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:21:21,210 - Epoch [28/300], Train Loss: 0.0183, Val Loss: 1.2429, Val Accuracy: 58.20%
+2023-09-15 17:21:21,210 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:21:21,210 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:21:21,210 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:21:21,210 - Class 3 Recall: 0.27 True Positives: 18.0/67.0
+2023-09-15 17:21:21,210 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:21:30,463 - Epoch [29/300], Train Loss: 0.0307, Val Loss: 1.2710, Val Accuracy: 58.20%
+2023-09-15 17:21:30,463 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:21:30,463 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:21:30,463 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:21:30,463 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:21:30,463 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:21:39,768 - Epoch [30/300], Train Loss: 0.0257, Val Loss: 1.2640, Val Accuracy: 58.81%
+2023-09-15 17:21:39,769 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:21:39,769 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:21:39,769 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:21:39,769 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:21:39,769 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:21:49,017 - Epoch [31/300], Train Loss: 0.0343, Val Loss: 1.2804, Val Accuracy: 59.02%
+2023-09-15 17:21:49,017 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:21:49,018 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:21:49,018 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:21:49,018 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:21:49,018 - Class 4 Recall: 0.83 True Positives: 114.0/138.0
+2023-09-15 17:21:58,261 - Epoch [32/300], Train Loss: 0.0336, Val Loss: 1.2537, Val Accuracy: 58.40%
+2023-09-15 17:21:58,261 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:21:58,261 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:21:58,261 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:21:58,261 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:21:58,261 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:22:07,542 - Epoch [33/300], Train Loss: 0.0231, Val Loss: 1.2532, Val Accuracy: 59.02%
+2023-09-15 17:22:07,543 - Class 0 Recall: 0.67 True Positives: 56.0/83.0
+2023-09-15 17:22:07,543 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:22:07,543 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:22:07,543 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:22:07,543 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:22:16,822 - Epoch [34/300], Train Loss: 0.0337, Val Loss: 1.2629, Val Accuracy: 58.20%
+2023-09-15 17:22:16,822 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:22:16,822 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:22:16,822 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:22:16,822 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:22:16,822 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:22:26,062 - Epoch [35/300], Train Loss: 0.0144, Val Loss: 1.2766, Val Accuracy: 57.99%
+2023-09-15 17:22:26,062 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:22:26,062 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:22:26,062 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:22:26,062 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:22:26,062 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:22:35,373 - Epoch [36/300], Train Loss: 0.0269, Val Loss: 1.2817, Val Accuracy: 59.43%
+2023-09-15 17:22:35,374 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:22:35,374 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:22:35,374 - Class 2 Recall: 0.50 True Positives: 53.0/105.0
+2023-09-15 17:22:35,374 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:22:35,374 - Class 4 Recall: 0.83 True Positives: 114.0/138.0
+2023-09-15 17:22:44,639 - Epoch [37/300], Train Loss: 0.0257, Val Loss: 1.2633, Val Accuracy: 58.20%
+2023-09-15 17:22:44,639 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:22:44,639 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:22:44,639 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:22:44,639 - Class 3 Recall: 0.18 True Positives: 12.0/67.0
+2023-09-15 17:22:44,639 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:22:53,897 - Epoch [38/300], Train Loss: 0.0214, Val Loss: 1.2634, Val Accuracy: 58.81%
+2023-09-15 17:22:53,897 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:22:53,897 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:22:53,897 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:22:53,897 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:22:53,898 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:23:03,186 - Epoch [39/300], Train Loss: 0.0191, Val Loss: 1.2686, Val Accuracy: 58.81%
+2023-09-15 17:23:03,186 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:23:03,186 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:23:03,186 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:23:03,186 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:23:03,186 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:23:12,415 - Epoch [40/300], Train Loss: 0.0209, Val Loss: 1.2520, Val Accuracy: 58.40%
+2023-09-15 17:23:12,415 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:23:12,415 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:23:12,415 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:23:12,415 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:23:12,415 - Class 4 Recall: 0.79 True Positives: 109.0/138.0
+2023-09-15 17:23:21,726 - Epoch [41/300], Train Loss: 0.0178, Val Loss: 1.2676, Val Accuracy: 58.40%
+2023-09-15 17:23:21,726 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:23:21,726 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:23:21,726 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:23:21,726 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:23:21,726 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:23:31,001 - Epoch [42/300], Train Loss: 0.0184, Val Loss: 1.2534, Val Accuracy: 58.40%
+2023-09-15 17:23:31,001 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:23:31,001 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:23:31,001 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:23:31,001 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:23:31,001 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:23:40,229 - Epoch [43/300], Train Loss: 0.0282, Val Loss: 1.2684, Val Accuracy: 58.20%
+2023-09-15 17:23:40,230 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:23:40,230 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:23:40,230 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:23:40,230 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:23:40,230 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:23:49,574 - Epoch [44/300], Train Loss: 0.0197, Val Loss: 1.2538, Val Accuracy: 57.99%
+2023-09-15 17:23:49,575 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:23:49,575 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:23:49,575 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:23:49,575 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:23:49,575 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:23:59,023 - Epoch [45/300], Train Loss: 0.0165, Val Loss: 1.2696, Val Accuracy: 59.43%
+2023-09-15 17:23:59,023 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:23:59,023 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:23:59,023 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:23:59,023 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:23:59,023 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:24:08,272 - Epoch [46/300], Train Loss: 0.0184, Val Loss: 1.2460, Val Accuracy: 59.22%
+2023-09-15 17:24:08,273 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:24:08,273 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:24:08,273 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:24:08,273 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:24:08,273 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:24:17,546 - Epoch [47/300], Train Loss: 0.0306, Val Loss: 1.2525, Val Accuracy: 59.02%
+2023-09-15 17:24:17,546 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:24:17,546 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:24:17,546 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:24:17,546 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:24:17,546 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:24:26,818 - Epoch [48/300], Train Loss: 0.0160, Val Loss: 1.2732, Val Accuracy: 58.81%
+2023-09-15 17:24:26,818 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:24:26,818 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:24:26,818 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:24:26,819 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:24:26,819 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:24:36,069 - Epoch [49/300], Train Loss: 0.0204, Val Loss: 1.2747, Val Accuracy: 58.40%
+2023-09-15 17:24:36,069 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:24:36,069 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:24:36,069 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:24:36,069 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:24:36,069 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:24:45,395 - Epoch [50/300], Train Loss: 0.0307, Val Loss: 1.2636, Val Accuracy: 58.81%
+2023-09-15 17:24:45,395 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:24:45,395 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:24:45,395 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:24:45,395 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:24:45,395 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:24:54,732 - Epoch [51/300], Train Loss: 0.0207, Val Loss: 1.2596, Val Accuracy: 58.20%
+2023-09-15 17:24:54,732 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:24:54,732 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:24:54,732 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:24:54,732 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:24:54,732 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:25:04,081 - Epoch [52/300], Train Loss: 0.0194, Val Loss: 1.2581, Val Accuracy: 58.61%
+2023-09-15 17:25:04,081 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:25:04,081 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:25:04,081 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:25:04,081 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:25:04,081 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:25:13,427 - Epoch [53/300], Train Loss: 0.0310, Val Loss: 1.2755, Val Accuracy: 58.20%
+2023-09-15 17:25:13,427 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:25:13,427 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:25:13,427 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:25:13,427 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:25:13,427 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:25:22,848 - Epoch [54/300], Train Loss: 0.0281, Val Loss: 1.2617, Val Accuracy: 58.20%
+2023-09-15 17:25:22,848 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:25:22,848 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:25:22,848 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:25:22,848 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:25:22,848 - Class 4 Recall: 0.78 True Positives: 108.0/138.0
+2023-09-15 17:25:32,241 - Epoch [55/300], Train Loss: 0.0197, Val Loss: 1.2593, Val Accuracy: 58.20%
+2023-09-15 17:25:32,241 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:25:32,241 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:25:32,241 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:25:32,241 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:25:32,241 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:25:41,585 - Epoch [56/300], Train Loss: 0.0312, Val Loss: 1.2602, Val Accuracy: 58.40%
+2023-09-15 17:25:41,585 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:25:41,585 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:25:41,585 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:25:41,585 - Class 3 Recall: 0.19 True Positives: 13.0/67.0
+2023-09-15 17:25:41,585 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:25:50,830 - Epoch [57/300], Train Loss: 0.0194, Val Loss: 1.2635, Val Accuracy: 59.22%
+2023-09-15 17:25:50,830 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:25:50,830 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:25:50,830 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:25:50,830 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:25:50,830 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:26:00,057 - Epoch [58/300], Train Loss: 0.0164, Val Loss: 1.2486, Val Accuracy: 59.43%
+2023-09-15 17:26:00,057 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:26:00,057 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:26:00,057 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:26:00,057 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:26:00,057 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:26:09,351 - Epoch [59/300], Train Loss: 0.0262, Val Loss: 1.2633, Val Accuracy: 58.20%
+2023-09-15 17:26:09,352 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:26:09,352 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:26:09,352 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:26:09,352 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:26:09,352 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:26:18,651 - Epoch [60/300], Train Loss: 0.0662, Val Loss: 1.2707, Val Accuracy: 58.40%
+2023-09-15 17:26:18,651 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:26:18,651 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:26:18,651 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:26:18,651 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:26:18,651 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:26:27,913 - Epoch [61/300], Train Loss: 0.0200, Val Loss: 1.2871, Val Accuracy: 58.40%
+2023-09-15 17:26:27,913 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:26:27,913 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:26:27,913 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:26:27,913 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:26:27,913 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:26:37,194 - Epoch [62/300], Train Loss: 0.0151, Val Loss: 1.2684, Val Accuracy: 57.99%
+2023-09-15 17:26:37,194 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:26:37,194 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:26:37,194 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:26:37,194 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:26:37,194 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:26:46,457 - Epoch [63/300], Train Loss: 0.0244, Val Loss: 1.2812, Val Accuracy: 58.40%
+2023-09-15 17:26:46,457 - Class 0 Recall: 0.67 True Positives: 56.0/83.0
+2023-09-15 17:26:46,457 - Class 1 Recall: 0.48 True Positives: 46.0/95.0
+2023-09-15 17:26:46,457 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:26:46,457 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:26:46,457 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:26:55,790 - Epoch [64/300], Train Loss: 0.0230, Val Loss: 1.2463, Val Accuracy: 58.20%
+2023-09-15 17:26:55,790 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:26:55,790 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:26:55,790 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:26:55,790 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:26:55,790 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:27:05,050 - Epoch [65/300], Train Loss: 0.0206, Val Loss: 1.2770, Val Accuracy: 59.02%
+2023-09-15 17:27:05,050 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:27:05,050 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:27:05,050 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:27:05,051 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:27:05,051 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:27:14,305 - Epoch [66/300], Train Loss: 0.0143, Val Loss: 1.2594, Val Accuracy: 58.20%
+2023-09-15 17:27:14,306 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:27:14,306 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:27:14,306 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:27:14,306 - Class 3 Recall: 0.18 True Positives: 12.0/67.0
+2023-09-15 17:27:14,306 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:27:23,606 - Epoch [67/300], Train Loss: 0.0279, Val Loss: 1.2664, Val Accuracy: 57.79%
+2023-09-15 17:27:23,606 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:27:23,606 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:27:23,606 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:27:23,606 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:27:23,606 - Class 4 Recall: 0.79 True Positives: 109.0/138.0
+2023-09-15 17:27:32,901 - Epoch [68/300], Train Loss: 0.0179, Val Loss: 1.2610, Val Accuracy: 58.40%
+2023-09-15 17:27:32,901 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:27:32,901 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:27:32,902 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:27:32,902 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:27:32,902 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:27:42,157 - Epoch [69/300], Train Loss: 0.0117, Val Loss: 1.2611, Val Accuracy: 58.40%
+2023-09-15 17:27:42,157 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:27:42,157 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:27:42,157 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:27:42,157 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:27:42,157 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:27:51,742 - Epoch [70/300], Train Loss: 0.0180, Val Loss: 1.2432, Val Accuracy: 58.20%
+2023-09-15 17:27:51,742 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:27:51,742 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:27:51,742 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:27:51,742 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:27:51,742 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:28:01,016 - Epoch [71/300], Train Loss: 0.0247, Val Loss: 1.2676, Val Accuracy: 58.40%
+2023-09-15 17:28:01,016 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:28:01,016 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:28:01,016 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:28:01,016 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:28:01,016 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:28:10,256 - Epoch [72/300], Train Loss: 0.0188, Val Loss: 1.2483, Val Accuracy: 59.02%
+2023-09-15 17:28:10,256 - Class 0 Recall: 0.67 True Positives: 56.0/83.0
+2023-09-15 17:28:10,256 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:28:10,256 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:28:10,256 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:28:10,256 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:28:19,766 - Epoch [73/300], Train Loss: 0.0194, Val Loss: 1.2602, Val Accuracy: 58.20%
+2023-09-15 17:28:19,766 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:28:19,766 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:28:19,766 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:28:19,766 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:28:19,766 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:28:29,221 - Epoch [74/300], Train Loss: 0.0154, Val Loss: 1.2510, Val Accuracy: 58.40%
+2023-09-15 17:28:29,221 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:28:29,221 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:28:29,221 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:28:29,221 - Class 3 Recall: 0.27 True Positives: 18.0/67.0
+2023-09-15 17:28:29,221 - Class 4 Recall: 0.79 True Positives: 109.0/138.0
+2023-09-15 17:28:38,843 - Epoch [75/300], Train Loss: 0.0161, Val Loss: 1.2504, Val Accuracy: 59.02%
+2023-09-15 17:28:38,843 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:28:38,843 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:28:38,843 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:28:38,843 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:28:38,843 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:28:48,255 - Epoch [76/300], Train Loss: 0.0146, Val Loss: 1.2689, Val Accuracy: 58.20%
+2023-09-15 17:28:48,255 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:28:48,255 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:28:48,255 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:28:48,255 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:28:48,255 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:28:57,551 - Epoch [77/300], Train Loss: 0.0190, Val Loss: 1.2689, Val Accuracy: 59.22%
+2023-09-15 17:28:57,551 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:28:57,551 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:28:57,551 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:28:57,551 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:28:57,551 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:29:06,826 - Epoch [78/300], Train Loss: 0.0287, Val Loss: 1.2548, Val Accuracy: 59.02%
+2023-09-15 17:29:06,826 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:29:06,826 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:29:06,826 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:29:06,826 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:29:06,826 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:29:16,118 - Epoch [79/300], Train Loss: 0.0196, Val Loss: 1.2649, Val Accuracy: 57.99%
+2023-09-15 17:29:16,118 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:29:16,118 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:29:16,118 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:29:16,119 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:29:16,119 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:29:25,418 - Epoch [80/300], Train Loss: 0.0307, Val Loss: 1.2384, Val Accuracy: 59.22%
+2023-09-15 17:29:25,418 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:29:25,419 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:29:25,419 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:29:25,419 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:29:25,419 - Class 4 Recall: 0.83 True Positives: 115.0/138.0
+2023-09-15 17:29:35,052 - Epoch [81/300], Train Loss: 0.0541, Val Loss: 1.2848, Val Accuracy: 59.22%
+2023-09-15 17:29:35,053 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:29:35,053 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:29:35,053 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:29:35,053 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:29:35,053 - Class 4 Recall: 0.83 True Positives: 114.0/138.0
+2023-09-15 17:29:44,442 - Epoch [82/300], Train Loss: 0.0169, Val Loss: 1.2527, Val Accuracy: 58.40%
+2023-09-15 17:29:44,442 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:29:44,442 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:29:44,443 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:29:44,443 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:29:44,443 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:29:53,947 - Epoch [83/300], Train Loss: 0.0155, Val Loss: 1.2624, Val Accuracy: 58.61%
+2023-09-15 17:29:53,948 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:29:53,948 - Class 1 Recall: 0.49 True Positives: 47.0/95.0
+2023-09-15 17:29:53,948 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:29:53,948 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:29:53,948 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:30:03,381 - Epoch [84/300], Train Loss: 0.0184, Val Loss: 1.2529, Val Accuracy: 57.99%
+2023-09-15 17:30:03,381 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:30:03,381 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:30:03,381 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:30:03,381 - Class 3 Recall: 0.28 True Positives: 19.0/67.0
+2023-09-15 17:30:03,381 - Class 4 Recall: 0.79 True Positives: 109.0/138.0
+2023-09-15 17:30:12,647 - Epoch [85/300], Train Loss: 0.0205, Val Loss: 1.2833, Val Accuracy: 58.61%
+2023-09-15 17:30:12,647 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:30:12,647 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:30:12,647 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:30:12,647 - Class 3 Recall: 0.19 True Positives: 13.0/67.0
+2023-09-15 17:30:12,647 - Class 4 Recall: 0.83 True Positives: 115.0/138.0
+2023-09-15 17:30:21,855 - Epoch [86/300], Train Loss: 0.0218, Val Loss: 1.2484, Val Accuracy: 58.20%
+2023-09-15 17:30:21,855 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:30:21,855 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:30:21,855 - Class 2 Recall: 0.50 True Positives: 52.0/105.0
+2023-09-15 17:30:21,855 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:30:21,855 - Class 4 Recall: 0.83 True Positives: 114.0/138.0
+2023-09-15 17:30:31,075 - Epoch [87/300], Train Loss: 0.0291, Val Loss: 1.2747, Val Accuracy: 58.61%
+2023-09-15 17:30:31,076 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:30:31,076 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:30:31,076 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:30:31,076 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:30:31,076 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:30:40,281 - Epoch [88/300], Train Loss: 0.0261, Val Loss: 1.2675, Val Accuracy: 58.40%
+2023-09-15 17:30:40,281 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:30:40,281 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:30:40,281 - Class 2 Recall: 0.53 True Positives: 56.0/105.0
+2023-09-15 17:30:40,281 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:30:40,281 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:30:49,568 - Epoch [89/300], Train Loss: 0.0183, Val Loss: 1.2749, Val Accuracy: 58.61%
+2023-09-15 17:30:49,568 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:30:49,568 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:30:49,568 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:30:49,568 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:30:49,568 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:30:58,852 - Epoch [90/300], Train Loss: 0.0345, Val Loss: 1.2620, Val Accuracy: 58.20%
+2023-09-15 17:30:58,852 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:30:58,853 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:30:58,853 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:30:58,853 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:30:58,853 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:31:08,215 - Epoch [91/300], Train Loss: 0.0170, Val Loss: 1.2634, Val Accuracy: 58.20%
+2023-09-15 17:31:08,215 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:31:08,215 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:31:08,215 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:31:08,215 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:31:08,215 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:31:17,559 - Epoch [92/300], Train Loss: 0.0191, Val Loss: 1.2280, Val Accuracy: 59.02%
+2023-09-15 17:31:17,559 - Class 0 Recall: 0.65 True Positives: 54.0/83.0
+2023-09-15 17:31:17,559 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:31:17,559 - Class 2 Recall: 0.56 True Positives: 59.0/105.0
+2023-09-15 17:31:17,559 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:31:17,559 - Class 4 Recall: 0.78 True Positives: 108.0/138.0
+2023-09-15 17:31:27,042 - Epoch [93/300], Train Loss: 0.0311, Val Loss: 1.2523, Val Accuracy: 57.99%
+2023-09-15 17:31:27,042 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:31:27,042 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:31:27,042 - Class 2 Recall: 0.51 True Positives: 54.0/105.0
+2023-09-15 17:31:27,042 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:31:27,042 - Class 4 Recall: 0.80 True Positives: 111.0/138.0
+2023-09-15 17:31:36,328 - Epoch [94/300], Train Loss: 0.0203, Val Loss: 1.2632, Val Accuracy: 58.20%
+2023-09-15 17:31:36,328 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:31:36,328 - Class 1 Recall: 0.54 True Positives: 51.0/95.0
+2023-09-15 17:31:36,328 - Class 2 Recall: 0.51 True Positives: 54.0/105.0
+2023-09-15 17:31:36,328 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:31:36,328 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:31:45,759 - Epoch [95/300], Train Loss: 0.0132, Val Loss: 1.2487, Val Accuracy: 58.40%
+2023-09-15 17:31:45,759 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:31:45,759 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:31:45,759 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:31:45,759 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:31:45,759 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:31:55,442 - Epoch [96/300], Train Loss: 0.0305, Val Loss: 1.2749, Val Accuracy: 57.99%
+2023-09-15 17:31:55,443 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:31:55,443 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:31:55,443 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:31:55,443 - Class 3 Recall: 0.27 True Positives: 18.0/67.0
+2023-09-15 17:31:55,443 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:32:05,024 - Epoch [97/300], Train Loss: 0.0176, Val Loss: 1.2654, Val Accuracy: 58.61%
+2023-09-15 17:32:05,024 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:32:05,024 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:32:05,024 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:32:05,024 - Class 3 Recall: 0.18 True Positives: 12.0/67.0
+2023-09-15 17:32:05,024 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:32:14,520 - Epoch [98/300], Train Loss: 0.0225, Val Loss: 1.2567, Val Accuracy: 58.20%
+2023-09-15 17:32:14,521 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:32:14,521 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:32:14,521 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:32:14,521 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:32:14,521 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:32:24,098 - Epoch [99/300], Train Loss: 0.0175, Val Loss: 1.2728, Val Accuracy: 58.40%
+2023-09-15 17:32:24,098 - Class 0 Recall: 0.61 True Positives: 51.0/83.0
+2023-09-15 17:32:24,098 - Class 1 Recall: 0.55 True Positives: 52.0/95.0
+2023-09-15 17:32:24,098 - Class 2 Recall: 0.55 True Positives: 58.0/105.0
+2023-09-15 17:32:24,098 - Class 3 Recall: 0.18 True Positives: 12.0/67.0
+2023-09-15 17:32:24,098 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:32:33,550 - Epoch [100/300], Train Loss: 0.0240, Val Loss: 1.2774, Val Accuracy: 59.22%
+2023-09-15 17:32:33,550 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:32:33,550 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:32:33,550 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:32:33,550 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:32:33,550 - Class 4 Recall: 0.83 True Positives: 115.0/138.0
+2023-09-15 17:32:42,841 - Epoch [101/300], Train Loss: 0.0206, Val Loss: 1.2684, Val Accuracy: 57.99%
+2023-09-15 17:32:42,841 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:32:42,841 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:32:42,841 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:32:42,841 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:32:42,841 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:32:52,304 - Epoch [102/300], Train Loss: 0.0144, Val Loss: 1.2789, Val Accuracy: 58.40%
+2023-09-15 17:32:52,304 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:32:52,304 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:32:52,304 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:32:52,304 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:32:52,304 - Class 4 Recall: 0.81 True Positives: 112.0/138.0
+2023-09-15 17:33:01,761 - Epoch [103/300], Train Loss: 0.0215, Val Loss: 1.2483, Val Accuracy: 57.58%
+2023-09-15 17:33:01,761 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:33:01,761 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:33:01,761 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:33:01,761 - Class 3 Recall: 0.25 True Positives: 17.0/67.0
+2023-09-15 17:33:01,761 - Class 4 Recall: 0.79 True Positives: 109.0/138.0
+2023-09-15 17:33:11,038 - Epoch [104/300], Train Loss: 0.0164, Val Loss: 1.2666, Val Accuracy: 57.99%
+2023-09-15 17:33:11,038 - Class 0 Recall: 0.63 True Positives: 52.0/83.0
+2023-09-15 17:33:11,038 - Class 1 Recall: 0.52 True Positives: 49.0/95.0
+2023-09-15 17:33:11,038 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:33:11,038 - Class 3 Recall: 0.22 True Positives: 15.0/67.0
+2023-09-15 17:33:11,038 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:33:20,355 - Epoch [105/300], Train Loss: 0.0226, Val Loss: 1.2541, Val Accuracy: 58.20%
+2023-09-15 17:33:20,355 - Class 0 Recall: 0.64 True Positives: 53.0/83.0
+2023-09-15 17:33:20,355 - Class 1 Recall: 0.53 True Positives: 50.0/95.0
+2023-09-15 17:33:20,355 - Class 2 Recall: 0.54 True Positives: 57.0/105.0
+2023-09-15 17:33:20,355 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:33:20,355 - Class 4 Recall: 0.80 True Positives: 110.0/138.0
+2023-09-15 17:33:29,695 - Epoch [106/300], Train Loss: 0.0256, Val Loss: 1.2768, Val Accuracy: 58.40%
+2023-09-15 17:33:29,695 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:33:29,695 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:33:29,695 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:33:29,695 - Class 3 Recall: 0.21 True Positives: 14.0/67.0
+2023-09-15 17:33:29,695 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:33:39,022 - Epoch [107/300], Train Loss: 0.0256, Val Loss: 1.2813, Val Accuracy: 58.81%
+2023-09-15 17:33:39,022 - Class 0 Recall: 0.66 True Positives: 55.0/83.0
+2023-09-15 17:33:39,022 - Class 1 Recall: 0.51 True Positives: 48.0/95.0
+2023-09-15 17:33:39,022 - Class 2 Recall: 0.52 True Positives: 55.0/105.0
+2023-09-15 17:33:39,022 - Class 3 Recall: 0.24 True Positives: 16.0/67.0
+2023-09-15 17:33:39,022 - Class 4 Recall: 0.82 True Positives: 113.0/138.0
+2023-09-15 17:33:48,471 - Validation loss hasn't improved for 100 epochs. Stopping training.
+2023-09-15 17:33:49,250 - Finished Training. Model Saved
+2023-09-15 17:33:51,270 - Accuracy on test data: 61.48% (300/488)
+2023-09-15 17:33:51,270 - We got 300 correct!
+2023-09-15 17:39:16,488 - 1464, 488, 488
+2023-09-15 17:39:27,724 - Epoch [1/300], Train Loss: 1.4829, Val Loss: 1.5113, Val Accuracy: 36.27%
+2023-09-15 17:39:27,725 - Class 0 Recall: 0.36 True Positives: 32.0/88.0
+2023-09-15 17:39:27,725 - Class 1 Recall: 0.20 True Positives: 15.0/76.0
+2023-09-15 17:39:27,725 - Class 2 Recall: 0.24 True Positives: 26.0/109.0
+2023-09-15 17:39:27,725 - Class 3 Recall: 0.29 True Positives: 19.0/66.0
+2023-09-15 17:39:27,726 - Class 4 Recall: 0.57 True Positives: 85.0/149.0
+2023-09-15 17:39:37,558 - Epoch [2/300], Train Loss: 1.2318, Val Loss: 1.3861, Val Accuracy: 46.93%
+2023-09-15 17:39:37,558 - Class 0 Recall: 0.78 True Positives: 69.0/88.0
+2023-09-15 17:39:37,558 - Class 1 Recall: 0.08 True Positives: 6.0/76.0
+2023-09-15 17:39:37,559 - Class 2 Recall: 0.29 True Positives: 32.0/109.0
+2023-09-15 17:39:37,559 - Class 3 Recall: 0.23 True Positives: 15.0/66.0
+2023-09-15 17:39:37,559 - Class 4 Recall: 0.72 True Positives: 107.0/149.0
+2023-09-15 17:39:47,434 - Epoch [3/300], Train Loss: 1.0853, Val Loss: 1.2686, Val Accuracy: 50.82%
+2023-09-15 17:39:47,435 - Class 0 Recall: 0.89 True Positives: 78.0/88.0
+2023-09-15 17:39:47,435 - Class 1 Recall: 0.08 True Positives: 6.0/76.0
+2023-09-15 17:39:47,435 - Class 2 Recall: 0.44 True Positives: 48.0/109.0
+2023-09-15 17:39:47,435 - Class 3 Recall: 0.15 True Positives: 10.0/66.0
+2023-09-15 17:39:47,435 - Class 4 Recall: 0.71 True Positives: 106.0/149.0
+2023-09-15 17:39:57,374 - Epoch [4/300], Train Loss: 0.9670, Val Loss: 1.1487, Val Accuracy: 52.05%
+2023-09-15 17:39:57,375 - Class 0 Recall: 0.70 True Positives: 62.0/88.0
+2023-09-15 17:39:57,375 - Class 1 Recall: 0.34 True Positives: 26.0/76.0
+2023-09-15 17:39:57,375 - Class 2 Recall: 0.44 True Positives: 48.0/109.0
+2023-09-15 17:39:57,376 - Class 3 Recall: 0.50 True Positives: 33.0/66.0
+2023-09-15 17:39:57,376 - Class 4 Recall: 0.57 True Positives: 85.0/149.0
+2023-09-15 17:40:07,543 - Epoch [5/300], Train Loss: 0.8427, Val Loss: 1.0884, Val Accuracy: 52.87%
+2023-09-15 17:40:07,544 - Class 0 Recall: 0.66 True Positives: 58.0/88.0
+2023-09-15 17:40:07,544 - Class 1 Recall: 0.38 True Positives: 29.0/76.0
+2023-09-15 17:40:07,545 - Class 2 Recall: 0.49 True Positives: 53.0/109.0
+2023-09-15 17:40:07,545 - Class 3 Recall: 0.50 True Positives: 33.0/66.0
+2023-09-15 17:40:07,545 - Class 4 Recall: 0.57 True Positives: 85.0/149.0
+2023-09-15 17:40:17,514 - Epoch [6/300], Train Loss: 0.7319, Val Loss: 1.0532, Val Accuracy: 54.92%
+2023-09-15 17:40:17,515 - Class 0 Recall: 0.69 True Positives: 61.0/88.0
+2023-09-15 17:40:17,515 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:40:17,515 - Class 2 Recall: 0.48 True Positives: 52.0/109.0
+2023-09-15 17:40:17,515 - Class 3 Recall: 0.50 True Positives: 33.0/66.0
+2023-09-15 17:40:17,516 - Class 4 Recall: 0.59 True Positives: 88.0/149.0
+2023-09-15 17:40:26,676 - Epoch [7/300], Train Loss: 0.5444, Val Loss: 1.0565, Val Accuracy: 55.74%
+2023-09-15 17:40:26,676 - Class 0 Recall: 0.62 True Positives: 55.0/88.0
+2023-09-15 17:40:26,676 - Class 1 Recall: 0.41 True Positives: 31.0/76.0
+2023-09-15 17:40:26,676 - Class 2 Recall: 0.52 True Positives: 57.0/109.0
+2023-09-15 17:40:26,676 - Class 3 Recall: 0.50 True Positives: 33.0/66.0
+2023-09-15 17:40:26,676 - Class 4 Recall: 0.64 True Positives: 96.0/149.0
+2023-09-15 17:40:36,531 - Epoch [8/300], Train Loss: 0.3567, Val Loss: 1.0471, Val Accuracy: 56.76%
+2023-09-15 17:40:36,531 - Class 0 Recall: 0.66 True Positives: 58.0/88.0
+2023-09-15 17:40:36,531 - Class 1 Recall: 0.39 True Positives: 30.0/76.0
+2023-09-15 17:40:36,531 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:40:36,531 - Class 3 Recall: 0.41 True Positives: 27.0/66.0
+2023-09-15 17:40:36,531 - Class 4 Recall: 0.66 True Positives: 98.0/149.0
+2023-09-15 17:40:45,715 - Epoch [9/300], Train Loss: 0.3634, Val Loss: 1.0629, Val Accuracy: 58.20%
+2023-09-15 17:40:45,715 - Class 0 Recall: 0.62 True Positives: 55.0/88.0
+2023-09-15 17:40:45,715 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:40:45,715 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:40:45,715 - Class 3 Recall: 0.36 True Positives: 24.0/66.0
+2023-09-15 17:40:45,715 - Class 4 Recall: 0.68 True Positives: 102.0/149.0
+2023-09-15 17:40:54,944 - Epoch [10/300], Train Loss: 0.1693, Val Loss: 1.0911, Val Accuracy: 57.17%
+2023-09-15 17:40:54,945 - Class 0 Recall: 0.62 True Positives: 55.0/88.0
+2023-09-15 17:40:54,945 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:40:54,945 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:40:54,945 - Class 3 Recall: 0.30 True Positives: 20.0/66.0
+2023-09-15 17:40:54,945 - Class 4 Recall: 0.69 True Positives: 103.0/149.0
+2023-09-15 17:41:04,114 - Epoch [11/300], Train Loss: 0.1209, Val Loss: 1.1439, Val Accuracy: 56.56%
+2023-09-15 17:41:04,114 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:41:04,114 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:41:04,114 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:41:04,114 - Class 3 Recall: 0.27 True Positives: 18.0/66.0
+2023-09-15 17:41:04,115 - Class 4 Recall: 0.73 True Positives: 109.0/149.0
+2023-09-15 17:41:13,360 - Epoch [12/300], Train Loss: 0.1081, Val Loss: 1.1565, Val Accuracy: 57.38%
+2023-09-15 17:41:13,360 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:41:13,360 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:41:13,360 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:41:13,360 - Class 3 Recall: 0.26 True Positives: 17.0/66.0
+2023-09-15 17:41:13,361 - Class 4 Recall: 0.74 True Positives: 111.0/149.0
+2023-09-15 17:41:22,537 - Epoch [13/300], Train Loss: 0.0700, Val Loss: 1.2357, Val Accuracy: 56.56%
+2023-09-15 17:41:22,538 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:41:22,538 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:41:22,538 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:41:22,538 - Class 3 Recall: 0.15 True Positives: 10.0/66.0
+2023-09-15 17:41:22,538 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:41:31,728 - Epoch [14/300], Train Loss: 0.0877, Val Loss: 1.2284, Val Accuracy: 56.76%
+2023-09-15 17:41:31,728 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:41:31,728 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:41:31,728 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:41:31,728 - Class 3 Recall: 0.20 True Positives: 13.0/66.0
+2023-09-15 17:41:31,728 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:41:41,006 - Epoch [15/300], Train Loss: 0.0615, Val Loss: 1.2496, Val Accuracy: 56.15%
+2023-09-15 17:41:41,006 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:41:41,006 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:41:41,006 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:41:41,006 - Class 3 Recall: 0.18 True Positives: 12.0/66.0
+2023-09-15 17:41:41,006 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:41:50,334 - Epoch [16/300], Train Loss: 0.0312, Val Loss: 1.2891, Val Accuracy: 57.17%
+2023-09-15 17:41:50,334 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:41:50,334 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:41:50,334 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:41:50,334 - Class 3 Recall: 0.18 True Positives: 12.0/66.0
+2023-09-15 17:41:50,334 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:41:59,572 - Epoch [17/300], Train Loss: 0.0365, Val Loss: 1.3326, Val Accuracy: 57.38%
+2023-09-15 17:41:59,572 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:41:59,572 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:41:59,572 - Class 2 Recall: 0.64 True Positives: 70.0/109.0
+2023-09-15 17:41:59,572 - Class 3 Recall: 0.15 True Positives: 10.0/66.0
+2023-09-15 17:41:59,572 - Class 4 Recall: 0.77 True Positives: 115.0/149.0
+2023-09-15 17:42:08,832 - Epoch [18/300], Train Loss: 0.0364, Val Loss: 1.3597, Val Accuracy: 57.79%
+2023-09-15 17:42:08,832 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:42:08,832 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:42:08,832 - Class 2 Recall: 0.64 True Positives: 70.0/109.0
+2023-09-15 17:42:08,832 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:42:08,832 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:42:18,016 - Epoch [19/300], Train Loss: 0.0319, Val Loss: 1.3417, Val Accuracy: 57.17%
+2023-09-15 17:42:18,016 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:42:18,016 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:42:18,017 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:42:18,017 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:42:18,017 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:42:27,233 - Epoch [20/300], Train Loss: 0.0279, Val Loss: 1.3518, Val Accuracy: 55.94%
+2023-09-15 17:42:27,233 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:42:27,233 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:42:27,233 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:42:27,233 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:42:27,233 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:42:36,448 - Epoch [21/300], Train Loss: 0.0421, Val Loss: 1.3934, Val Accuracy: 56.76%
+2023-09-15 17:42:36,448 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:42:36,448 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:42:36,448 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:42:36,448 - Class 3 Recall: 0.12 True Positives: 8.0/66.0
+2023-09-15 17:42:36,448 - Class 4 Recall: 0.78 True Positives: 116.0/149.0
+2023-09-15 17:42:45,776 - Epoch [22/300], Train Loss: 0.0218, Val Loss: 1.3429, Val Accuracy: 57.58%
+2023-09-15 17:42:45,777 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:42:45,777 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:42:45,777 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:42:45,777 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:42:45,777 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:42:55,013 - Epoch [23/300], Train Loss: 0.0289, Val Loss: 1.3551, Val Accuracy: 55.94%
+2023-09-15 17:42:55,013 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:42:55,013 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:42:55,013 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:42:55,013 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:42:55,013 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:43:04,260 - Epoch [24/300], Train Loss: 0.0399, Val Loss: 1.3730, Val Accuracy: 58.20%
+2023-09-15 17:43:04,260 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:43:04,260 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:43:04,260 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:43:04,260 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:43:04,260 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:43:13,545 - Epoch [25/300], Train Loss: 0.0324, Val Loss: 1.3591, Val Accuracy: 57.79%
+2023-09-15 17:43:13,545 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:43:13,545 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:43:13,545 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:43:13,545 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:43:13,545 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:43:22,837 - Epoch [26/300], Train Loss: 0.0329, Val Loss: 1.3687, Val Accuracy: 56.76%
+2023-09-15 17:43:22,837 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:43:22,837 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:43:22,837 - Class 2 Recall: 0.58 True Positives: 63.0/109.0
+2023-09-15 17:43:22,838 - Class 3 Recall: 0.18 True Positives: 12.0/66.0
+2023-09-15 17:43:22,838 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:43:32,093 - Epoch [27/300], Train Loss: 0.0385, Val Loss: 1.3807, Val Accuracy: 56.97%
+2023-09-15 17:43:32,093 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:43:32,093 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:43:32,093 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:43:32,093 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:43:32,093 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:43:41,381 - Epoch [28/300], Train Loss: 0.0517, Val Loss: 1.3710, Val Accuracy: 57.79%
+2023-09-15 17:43:41,381 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:43:41,381 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:43:41,381 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:43:41,382 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:43:41,382 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:43:50,657 - Epoch [29/300], Train Loss: 0.0189, Val Loss: 1.3784, Val Accuracy: 57.17%
+2023-09-15 17:43:50,657 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:43:50,657 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:43:50,657 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:43:50,657 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:43:50,657 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:43:59,929 - Epoch [30/300], Train Loss: 0.0191, Val Loss: 1.3835, Val Accuracy: 57.79%
+2023-09-15 17:43:59,930 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:43:59,930 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:43:59,930 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:43:59,930 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:43:59,930 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:44:09,362 - Epoch [31/300], Train Loss: 0.0199, Val Loss: 1.4005, Val Accuracy: 57.58%
+2023-09-15 17:44:09,362 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:44:09,362 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:44:09,362 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:44:09,362 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:44:09,362 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:44:18,634 - Epoch [32/300], Train Loss: 0.0193, Val Loss: 1.3641, Val Accuracy: 56.97%
+2023-09-15 17:44:18,634 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:44:18,634 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:44:18,634 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:44:18,634 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:44:18,634 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:44:27,898 - Epoch [33/300], Train Loss: 0.0264, Val Loss: 1.3748, Val Accuracy: 56.76%
+2023-09-15 17:44:27,899 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:44:27,899 - Class 1 Recall: 0.39 True Positives: 30.0/76.0
+2023-09-15 17:44:27,899 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:44:27,899 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:44:27,899 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:44:37,174 - Epoch [34/300], Train Loss: 0.0325, Val Loss: 1.3712, Val Accuracy: 57.17%
+2023-09-15 17:44:37,174 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:44:37,174 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:44:37,174 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:44:37,174 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:44:37,174 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:44:46,435 - Epoch [35/300], Train Loss: 0.0133, Val Loss: 1.3886, Val Accuracy: 57.38%
+2023-09-15 17:44:46,435 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:44:46,435 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:44:46,435 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:44:46,435 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:44:46,435 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:44:55,778 - Epoch [36/300], Train Loss: 0.0166, Val Loss: 1.3959, Val Accuracy: 57.38%
+2023-09-15 17:44:55,779 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:44:55,779 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:44:55,779 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:44:55,779 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:44:55,779 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:45:05,034 - Epoch [37/300], Train Loss: 0.0191, Val Loss: 1.3632, Val Accuracy: 56.97%
+2023-09-15 17:45:05,034 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:45:05,034 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:45:05,034 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:45:05,034 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:45:05,034 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:45:14,336 - Epoch [38/300], Train Loss: 0.0192, Val Loss: 1.3676, Val Accuracy: 57.38%
+2023-09-15 17:45:14,337 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:45:14,337 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:45:14,337 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:45:14,337 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:45:14,337 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:45:23,795 - Epoch [39/300], Train Loss: 0.0179, Val Loss: 1.3713, Val Accuracy: 57.17%
+2023-09-15 17:45:23,795 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:45:23,795 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:45:23,796 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:45:23,796 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:45:23,796 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:45:33,130 - Epoch [40/300], Train Loss: 0.0168, Val Loss: 1.3846, Val Accuracy: 57.79%
+2023-09-15 17:45:33,130 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:45:33,130 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:45:33,131 - Class 2 Recall: 0.64 True Positives: 70.0/109.0
+2023-09-15 17:45:33,131 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:45:33,131 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:45:42,481 - Epoch [41/300], Train Loss: 0.0420, Val Loss: 1.3852, Val Accuracy: 56.35%
+2023-09-15 17:45:42,481 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:45:42,482 - Class 1 Recall: 0.39 True Positives: 30.0/76.0
+2023-09-15 17:45:42,482 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:45:42,482 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:45:42,482 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:45:52,053 - Epoch [42/300], Train Loss: 0.0130, Val Loss: 1.3740, Val Accuracy: 57.17%
+2023-09-15 17:45:52,054 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:45:52,054 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:45:52,054 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:45:52,054 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:45:52,054 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:46:01,369 - Epoch [43/300], Train Loss: 0.0320, Val Loss: 1.3798, Val Accuracy: 56.56%
+2023-09-15 17:46:01,369 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:46:01,369 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:46:01,369 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:46:01,369 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:01,369 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:46:10,788 - Epoch [44/300], Train Loss: 0.0309, Val Loss: 1.3907, Val Accuracy: 56.97%
+2023-09-15 17:46:10,788 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:46:10,788 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:46:10,788 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:46:10,788 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:10,788 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:46:20,315 - Epoch [45/300], Train Loss: 0.0187, Val Loss: 1.3805, Val Accuracy: 56.97%
+2023-09-15 17:46:20,315 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:46:20,315 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:46:20,315 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:46:20,316 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:20,316 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:46:29,798 - Epoch [46/300], Train Loss: 0.0275, Val Loss: 1.3712, Val Accuracy: 57.17%
+2023-09-15 17:46:29,798 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:46:29,798 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:46:29,798 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:46:29,798 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:29,798 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:46:39,062 - Epoch [47/300], Train Loss: 0.0197, Val Loss: 1.3735, Val Accuracy: 58.61%
+2023-09-15 17:46:39,063 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:46:39,063 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:46:39,063 - Class 2 Recall: 0.64 True Positives: 70.0/109.0
+2023-09-15 17:46:39,063 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:39,063 - Class 4 Recall: 0.77 True Positives: 115.0/149.0
+2023-09-15 17:46:48,326 - Epoch [48/300], Train Loss: 0.0191, Val Loss: 1.3971, Val Accuracy: 57.99%
+2023-09-15 17:46:48,327 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:46:48,327 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:46:48,327 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:46:48,327 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:48,327 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:46:57,606 - Epoch [49/300], Train Loss: 0.0139, Val Loss: 1.3808, Val Accuracy: 57.38%
+2023-09-15 17:46:57,606 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:46:57,606 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:46:57,607 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:46:57,607 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:46:57,607 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:47:07,013 - Epoch [50/300], Train Loss: 0.0237, Val Loss: 1.3979, Val Accuracy: 57.99%
+2023-09-15 17:47:07,013 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:47:07,013 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:47:07,014 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:47:07,014 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:47:07,014 - Class 4 Recall: 0.77 True Positives: 115.0/149.0
+2023-09-15 17:47:16,484 - Epoch [51/300], Train Loss: 0.0172, Val Loss: 1.3795, Val Accuracy: 57.79%
+2023-09-15 17:47:16,485 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:47:16,485 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:47:16,485 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:47:16,485 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:47:16,485 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:47:25,946 - Epoch [52/300], Train Loss: 0.0201, Val Loss: 1.3942, Val Accuracy: 57.38%
+2023-09-15 17:47:25,946 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:47:25,946 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:47:25,946 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:47:25,946 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:47:25,946 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:47:35,377 - Epoch [53/300], Train Loss: 0.0191, Val Loss: 1.4073, Val Accuracy: 57.17%
+2023-09-15 17:47:35,377 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:47:35,377 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:47:35,377 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:47:35,377 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:47:35,377 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:47:44,842 - Epoch [54/300], Train Loss: 0.0414, Val Loss: 1.3640, Val Accuracy: 56.76%
+2023-09-15 17:47:44,842 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:47:44,842 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:47:44,842 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:47:44,842 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:47:44,843 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:47:54,249 - Epoch [55/300], Train Loss: 0.0214, Val Loss: 1.3793, Val Accuracy: 57.58%
+2023-09-15 17:47:54,249 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:47:54,249 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:47:54,249 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:47:54,249 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:47:54,249 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:48:03,763 - Epoch [56/300], Train Loss: 0.0176, Val Loss: 1.3689, Val Accuracy: 57.17%
+2023-09-15 17:48:03,764 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:48:03,764 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:48:03,764 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:48:03,764 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:48:03,764 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:48:13,253 - Epoch [57/300], Train Loss: 0.0379, Val Loss: 1.3893, Val Accuracy: 57.79%
+2023-09-15 17:48:13,253 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:48:13,253 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:48:13,253 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:48:13,253 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:48:13,253 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:48:22,954 - Epoch [58/300], Train Loss: 0.0168, Val Loss: 1.3656, Val Accuracy: 56.97%
+2023-09-15 17:48:22,954 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:48:22,954 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:48:22,954 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:48:22,954 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:48:22,954 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:48:32,265 - Epoch [59/300], Train Loss: 0.0178, Val Loss: 1.3844, Val Accuracy: 56.97%
+2023-09-15 17:48:32,266 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:48:32,266 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:48:32,266 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:48:32,266 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:48:32,266 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:48:41,678 - Epoch [60/300], Train Loss: 0.0183, Val Loss: 1.3792, Val Accuracy: 56.56%
+2023-09-15 17:48:41,678 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:48:41,678 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:48:41,678 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:48:41,678 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:48:41,678 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:48:50,948 - Epoch [61/300], Train Loss: 0.0187, Val Loss: 1.3913, Val Accuracy: 56.76%
+2023-09-15 17:48:50,948 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:48:50,948 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:48:50,948 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:48:50,948 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:48:50,948 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:49:00,155 - Epoch [62/300], Train Loss: 0.0463, Val Loss: 1.3959, Val Accuracy: 57.79%
+2023-09-15 17:49:00,156 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:49:00,156 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:49:00,156 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:49:00,156 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:00,156 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:49:09,396 - Epoch [63/300], Train Loss: 0.0167, Val Loss: 1.3641, Val Accuracy: 57.58%
+2023-09-15 17:49:09,396 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:49:09,396 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:49:09,396 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:49:09,397 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:09,397 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:49:18,637 - Epoch [64/300], Train Loss: 0.0176, Val Loss: 1.3813, Val Accuracy: 57.38%
+2023-09-15 17:49:18,637 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:49:18,637 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:49:18,637 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:49:18,637 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:18,638 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:49:27,865 - Epoch [65/300], Train Loss: 0.0346, Val Loss: 1.4066, Val Accuracy: 58.40%
+2023-09-15 17:49:27,865 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:49:27,865 - Class 1 Recall: 0.51 True Positives: 39.0/76.0
+2023-09-15 17:49:27,865 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:49:27,865 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:27,865 - Class 4 Recall: 0.77 True Positives: 115.0/149.0
+2023-09-15 17:49:37,150 - Epoch [66/300], Train Loss: 0.0344, Val Loss: 1.3839, Val Accuracy: 57.17%
+2023-09-15 17:49:37,150 - Class 0 Recall: 0.62 True Positives: 55.0/88.0
+2023-09-15 17:49:37,150 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:49:37,150 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:49:37,150 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:37,150 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:49:46,374 - Epoch [67/300], Train Loss: 0.0428, Val Loss: 1.3864, Val Accuracy: 56.97%
+2023-09-15 17:49:46,375 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:49:46,375 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:49:46,375 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:49:46,375 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:46,375 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:49:55,653 - Epoch [68/300], Train Loss: 0.0170, Val Loss: 1.3781, Val Accuracy: 57.38%
+2023-09-15 17:49:55,653 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:49:55,653 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:49:55,654 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:49:55,654 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:49:55,654 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:50:04,881 - Epoch [69/300], Train Loss: 0.0221, Val Loss: 1.3848, Val Accuracy: 57.79%
+2023-09-15 17:50:04,881 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:50:04,881 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:50:04,881 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:50:04,881 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:50:04,881 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:50:14,109 - Epoch [70/300], Train Loss: 0.0151, Val Loss: 1.3905, Val Accuracy: 56.97%
+2023-09-15 17:50:14,109 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:50:14,109 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:50:14,109 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:50:14,109 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:50:14,109 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:50:23,359 - Epoch [71/300], Train Loss: 0.0152, Val Loss: 1.3679, Val Accuracy: 57.38%
+2023-09-15 17:50:23,359 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:50:23,359 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:50:23,359 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:50:23,359 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:50:23,359 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:50:32,627 - Epoch [72/300], Train Loss: 0.0193, Val Loss: 1.3741, Val Accuracy: 56.97%
+2023-09-15 17:50:32,627 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:50:32,627 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:50:32,627 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:50:32,627 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:50:32,627 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:50:41,850 - Epoch [73/300], Train Loss: 0.0169, Val Loss: 1.3596, Val Accuracy: 56.76%
+2023-09-15 17:50:41,850 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:50:41,850 - Class 1 Recall: 0.42 True Positives: 32.0/76.0
+2023-09-15 17:50:41,850 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:50:41,850 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:50:41,850 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:50:51,104 - Epoch [74/300], Train Loss: 0.0258, Val Loss: 1.3789, Val Accuracy: 57.38%
+2023-09-15 17:50:51,104 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:50:51,104 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:50:51,104 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:50:51,104 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:50:51,104 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:51:00,342 - Epoch [75/300], Train Loss: 0.0154, Val Loss: 1.3840, Val Accuracy: 57.17%
+2023-09-15 17:51:00,342 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:51:00,342 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:51:00,342 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:51:00,342 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:00,342 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:51:09,585 - Epoch [76/300], Train Loss: 0.0220, Val Loss: 1.3657, Val Accuracy: 56.56%
+2023-09-15 17:51:09,585 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:51:09,585 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:51:09,585 - Class 2 Recall: 0.58 True Positives: 63.0/109.0
+2023-09-15 17:51:09,585 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:09,585 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:51:19,198 - Epoch [77/300], Train Loss: 0.0149, Val Loss: 1.3691, Val Accuracy: 56.97%
+2023-09-15 17:51:19,198 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:51:19,198 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:51:19,198 - Class 2 Recall: 0.57 True Positives: 62.0/109.0
+2023-09-15 17:51:19,198 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:19,198 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:51:28,442 - Epoch [78/300], Train Loss: 0.0189, Val Loss: 1.3653, Val Accuracy: 57.58%
+2023-09-15 17:51:28,442 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:51:28,442 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:51:28,442 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:51:28,442 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:28,442 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:51:37,932 - Epoch [79/300], Train Loss: 0.0303, Val Loss: 1.3964, Val Accuracy: 57.99%
+2023-09-15 17:51:37,932 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:51:37,932 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:51:37,932 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:51:37,933 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:37,933 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:51:47,378 - Epoch [80/300], Train Loss: 0.0165, Val Loss: 1.3789, Val Accuracy: 57.58%
+2023-09-15 17:51:47,378 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:51:47,378 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:51:47,378 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:51:47,378 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:47,378 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:51:56,881 - Epoch [81/300], Train Loss: 0.0275, Val Loss: 1.3875, Val Accuracy: 57.38%
+2023-09-15 17:51:56,881 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:51:56,881 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:51:56,882 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:51:56,882 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:51:56,882 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:52:06,316 - Epoch [82/300], Train Loss: 0.0163, Val Loss: 1.3681, Val Accuracy: 56.76%
+2023-09-15 17:52:06,316 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:52:06,316 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:52:06,316 - Class 2 Recall: 0.58 True Positives: 63.0/109.0
+2023-09-15 17:52:06,316 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:52:06,317 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:52:15,741 - Epoch [83/300], Train Loss: 0.0207, Val Loss: 1.3627, Val Accuracy: 57.58%
+2023-09-15 17:52:15,741 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:52:15,741 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:52:15,741 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:52:15,741 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:52:15,741 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:52:25,085 - Epoch [84/300], Train Loss: 0.0189, Val Loss: 1.3946, Val Accuracy: 56.97%
+2023-09-15 17:52:25,085 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:52:25,085 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:52:25,085 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:52:25,085 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:52:25,085 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:52:34,292 - Epoch [85/300], Train Loss: 0.0324, Val Loss: 1.3736, Val Accuracy: 56.76%
+2023-09-15 17:52:34,292 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:52:34,292 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:52:34,292 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:52:34,292 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:52:34,293 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:52:43,537 - Epoch [86/300], Train Loss: 0.0179, Val Loss: 1.3851, Val Accuracy: 56.97%
+2023-09-15 17:52:43,538 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:52:43,538 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:52:43,538 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:52:43,538 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:52:43,538 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:52:52,810 - Epoch [87/300], Train Loss: 0.0421, Val Loss: 1.3831, Val Accuracy: 57.17%
+2023-09-15 17:52:52,810 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:52:52,810 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:52:52,810 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:52:52,810 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:52:52,810 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:53:02,020 - Epoch [88/300], Train Loss: 0.0191, Val Loss: 1.3844, Val Accuracy: 57.38%
+2023-09-15 17:53:02,020 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:53:02,020 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:53:02,020 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:53:02,020 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:02,020 - Class 4 Recall: 0.76 True Positives: 113.0/149.0
+2023-09-15 17:53:11,270 - Epoch [89/300], Train Loss: 0.0234, Val Loss: 1.3797, Val Accuracy: 57.58%
+2023-09-15 17:53:11,271 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:53:11,271 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:53:11,271 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:53:11,271 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:11,271 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:53:20,491 - Epoch [90/300], Train Loss: 0.0225, Val Loss: 1.3735, Val Accuracy: 57.38%
+2023-09-15 17:53:20,492 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:53:20,492 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:53:20,492 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:53:20,492 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:20,492 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:53:29,748 - Epoch [91/300], Train Loss: 0.0165, Val Loss: 1.3766, Val Accuracy: 55.94%
+2023-09-15 17:53:29,749 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:53:29,749 - Class 1 Recall: 0.38 True Positives: 29.0/76.0
+2023-09-15 17:53:29,749 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:53:29,749 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:29,749 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:53:39,015 - Epoch [92/300], Train Loss: 0.0182, Val Loss: 1.3907, Val Accuracy: 57.17%
+2023-09-15 17:53:39,015 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:53:39,015 - Class 1 Recall: 0.50 True Positives: 38.0/76.0
+2023-09-15 17:53:39,015 - Class 2 Recall: 0.59 True Positives: 64.0/109.0
+2023-09-15 17:53:39,015 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:39,015 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:53:48,233 - Epoch [93/300], Train Loss: 0.0240, Val Loss: 1.3794, Val Accuracy: 56.97%
+2023-09-15 17:53:48,233 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:53:48,233 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:53:48,233 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:53:48,233 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:48,233 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:53:57,498 - Epoch [94/300], Train Loss: 0.0166, Val Loss: 1.3771, Val Accuracy: 57.17%
+2023-09-15 17:53:57,498 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:53:57,498 - Class 1 Recall: 0.43 True Positives: 33.0/76.0
+2023-09-15 17:53:57,498 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:53:57,498 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:53:57,498 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:54:06,712 - Epoch [95/300], Train Loss: 0.0148, Val Loss: 1.3956, Val Accuracy: 57.38%
+2023-09-15 17:54:06,713 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:54:06,713 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:54:06,713 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:54:06,713 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:54:06,713 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:54:15,941 - Epoch [96/300], Train Loss: 0.0228, Val Loss: 1.4034, Val Accuracy: 57.99%
+2023-09-15 17:54:15,941 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:54:15,941 - Class 1 Recall: 0.46 True Positives: 35.0/76.0
+2023-09-15 17:54:15,941 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:54:15,941 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:54:15,941 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:54:25,211 - Epoch [97/300], Train Loss: 0.0136, Val Loss: 1.3719, Val Accuracy: 58.20%
+2023-09-15 17:54:25,211 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:54:25,212 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:54:25,212 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:54:25,212 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:54:25,212 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:54:34,435 - Epoch [98/300], Train Loss: 0.0173, Val Loss: 1.3893, Val Accuracy: 56.97%
+2023-09-15 17:54:34,435 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:54:34,435 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:54:34,435 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:54:34,435 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:54:34,435 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:54:43,757 - Epoch [99/300], Train Loss: 0.0230, Val Loss: 1.3804, Val Accuracy: 56.76%
+2023-09-15 17:54:43,757 - Class 0 Recall: 0.58 True Positives: 51.0/88.0
+2023-09-15 17:54:43,757 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:54:43,757 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:54:43,757 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:54:43,758 - Class 4 Recall: 0.75 True Positives: 112.0/149.0
+2023-09-15 17:54:53,225 - Epoch [100/300], Train Loss: 0.0257, Val Loss: 1.3660, Val Accuracy: 56.97%
+2023-09-15 17:54:53,225 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:54:53,225 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:54:53,225 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:54:53,225 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:54:53,225 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:02,605 - Epoch [101/300], Train Loss: 0.0355, Val Loss: 1.3726, Val Accuracy: 57.38%
+2023-09-15 17:55:02,606 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:55:02,606 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:55:02,606 - Class 2 Recall: 0.60 True Positives: 65.0/109.0
+2023-09-15 17:55:02,606 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:02,606 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:11,852 - Epoch [102/300], Train Loss: 0.0155, Val Loss: 1.3735, Val Accuracy: 58.20%
+2023-09-15 17:55:11,853 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:55:11,853 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:55:11,853 - Class 2 Recall: 0.63 True Positives: 69.0/109.0
+2023-09-15 17:55:11,853 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:11,853 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:21,077 - Epoch [103/300], Train Loss: 0.0147, Val Loss: 1.3814, Val Accuracy: 58.20%
+2023-09-15 17:55:21,077 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:55:21,077 - Class 1 Recall: 0.49 True Positives: 37.0/76.0
+2023-09-15 17:55:21,077 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:55:21,077 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:21,077 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:30,294 - Epoch [104/300], Train Loss: 0.0175, Val Loss: 1.3686, Val Accuracy: 57.58%
+2023-09-15 17:55:30,295 - Class 0 Recall: 0.59 True Positives: 52.0/88.0
+2023-09-15 17:55:30,295 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:55:30,295 - Class 2 Recall: 0.62 True Positives: 68.0/109.0
+2023-09-15 17:55:30,295 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:30,295 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:39,545 - Epoch [105/300], Train Loss: 0.0171, Val Loss: 1.3748, Val Accuracy: 56.76%
+2023-09-15 17:55:39,545 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:55:39,545 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:55:39,545 - Class 2 Recall: 0.57 True Positives: 62.0/109.0
+2023-09-15 17:55:39,545 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:39,545 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:48,821 - Epoch [106/300], Train Loss: 0.0278, Val Loss: 1.3892, Val Accuracy: 57.17%
+2023-09-15 17:55:48,821 - Class 0 Recall: 0.61 True Positives: 54.0/88.0
+2023-09-15 17:55:48,821 - Class 1 Recall: 0.45 True Positives: 34.0/76.0
+2023-09-15 17:55:48,821 - Class 2 Recall: 0.61 True Positives: 66.0/109.0
+2023-09-15 17:55:48,821 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:48,821 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:55:58,040 - Epoch [107/300], Train Loss: 0.0166, Val Loss: 1.3652, Val Accuracy: 57.58%
+2023-09-15 17:55:58,041 - Class 0 Recall: 0.60 True Positives: 53.0/88.0
+2023-09-15 17:55:58,041 - Class 1 Recall: 0.47 True Positives: 36.0/76.0
+2023-09-15 17:55:58,041 - Class 2 Recall: 0.61 True Positives: 67.0/109.0
+2023-09-15 17:55:58,041 - Class 3 Recall: 0.17 True Positives: 11.0/66.0
+2023-09-15 17:55:58,041 - Class 4 Recall: 0.77 True Positives: 114.0/149.0
+2023-09-15 17:56:07,323 - Validation loss hasn't improved for 100 epochs. Stopping training.
+2023-09-15 17:56:08,132 - Finished Training. Model Saved
+2023-09-15 17:56:10,379 - Accuracy on test data: 60.25% (294/488)
+2023-09-15 17:56:10,379 - We got 294 correct!

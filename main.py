@@ -9,13 +9,17 @@ from PIL import Image
 from torch.utils.data import Dataset, SubsetRandomSampler, DataLoader
 from torch.optim.lr_scheduler import ReduceLROnPlateau, OneCycleLR
 import matplotlib.pyplot as plt
+from sklearn.utils.class_weight import compute_class_weight
 # import sys
 import logging
+import numpy as np
 
 # Local imports
 from models import *
 from stratified_sampling import split_indices
 from embryo_dataset import EmbryoDataset
+
+# # Global Variables (can be moved to a configuration file or passed as arguments later)
 
 
 # Hyperparameters
@@ -32,36 +36,54 @@ losses = []
 # Set up logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(message)s',
-                    handlers=[logging.FileHandler("training_log_ModifiedResnet50_1409_3.txt"),
+                    handlers=[logging.FileHandler("training_log_Resnet50_1509.txt"),
                               logging.StreamHandler()])  # StreamHandler is for console
 logger = logging.getLogger()
 
 #Assuming these are required transforms
-transform = transforms.Compose([
-    transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),
-    transforms.RandomHorizontalFlip(),
-    transforms.RandomRotation(degrees=15),
-    transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15, hue=0.1),
+# transform = transforms.Compose([
+#     transforms.Resize((224,224)),
+#     transforms.ToTensor(),
+# ])
+train_transform = transforms.Compose([
+    # transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),
+    # transforms.RandomHorizontalFlip(),
+    # transforms.RandomRotation(degrees=15),
+    # transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15, hue=0.1),
     transforms.ToTensor(),
+    transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 ])
 
-full_dataset = EmbryoDataset(txt_path="ed4_as_target.txt", transform=transform)
-train_indices, val_indices, test_indices = split_indices(len(full_dataset), train_pct=0.6, val_pct=0.2, seed=42, stratify=full_dataset.label_list)
+val_transform = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+    ])
+
+full_dataset = EmbryoDataset(txt_path="ed4_as_target.txt")
+train_indices, val_indices, test_indices = split_indices(len(full_dataset), train_pct=0.6, val_pct=0.2, seed=88, stratify=full_dataset.label_list)
 logger.info(f"{len(train_indices)}, {len(val_indices)}, {len(test_indices)}")
+
+train_dataset = EmbryoDataset(txt_path="ed4_as_target.txt", transform=train_transform)
+val_dataset = EmbryoDataset(txt_path="ed4_as_target.txt", transform=val_transform)
+test_dataset = EmbryoDataset(txt_path="ed4_as_target.txt", transform=val_transform)
 
 train_sampler = SubsetRandomSampler(train_indices)
 val_sampler = SubsetRandomSampler(val_indices)
 test_sampler = SubsetRandomSampler(test_indices)
 
-train_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=train_sampler)
-val_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=val_sampler)
-test_loader = DataLoader(dataset=full_dataset, batch_size=batch_size, sampler=test_sampler)
+train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, sampler=train_sampler)
+val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, sampler=val_sampler)
+test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, sampler=test_sampler)
 
 
 
 # Initialize Model and Optimizer
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = ResNet50Classifier(num_classes=5).to(device)
+
+
+
+# model.load_state_dict(torch.load('best_model_checkpoint_resnet18_UNTR_finetuned.pth')) # Extend number of epochs
 
 # # Freeze all layers
 # for param in model.resnet50.parameters():
@@ -71,7 +93,16 @@ model = ResNet50Classifier(num_classes=5).to(device)
 # for param in model.resnet50.fc.parameters():
 #     param.requires_grad = True
 
-criterion = nn.CrossEntropyLoss()
+labels = [int(label) for label in full_dataset.label_list]
+class_counts = np.bincount(labels)
+# total_samples = len(labels)
+# class_weights = total_samples / (len(class_counts) * class_counts)
+# class_weights = torch.FloatTensor(class_weights).to(device)
+class_weights = compute_class_weight('balanced', classes=np.unique(labels), y=labels)
+class_weights = torch.FloatTensor(class_weights).to(device)
+
+
+criterion = nn.CrossEntropyLoss(weight=class_weights)
 optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)
 scheduler = ReduceLROnPlateau(optimizer, 'min')  # 'min' indicates reducing LR when a quantity (val loss in our case) stops decreasing
 # scheduler = OneCycleLR(optimizer, max_lr=learning_rate, epochs=num_epochs, steps_per_epoch=len(train_loader))
@@ -81,8 +112,9 @@ true_positives = torch.zeros(num_classes)
 valloss =[]
 val_acc = []
 
+
 # Early Stopping
-patience = 50  # Number of epochs to wait for improvement before stopping
+patience = 100  # Number of epochs to wait for improvement before stopping
 best_valid_loss = float('inf')
 best_valid_epoch = 0
 
@@ -93,6 +125,11 @@ fine_tuning_started = False # Flag to indicate if fine-tuning has started
 
 # Training Loop
 for epoch in range(num_epochs):
+    # Check if we should start fine-tuning
+    # if epoch == NUM_EPOCHS_BEFORE_FINE_TUNING:
+    #     for param in model.resnet18.parameters():
+    #         param.requires_grad = True
+    #     optimizer = optim.Adam(model.parameters(), lr=lower_lr, weight_decay=1e-4)
     model.train()
     tr_loss = 0
     for images, labels in train_loader:
@@ -101,7 +138,10 @@ for epoch in range(num_epochs):
 
         # Forward pass
         outputs = model(images)
+        # print('OUTPUTS : ', outputs.size())
+        # print('LABELS : ', labels.size(), labels)
         loss = criterion(outputs, labels)
+        # losses.append(loss.detach().cpu().numpy())
         tr_loss += loss.item()
 
         # Backward pass and optimization
@@ -127,9 +167,11 @@ for epoch in range(num_epochs):
             correct += predicted.eq(labels).sum().item()
 
             for i in range(num_classes):
+                # true_positives[i] += (predicted == labels).logical_and(predicted == i).sum().item()
                 true_positives[i] += ((predicted == labels) & (predicted == i)).sum().item()
                 total_per_class[i] += (labels == i).sum().item()
 
+    # accuracy = 100. * correct / len(val_loader.dataset)
     val_loss /= len(val_loader)
     accuracy = 100. * correct / len(val_indices)
 
@@ -162,7 +204,7 @@ for epoch in range(num_epochs):
         best_valid_loss = val_loss
         best_valid_epoch = epoch
         # Save the model checkpoint whenever validation loss improves
-        torch.save(model.state_dict(), 'model_ModifiedResnet50_1409_3.pth')
+        torch.save(model.state_dict(), 'model_Resnet50_1509.pth')
     if epoch - best_valid_epoch >= patience:
         logger.info(f"Validation loss hasn't improved for {patience} epochs. Stopping training.")
         break
@@ -172,34 +214,39 @@ for epoch in range(num_epochs):
         logger.info(f"Class {i} Recall: {true_positives[i] / total_per_class[i]:.2f} True Positives: {true_positives[i]}/{total_per_class[i]}")
 
 # Save model
-torch.save(model.state_dict(), f'model_ModifiedResnet50_1409_3.pth')
+torch.save(model.state_dict(), f'model_Resnet50_1509.pth')
 logger.info('Finished Training. Model Saved')
 # Graph it out!
+plt.figure(figsize=(12, 6))
+plt.subplot(1, 2, 1)
 plt.plot(losses)
 plt.ylabel("Training Loss")
 plt.xlabel('Epoch')
 plt.title("Training Loss over Epochs")
-plt.savefig("training_loss_plot_ModifiedResnet50_1409_3.png", dpi=300)
-plt.clf()
 
+
+
+plt.subplot(1, 2, 2)
 plt.plot(valloss)
 plt.ylabel("Validation Loss")
 plt.xlabel('Epoch')
 plt.title("Validation Loss over Epochs")
-plt.savefig("val_loss_plot_ModifiedResnet50_1409_3.png", dpi=300)
+plt.tight_layout() 
+plt.savefig("Losses_plot_Resnet50_1509.png", dpi=300)
 plt.clf()
+
 
 plt.plot(val_acc)
 plt.ylabel("Validation Accuracy")
 plt.xlabel('Epoch')
 plt.title("Validation Accuracy over Epochs")
-plt.savefig("val_accuracy_plot_ModifiedResnet50_1409_3.png", dpi=300)
+plt.savefig("val_accuracy_plot_Resnet50_1509.png", dpi=300)
 
 
 
 #INFERENCE
 
-def infer_and_write_results(model, dataloader, indices, dataset, device, csv_filename='results_ModifiedResnet50_1409_3.csv'):
+def infer_and_write_results(model, dataloader, indices, dataset, device, csv_filename='results_Resnet50_1509.csv'):
     """
     Use the trained model to make predictions on the dataloader and save results in a CSV.
     """
@@ -235,12 +282,11 @@ def infer_and_write_results(model, dataloader, indices, dataset, device, csv_fil
 
 
 # Load trained model
-model_path = "model_ModifiedResnet50_1409_3.pth"
+model_path = "model_Resnet50_1509.pth"
 # model = Classifier().to(device)
 model = ResNet50Classifier(num_classes=5).to(device)
 # model = GoogLeNetClassifier(num_classes=5).to(device)
 model.load_state_dict(torch.load(model_path))
 
 # Call the function
-infer_and_write_results(model, test_loader, test_indices, full_dataset, device, 'results_ModifiedResnet50_1409_3.csv')
-# log_file.close()
+infer_and_write_results(model, test_loader, test_indices, full_dataset, device, 'results_Resnet50_1509.csv')
