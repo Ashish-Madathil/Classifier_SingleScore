@@ -1,5 +1,7 @@
 import timm
+import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import torchvision.models as models
 
 class ResNet18Classifier(nn.Module):
@@ -75,3 +77,42 @@ class ResNet50Classifier(nn.Module):
         out = self.classifier(x)
         
         return out       
+    
+class MobileNetV2Classifier(nn.Module):
+    def __init__(self, num_classes):
+        super(MobileNetV2Classifier, self).__init__()
+        self.mobilenetv2 = models.mobilenet_v2(pretrained=True)
+        num_ftrs = self.mobilenetv2.classifier[1].in_features
+        self.mobilenetv2.classifier[1] = nn.Linear(num_ftrs, num_classes)
+
+    def forward(self, x):
+        return self.mobilenetv2(x)
+    
+class SingleLabelMultiClassModel(nn.Module):
+    def __init__(self, num_classes):
+        super().__init__()
+        self.base_model = models.mobilenet_v2(pretrained=True).features  # take the model without classifier
+        last_channel = models.mobilenet_v2().last_channel  # size of the layer before classifier
+        self.pool = nn.AdaptiveAvgPool2d((1, 1))
+
+        # create separate classifiers for our outputs
+        self.out = nn.Sequential(
+            nn.Dropout(0.2),
+            nn.Linear(in_features=last_channel, out_features=num_classes)
+        )
+       
+
+    def forward(self, x):
+        x = self.base_model(x)
+        x = self.pool(x)
+
+        # reshape from [batch, channels, 1, 1] to [batch, channels] to put it into classifier
+        x = torch.flatten(x, 1)
+
+        return self.out(x)
+        
+
+    # def get_loss(self, net_output, ground_truth):
+    #     EXP_loss = F.cross_entropy(net_output['EXP'], ground_truth['EXP_labels'])
+    #     loss = EXP_loss
+    #     return loss, {'EXP': EXP_loss}
