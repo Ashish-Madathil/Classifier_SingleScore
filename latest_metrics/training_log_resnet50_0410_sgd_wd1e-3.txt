@@ -1,0 +1,2553 @@
+2023-10-04 16:28:11,447 - 1464, 488, 488
+2023-10-04 16:28:23,431 - Epoch [1/300], Train Loss: 1.6239, Val Loss: 1.6233, Val Accuracy: 32.58%
+2023-10-04 16:28:23,431 - Class 0 Recall: 0.00 True Positives: 0.0/105.0
+2023-10-04 16:28:23,431 - Class 0 False Positive Rate: 0.00
+2023-10-04 16:28:23,431 - Class 0 False Negative Rate: 1.00
+2023-10-04 16:28:23,432 - Class 1 Recall: 0.38 True Positives: 26.0/69.0
+2023-10-04 16:28:23,432 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:28:23,432 - Class 1 False Negative Rate: 0.62
+2023-10-04 16:28:23,432 - Class 2 Recall: 0.41 True Positives: 36.0/87.0
+2023-10-04 16:28:23,432 - Class 2 False Positive Rate: 0.69
+2023-10-04 16:28:23,432 - Class 2 False Negative Rate: 0.59
+2023-10-04 16:28:23,432 - Class 3 Recall: 0.01 True Positives: 1.0/74.0
+2023-10-04 16:28:23,432 - Class 3 False Positive Rate: 0.08
+2023-10-04 16:28:23,432 - Class 3 False Negative Rate: 0.99
+2023-10-04 16:28:23,432 - Class 4 Recall: 0.63 True Positives: 96.0/153.0
+2023-10-04 16:28:23,432 - Class 4 False Positive Rate: 0.69
+2023-10-04 16:28:23,432 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:28:34,741 - Epoch [2/300], Train Loss: 1.6189, Val Loss: 1.5946, Val Accuracy: 36.27%
+2023-10-04 16:28:34,742 - Class 0 Recall: 0.02 True Positives: 2.0/105.0
+2023-10-04 16:28:34,742 - Class 0 False Positive Rate: 0.00
+2023-10-04 16:28:34,742 - Class 0 False Negative Rate: 0.98
+2023-10-04 16:28:34,743 - Class 1 Recall: 0.64 True Positives: 44.0/69.0
+2023-10-04 16:28:34,743 - Class 1 False Positive Rate: 0.86
+2023-10-04 16:28:34,743 - Class 1 False Negative Rate: 0.36
+2023-10-04 16:28:34,743 - Class 2 Recall: 0.49 True Positives: 43.0/87.0
+2023-10-04 16:28:34,743 - Class 2 False Positive Rate: 0.67
+2023-10-04 16:28:34,743 - Class 2 False Negative Rate: 0.51
+2023-10-04 16:28:34,743 - Class 3 Recall: 0.00 True Positives: 0.0/74.0
+2023-10-04 16:28:34,743 - Class 3 False Positive Rate: 0.06
+2023-10-04 16:28:34,743 - Class 3 False Negative Rate: 1.00
+2023-10-04 16:28:34,744 - Class 4 Recall: 0.58 True Positives: 88.0/153.0
+2023-10-04 16:28:34,744 - Class 4 False Positive Rate: 0.50
+2023-10-04 16:28:34,744 - Class 4 False Negative Rate: 0.42
+2023-10-04 16:28:46,030 - Epoch [3/300], Train Loss: 1.6032, Val Loss: 1.5640, Val Accuracy: 34.63%
+2023-10-04 16:28:46,031 - Class 0 Recall: 0.01 True Positives: 1.0/105.0
+2023-10-04 16:28:46,031 - Class 0 False Positive Rate: 0.04
+2023-10-04 16:28:46,031 - Class 0 False Negative Rate: 0.99
+2023-10-04 16:28:46,031 - Class 1 Recall: 0.93 True Positives: 64.0/69.0
+2023-10-04 16:28:46,031 - Class 1 False Positive Rate: 0.98
+2023-10-04 16:28:46,031 - Class 1 False Negative Rate: 0.07
+2023-10-04 16:28:46,031 - Class 2 Recall: 0.28 True Positives: 24.0/87.0
+2023-10-04 16:28:46,031 - Class 2 False Positive Rate: 0.50
+2023-10-04 16:28:46,031 - Class 2 False Negative Rate: 0.72
+2023-10-04 16:28:46,032 - Class 3 Recall: 0.09 True Positives: 7.0/74.0
+2023-10-04 16:28:46,032 - Class 3 False Positive Rate: 0.17
+2023-10-04 16:28:46,032 - Class 3 False Negative Rate: 0.91
+2023-10-04 16:28:46,032 - Class 4 Recall: 0.48 True Positives: 73.0/153.0
+2023-10-04 16:28:46,032 - Class 4 False Positive Rate: 0.22
+2023-10-04 16:28:46,032 - Class 4 False Negative Rate: 0.52
+2023-10-04 16:28:57,367 - Epoch [4/300], Train Loss: 1.5311, Val Loss: 1.5309, Val Accuracy: 37.70%
+2023-10-04 16:28:57,368 - Class 0 Recall: 0.02 True Positives: 2.0/105.0
+2023-10-04 16:28:57,368 - Class 0 False Positive Rate: 0.04
+2023-10-04 16:28:57,368 - Class 0 False Negative Rate: 0.98
+2023-10-04 16:28:57,369 - Class 1 Recall: 0.90 True Positives: 62.0/69.0
+2023-10-04 16:28:57,369 - Class 1 False Positive Rate: 0.97
+2023-10-04 16:28:57,369 - Class 1 False Negative Rate: 0.10
+2023-10-04 16:28:57,369 - Class 2 Recall: 0.25 True Positives: 22.0/87.0
+2023-10-04 16:28:57,369 - Class 2 False Positive Rate: 0.38
+2023-10-04 16:28:57,369 - Class 2 False Negative Rate: 0.75
+2023-10-04 16:28:57,369 - Class 3 Recall: 0.08 True Positives: 6.0/74.0
+2023-10-04 16:28:57,370 - Class 3 False Positive Rate: 0.17
+2023-10-04 16:28:57,370 - Class 3 False Negative Rate: 0.92
+2023-10-04 16:28:57,370 - Class 4 Recall: 0.60 True Positives: 92.0/153.0
+2023-10-04 16:28:57,371 - Class 4 False Positive Rate: 0.34
+2023-10-04 16:28:57,371 - Class 4 False Negative Rate: 0.40
+2023-10-04 16:29:08,658 - Epoch [5/300], Train Loss: 1.4629, Val Loss: 1.4967, Val Accuracy: 39.55%
+2023-10-04 16:29:08,659 - Class 0 Recall: 0.03 True Positives: 3.0/105.0
+2023-10-04 16:29:08,659 - Class 0 False Positive Rate: 0.05
+2023-10-04 16:29:08,659 - Class 0 False Negative Rate: 0.97
+2023-10-04 16:29:08,660 - Class 1 Recall: 0.88 True Positives: 61.0/69.0
+2023-10-04 16:29:08,660 - Class 1 False Positive Rate: 0.96
+2023-10-04 16:29:08,660 - Class 1 False Negative Rate: 0.12
+2023-10-04 16:29:08,660 - Class 2 Recall: 0.24 True Positives: 21.0/87.0
+2023-10-04 16:29:08,660 - Class 2 False Positive Rate: 0.34
+2023-10-04 16:29:08,660 - Class 2 False Negative Rate: 0.76
+2023-10-04 16:29:08,661 - Class 3 Recall: 0.11 True Positives: 8.0/74.0
+2023-10-04 16:29:08,661 - Class 3 False Positive Rate: 0.28
+2023-10-04 16:29:08,661 - Class 3 False Negative Rate: 0.89
+2023-10-04 16:29:08,661 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:29:08,661 - Class 4 False Positive Rate: 0.46
+2023-10-04 16:29:08,661 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:29:20,030 - Epoch [6/300], Train Loss: 1.4817, Val Loss: 1.4577, Val Accuracy: 45.08%
+2023-10-04 16:29:20,030 - Class 0 Recall: 0.17 True Positives: 18.0/105.0
+2023-10-04 16:29:20,030 - Class 0 False Positive Rate: 0.10
+2023-10-04 16:29:20,030 - Class 0 False Negative Rate: 0.83
+2023-10-04 16:29:20,030 - Class 1 Recall: 0.84 True Positives: 58.0/69.0
+2023-10-04 16:29:20,030 - Class 1 False Positive Rate: 0.93
+2023-10-04 16:29:20,030 - Class 1 False Negative Rate: 0.16
+2023-10-04 16:29:20,031 - Class 2 Recall: 0.29 True Positives: 25.0/87.0
+2023-10-04 16:29:20,031 - Class 2 False Positive Rate: 0.37
+2023-10-04 16:29:20,031 - Class 2 False Negative Rate: 0.71
+2023-10-04 16:29:20,031 - Class 3 Recall: 0.14 True Positives: 10.0/74.0
+2023-10-04 16:29:20,031 - Class 3 False Positive Rate: 0.28
+2023-10-04 16:29:20,031 - Class 3 False Negative Rate: 0.86
+2023-10-04 16:29:20,031 - Class 4 Recall: 0.71 True Positives: 109.0/153.0
+2023-10-04 16:29:20,031 - Class 4 False Positive Rate: 0.48
+2023-10-04 16:29:20,031 - Class 4 False Negative Rate: 0.29
+2023-10-04 16:29:31,360 - Epoch [7/300], Train Loss: 1.4523, Val Loss: 1.4241, Val Accuracy: 47.34%
+2023-10-04 16:29:31,360 - Class 0 Recall: 0.20 True Positives: 21.0/105.0
+2023-10-04 16:29:31,361 - Class 0 False Positive Rate: 0.12
+2023-10-04 16:29:31,361 - Class 0 False Negative Rate: 0.80
+2023-10-04 16:29:31,361 - Class 1 Recall: 0.80 True Positives: 55.0/69.0
+2023-10-04 16:29:31,361 - Class 1 False Positive Rate: 0.91
+2023-10-04 16:29:31,361 - Class 1 False Negative Rate: 0.20
+2023-10-04 16:29:31,361 - Class 2 Recall: 0.33 True Positives: 29.0/87.0
+2023-10-04 16:29:31,361 - Class 2 False Positive Rate: 0.42
+2023-10-04 16:29:31,361 - Class 2 False Negative Rate: 0.67
+2023-10-04 16:29:31,362 - Class 3 Recall: 0.16 True Positives: 12.0/74.0
+2023-10-04 16:29:31,362 - Class 3 False Positive Rate: 0.24
+2023-10-04 16:29:31,362 - Class 3 False Negative Rate: 0.84
+2023-10-04 16:29:31,362 - Class 4 Recall: 0.75 True Positives: 114.0/153.0
+2023-10-04 16:29:31,362 - Class 4 False Positive Rate: 0.55
+2023-10-04 16:29:31,362 - Class 4 False Negative Rate: 0.25
+2023-10-04 16:29:42,759 - Epoch [8/300], Train Loss: 1.4397, Val Loss: 1.3966, Val Accuracy: 45.90%
+2023-10-04 16:29:42,760 - Class 0 Recall: 0.15 True Positives: 16.0/105.0
+2023-10-04 16:29:42,760 - Class 0 False Positive Rate: 0.09
+2023-10-04 16:29:42,760 - Class 0 False Negative Rate: 0.85
+2023-10-04 16:29:42,761 - Class 1 Recall: 0.81 True Positives: 56.0/69.0
+2023-10-04 16:29:42,761 - Class 1 False Positive Rate: 0.92
+2023-10-04 16:29:42,761 - Class 1 False Negative Rate: 0.19
+2023-10-04 16:29:42,761 - Class 2 Recall: 0.33 True Positives: 29.0/87.0
+2023-10-04 16:29:42,761 - Class 2 False Positive Rate: 0.41
+2023-10-04 16:29:42,761 - Class 2 False Negative Rate: 0.67
+2023-10-04 16:29:42,762 - Class 3 Recall: 0.22 True Positives: 16.0/74.0
+2023-10-04 16:29:42,762 - Class 3 False Positive Rate: 0.31
+2023-10-04 16:29:42,762 - Class 3 False Negative Rate: 0.78
+2023-10-04 16:29:42,762 - Class 4 Recall: 0.70 True Positives: 107.0/153.0
+2023-10-04 16:29:42,762 - Class 4 False Positive Rate: 0.43
+2023-10-04 16:29:42,762 - Class 4 False Negative Rate: 0.30
+2023-10-04 16:29:54,076 - Epoch [9/300], Train Loss: 1.3698, Val Loss: 1.3619, Val Accuracy: 45.90%
+2023-10-04 16:29:54,076 - Class 0 Recall: 0.21 True Positives: 22.0/105.0
+2023-10-04 16:29:54,076 - Class 0 False Positive Rate: 0.10
+2023-10-04 16:29:54,076 - Class 0 False Negative Rate: 0.79
+2023-10-04 16:29:54,076 - Class 1 Recall: 0.87 True Positives: 60.0/69.0
+2023-10-04 16:29:54,076 - Class 1 False Positive Rate: 0.95
+2023-10-04 16:29:54,076 - Class 1 False Negative Rate: 0.13
+2023-10-04 16:29:54,076 - Class 2 Recall: 0.17 True Positives: 15.0/87.0
+2023-10-04 16:29:54,076 - Class 2 False Positive Rate: 0.18
+2023-10-04 16:29:54,076 - Class 2 False Negative Rate: 0.83
+2023-10-04 16:29:54,076 - Class 3 Recall: 0.24 True Positives: 18.0/74.0
+2023-10-04 16:29:54,076 - Class 3 False Positive Rate: 0.39
+2023-10-04 16:29:54,076 - Class 3 False Negative Rate: 0.76
+2023-10-04 16:29:54,076 - Class 4 Recall: 0.71 True Positives: 109.0/153.0
+2023-10-04 16:29:54,076 - Class 4 False Positive Rate: 0.51
+2023-10-04 16:29:54,076 - Class 4 False Negative Rate: 0.29
+2023-10-04 16:30:05,398 - Epoch [10/300], Train Loss: 1.3219, Val Loss: 1.3296, Val Accuracy: 47.75%
+2023-10-04 16:30:05,399 - Class 0 Recall: 0.18 True Positives: 19.0/105.0
+2023-10-04 16:30:05,399 - Class 0 False Positive Rate: 0.07
+2023-10-04 16:30:05,399 - Class 0 False Negative Rate: 0.82
+2023-10-04 16:30:05,400 - Class 1 Recall: 0.90 True Positives: 62.0/69.0
+2023-10-04 16:30:05,400 - Class 1 False Positive Rate: 0.95
+2023-10-04 16:30:05,400 - Class 1 False Negative Rate: 0.10
+2023-10-04 16:30:05,400 - Class 2 Recall: 0.23 True Positives: 20.0/87.0
+2023-10-04 16:30:05,400 - Class 2 False Positive Rate: 0.28
+2023-10-04 16:30:05,400 - Class 2 False Negative Rate: 0.77
+2023-10-04 16:30:05,400 - Class 3 Recall: 0.24 True Positives: 18.0/74.0
+2023-10-04 16:30:05,400 - Class 3 False Positive Rate: 0.40
+2023-10-04 16:30:05,400 - Class 3 False Negative Rate: 0.76
+2023-10-04 16:30:05,401 - Class 4 Recall: 0.75 True Positives: 114.0/153.0
+2023-10-04 16:30:05,401 - Class 4 False Positive Rate: 0.54
+2023-10-04 16:30:05,401 - Class 4 False Negative Rate: 0.25
+2023-10-04 16:30:16,818 - Epoch [11/300], Train Loss: 1.3476, Val Loss: 1.2949, Val Accuracy: 51.02%
+2023-10-04 16:30:16,818 - Class 0 Recall: 0.24 True Positives: 25.0/105.0
+2023-10-04 16:30:16,818 - Class 0 False Positive Rate: 0.10
+2023-10-04 16:30:16,818 - Class 0 False Negative Rate: 0.76
+2023-10-04 16:30:16,819 - Class 1 Recall: 0.87 True Positives: 60.0/69.0
+2023-10-04 16:30:16,819 - Class 1 False Positive Rate: 0.93
+2023-10-04 16:30:16,819 - Class 1 False Negative Rate: 0.13
+2023-10-04 16:30:16,819 - Class 2 Recall: 0.34 True Positives: 30.0/87.0
+2023-10-04 16:30:16,819 - Class 2 False Positive Rate: 0.34
+2023-10-04 16:30:16,819 - Class 2 False Negative Rate: 0.66
+2023-10-04 16:30:16,819 - Class 3 Recall: 0.22 True Positives: 16.0/74.0
+2023-10-04 16:30:16,819 - Class 3 False Positive Rate: 0.32
+2023-10-04 16:30:16,819 - Class 3 False Negative Rate: 0.78
+2023-10-04 16:30:16,820 - Class 4 Recall: 0.77 True Positives: 118.0/153.0
+2023-10-04 16:30:16,820 - Class 4 False Positive Rate: 0.59
+2023-10-04 16:30:16,820 - Class 4 False Negative Rate: 0.23
+2023-10-04 16:30:28,100 - Epoch [12/300], Train Loss: 1.3132, Val Loss: 1.2570, Val Accuracy: 51.23%
+2023-10-04 16:30:28,101 - Class 0 Recall: 0.30 True Positives: 32.0/105.0
+2023-10-04 16:30:28,101 - Class 0 False Positive Rate: 0.08
+2023-10-04 16:30:28,101 - Class 0 False Negative Rate: 0.70
+2023-10-04 16:30:28,101 - Class 1 Recall: 0.83 True Positives: 57.0/69.0
+2023-10-04 16:30:28,102 - Class 1 False Positive Rate: 0.90
+2023-10-04 16:30:28,102 - Class 1 False Negative Rate: 0.17
+2023-10-04 16:30:28,102 - Class 2 Recall: 0.30 True Positives: 26.0/87.0
+2023-10-04 16:30:28,102 - Class 2 False Positive Rate: 0.33
+2023-10-04 16:30:28,102 - Class 2 False Negative Rate: 0.70
+2023-10-04 16:30:28,102 - Class 3 Recall: 0.24 True Positives: 18.0/74.0
+2023-10-04 16:30:28,102 - Class 3 False Positive Rate: 0.40
+2023-10-04 16:30:28,102 - Class 3 False Negative Rate: 0.76
+2023-10-04 16:30:28,103 - Class 4 Recall: 0.76 True Positives: 117.0/153.0
+2023-10-04 16:30:28,103 - Class 4 False Positive Rate: 0.58
+2023-10-04 16:30:28,103 - Class 4 False Negative Rate: 0.24
+2023-10-04 16:30:39,324 - Epoch [13/300], Train Loss: 1.2657, Val Loss: 1.2481, Val Accuracy: 51.64%
+2023-10-04 16:30:39,325 - Class 0 Recall: 0.35 True Positives: 37.0/105.0
+2023-10-04 16:30:39,325 - Class 0 False Positive Rate: 0.17
+2023-10-04 16:30:39,325 - Class 0 False Negative Rate: 0.65
+2023-10-04 16:30:39,325 - Class 1 Recall: 0.87 True Positives: 60.0/69.0
+2023-10-04 16:30:39,325 - Class 1 False Positive Rate: 0.93
+2023-10-04 16:30:39,325 - Class 1 False Negative Rate: 0.13
+2023-10-04 16:30:39,326 - Class 2 Recall: 0.33 True Positives: 29.0/87.0
+2023-10-04 16:30:39,326 - Class 2 False Positive Rate: 0.33
+2023-10-04 16:30:39,326 - Class 2 False Negative Rate: 0.67
+2023-10-04 16:30:39,326 - Class 3 Recall: 0.38 True Positives: 28.0/74.0
+2023-10-04 16:30:39,326 - Class 3 False Positive Rate: 0.48
+2023-10-04 16:30:39,326 - Class 3 False Negative Rate: 0.62
+2023-10-04 16:30:39,326 - Class 4 Recall: 0.64 True Positives: 98.0/153.0
+2023-10-04 16:30:39,326 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:30:39,326 - Class 4 False Negative Rate: 0.36
+2023-10-04 16:30:50,672 - Epoch [14/300], Train Loss: 1.2162, Val Loss: 1.1871, Val Accuracy: 53.07%
+2023-10-04 16:30:50,672 - Class 0 Recall: 0.35 True Positives: 37.0/105.0
+2023-10-04 16:30:50,672 - Class 0 False Positive Rate: 0.13
+2023-10-04 16:30:50,672 - Class 0 False Negative Rate: 0.65
+2023-10-04 16:30:50,672 - Class 1 Recall: 0.88 True Positives: 61.0/69.0
+2023-10-04 16:30:50,672 - Class 1 False Positive Rate: 0.94
+2023-10-04 16:30:50,672 - Class 1 False Negative Rate: 0.12
+2023-10-04 16:30:50,672 - Class 2 Recall: 0.24 True Positives: 21.0/87.0
+2023-10-04 16:30:50,672 - Class 2 False Positive Rate: 0.22
+2023-10-04 16:30:50,672 - Class 2 False Negative Rate: 0.76
+2023-10-04 16:30:50,672 - Class 3 Recall: 0.28 True Positives: 21.0/74.0
+2023-10-04 16:30:50,672 - Class 3 False Positive Rate: 0.40
+2023-10-04 16:30:50,672 - Class 3 False Negative Rate: 0.72
+2023-10-04 16:30:50,672 - Class 4 Recall: 0.78 True Positives: 119.0/153.0
+2023-10-04 16:30:50,672 - Class 4 False Positive Rate: 0.56
+2023-10-04 16:30:50,672 - Class 4 False Negative Rate: 0.22
+2023-10-04 16:31:02,048 - Epoch [15/300], Train Loss: 1.1666, Val Loss: 1.1631, Val Accuracy: 54.30%
+2023-10-04 16:31:02,048 - Class 0 Recall: 0.38 True Positives: 40.0/105.0
+2023-10-04 16:31:02,048 - Class 0 False Positive Rate: 0.20
+2023-10-04 16:31:02,048 - Class 0 False Negative Rate: 0.62
+2023-10-04 16:31:02,049 - Class 1 Recall: 0.78 True Positives: 54.0/69.0
+2023-10-04 16:31:02,049 - Class 1 False Positive Rate: 0.88
+2023-10-04 16:31:02,049 - Class 1 False Negative Rate: 0.22
+2023-10-04 16:31:02,049 - Class 2 Recall: 0.44 True Positives: 38.0/87.0
+2023-10-04 16:31:02,049 - Class 2 False Positive Rate: 0.38
+2023-10-04 16:31:02,049 - Class 2 False Negative Rate: 0.56
+2023-10-04 16:31:02,049 - Class 3 Recall: 0.39 True Positives: 29.0/74.0
+2023-10-04 16:31:02,049 - Class 3 False Positive Rate: 0.49
+2023-10-04 16:31:02,050 - Class 3 False Negative Rate: 0.61
+2023-10-04 16:31:02,050 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:31:02,050 - Class 4 False Positive Rate: 0.36
+2023-10-04 16:31:02,050 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:31:13,384 - Epoch [16/300], Train Loss: 1.1057, Val Loss: 1.1486, Val Accuracy: 53.28%
+2023-10-04 16:31:13,385 - Class 0 Recall: 0.30 True Positives: 31.0/105.0
+2023-10-04 16:31:13,385 - Class 0 False Positive Rate: 0.08
+2023-10-04 16:31:13,385 - Class 0 False Negative Rate: 0.70
+2023-10-04 16:31:13,385 - Class 1 Recall: 0.88 True Positives: 61.0/69.0
+2023-10-04 16:31:13,386 - Class 1 False Positive Rate: 0.94
+2023-10-04 16:31:13,386 - Class 1 False Negative Rate: 0.12
+2023-10-04 16:31:13,386 - Class 2 Recall: 0.38 True Positives: 33.0/87.0
+2023-10-04 16:31:13,386 - Class 2 False Positive Rate: 0.30
+2023-10-04 16:31:13,386 - Class 2 False Negative Rate: 0.62
+2023-10-04 16:31:13,386 - Class 3 Recall: 0.24 True Positives: 18.0/74.0
+2023-10-04 16:31:13,386 - Class 3 False Positive Rate: 0.41
+2023-10-04 16:31:13,386 - Class 3 False Negative Rate: 0.76
+2023-10-04 16:31:13,386 - Class 4 Recall: 0.76 True Positives: 117.0/153.0
+2023-10-04 16:31:13,387 - Class 4 False Positive Rate: 0.55
+2023-10-04 16:31:13,387 - Class 4 False Negative Rate: 0.24
+2023-10-04 16:31:24,754 - Epoch [17/300], Train Loss: 1.1786, Val Loss: 1.1209, Val Accuracy: 54.30%
+2023-10-04 16:31:24,755 - Class 0 Recall: 0.41 True Positives: 43.0/105.0
+2023-10-04 16:31:24,755 - Class 0 False Positive Rate: 0.17
+2023-10-04 16:31:24,755 - Class 0 False Negative Rate: 0.59
+2023-10-04 16:31:24,755 - Class 1 Recall: 0.84 True Positives: 58.0/69.0
+2023-10-04 16:31:24,755 - Class 1 False Positive Rate: 0.90
+2023-10-04 16:31:24,755 - Class 1 False Negative Rate: 0.16
+2023-10-04 16:31:24,755 - Class 2 Recall: 0.43 True Positives: 37.0/87.0
+2023-10-04 16:31:24,755 - Class 2 False Positive Rate: 0.37
+2023-10-04 16:31:24,755 - Class 2 False Negative Rate: 0.57
+2023-10-04 16:31:24,755 - Class 3 Recall: 0.43 True Positives: 32.0/74.0
+2023-10-04 16:31:24,755 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:31:24,755 - Class 3 False Negative Rate: 0.57
+2023-10-04 16:31:24,756 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:31:24,756 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:31:24,756 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:31:36,119 - Epoch [18/300], Train Loss: 1.1378, Val Loss: 1.0829, Val Accuracy: 59.02%
+2023-10-04 16:31:36,120 - Class 0 Recall: 0.54 True Positives: 57.0/105.0
+2023-10-04 16:31:36,120 - Class 0 False Positive Rate: 0.23
+2023-10-04 16:31:36,120 - Class 0 False Negative Rate: 0.46
+2023-10-04 16:31:36,120 - Class 1 Recall: 0.81 True Positives: 56.0/69.0
+2023-10-04 16:31:36,121 - Class 1 False Positive Rate: 0.86
+2023-10-04 16:31:36,121 - Class 1 False Negative Rate: 0.19
+2023-10-04 16:31:36,121 - Class 2 Recall: 0.45 True Positives: 39.0/87.0
+2023-10-04 16:31:36,121 - Class 2 False Positive Rate: 0.38
+2023-10-04 16:31:36,121 - Class 2 False Negative Rate: 0.55
+2023-10-04 16:31:36,121 - Class 3 Recall: 0.39 True Positives: 29.0/74.0
+2023-10-04 16:31:36,122 - Class 3 False Positive Rate: 0.51
+2023-10-04 16:31:36,122 - Class 3 False Negative Rate: 0.61
+2023-10-04 16:31:36,122 - Class 4 Recall: 0.70 True Positives: 107.0/153.0
+2023-10-04 16:31:36,122 - Class 4 False Positive Rate: 0.39
+2023-10-04 16:31:36,122 - Class 4 False Negative Rate: 0.30
+2023-10-04 16:31:47,206 - Epoch [19/300], Train Loss: 1.1307, Val Loss: 1.0750, Val Accuracy: 54.92%
+2023-10-04 16:31:47,207 - Class 0 Recall: 0.49 True Positives: 51.0/105.0
+2023-10-04 16:31:47,207 - Class 0 False Positive Rate: 0.22
+2023-10-04 16:31:47,207 - Class 0 False Negative Rate: 0.51
+2023-10-04 16:31:47,208 - Class 1 Recall: 0.80 True Positives: 55.0/69.0
+2023-10-04 16:31:47,208 - Class 1 False Positive Rate: 0.88
+2023-10-04 16:31:47,208 - Class 1 False Negative Rate: 0.20
+2023-10-04 16:31:47,208 - Class 2 Recall: 0.38 True Positives: 33.0/87.0
+2023-10-04 16:31:47,208 - Class 2 False Positive Rate: 0.33
+2023-10-04 16:31:47,209 - Class 2 False Negative Rate: 0.62
+2023-10-04 16:31:47,209 - Class 3 Recall: 0.42 True Positives: 31.0/74.0
+2023-10-04 16:31:47,209 - Class 3 False Positive Rate: 0.52
+2023-10-04 16:31:47,209 - Class 3 False Negative Rate: 0.58
+2023-10-04 16:31:47,209 - Class 4 Recall: 0.64 True Positives: 98.0/153.0
+2023-10-04 16:31:47,209 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:31:47,210 - Class 4 False Negative Rate: 0.36
+2023-10-04 16:31:58,387 - Epoch [20/300], Train Loss: 1.0499, Val Loss: 1.0653, Val Accuracy: 57.79%
+2023-10-04 16:31:58,388 - Class 0 Recall: 0.57 True Positives: 60.0/105.0
+2023-10-04 16:31:58,388 - Class 0 False Positive Rate: 0.25
+2023-10-04 16:31:58,388 - Class 0 False Negative Rate: 0.43
+2023-10-04 16:31:58,389 - Class 1 Recall: 0.78 True Positives: 54.0/69.0
+2023-10-04 16:31:58,389 - Class 1 False Positive Rate: 0.85
+2023-10-04 16:31:58,389 - Class 1 False Negative Rate: 0.22
+2023-10-04 16:31:58,389 - Class 2 Recall: 0.48 True Positives: 42.0/87.0
+2023-10-04 16:31:58,389 - Class 2 False Positive Rate: 0.40
+2023-10-04 16:31:58,389 - Class 2 False Negative Rate: 0.52
+2023-10-04 16:31:58,389 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:31:58,389 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:31:58,389 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:31:58,390 - Class 4 Recall: 0.61 True Positives: 93.0/153.0
+2023-10-04 16:31:58,390 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:31:58,390 - Class 4 False Negative Rate: 0.39
+2023-10-04 16:32:09,499 - Epoch [21/300], Train Loss: 1.0462, Val Loss: 1.0335, Val Accuracy: 59.84%
+2023-10-04 16:32:09,500 - Class 0 Recall: 0.60 True Positives: 63.0/105.0
+2023-10-04 16:32:09,500 - Class 0 False Positive Rate: 0.25
+2023-10-04 16:32:09,501 - Class 0 False Negative Rate: 0.40
+2023-10-04 16:32:09,501 - Class 1 Recall: 0.77 True Positives: 53.0/69.0
+2023-10-04 16:32:09,501 - Class 1 False Positive Rate: 0.81
+2023-10-04 16:32:09,501 - Class 1 False Negative Rate: 0.23
+2023-10-04 16:32:09,501 - Class 2 Recall: 0.52 True Positives: 45.0/87.0
+2023-10-04 16:32:09,501 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:32:09,501 - Class 2 False Negative Rate: 0.48
+2023-10-04 16:32:09,502 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:32:09,502 - Class 3 False Positive Rate: 0.63
+2023-10-04 16:32:09,502 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:32:09,502 - Class 4 Recall: 0.61 True Positives: 93.0/153.0
+2023-10-04 16:32:09,502 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:32:09,502 - Class 4 False Negative Rate: 0.39
+2023-10-04 16:32:20,637 - Epoch [22/300], Train Loss: 1.0065, Val Loss: 1.0189, Val Accuracy: 60.04%
+2023-10-04 16:32:20,638 - Class 0 Recall: 0.67 True Positives: 70.0/105.0
+2023-10-04 16:32:20,638 - Class 0 False Positive Rate: 0.30
+2023-10-04 16:32:20,638 - Class 0 False Negative Rate: 0.33
+2023-10-04 16:32:20,638 - Class 1 Recall: 0.78 True Positives: 54.0/69.0
+2023-10-04 16:32:20,638 - Class 1 False Positive Rate: 0.83
+2023-10-04 16:32:20,639 - Class 1 False Negative Rate: 0.22
+2023-10-04 16:32:20,639 - Class 2 Recall: 0.44 True Positives: 38.0/87.0
+2023-10-04 16:32:20,639 - Class 2 False Positive Rate: 0.37
+2023-10-04 16:32:20,639 - Class 2 False Negative Rate: 0.56
+2023-10-04 16:32:20,639 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:32:20,639 - Class 3 False Positive Rate: 0.61
+2023-10-04 16:32:20,639 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:32:20,640 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:32:20,640 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:32:20,640 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:32:31,777 - Epoch [23/300], Train Loss: 0.9810, Val Loss: 1.0091, Val Accuracy: 59.22%
+2023-10-04 16:32:31,778 - Class 0 Recall: 0.58 True Positives: 61.0/105.0
+2023-10-04 16:32:31,778 - Class 0 False Positive Rate: 0.21
+2023-10-04 16:32:31,778 - Class 0 False Negative Rate: 0.42
+2023-10-04 16:32:31,778 - Class 1 Recall: 0.78 True Positives: 54.0/69.0
+2023-10-04 16:32:31,778 - Class 1 False Positive Rate: 0.84
+2023-10-04 16:32:31,778 - Class 1 False Negative Rate: 0.22
+2023-10-04 16:32:31,779 - Class 2 Recall: 0.46 True Positives: 40.0/87.0
+2023-10-04 16:32:31,779 - Class 2 False Positive Rate: 0.38
+2023-10-04 16:32:31,779 - Class 2 False Negative Rate: 0.54
+2023-10-04 16:32:31,779 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:32:31,779 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:32:31,779 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:32:31,779 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:32:31,779 - Class 4 False Positive Rate: 0.34
+2023-10-04 16:32:31,779 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:32:43,058 - Epoch [24/300], Train Loss: 0.9742, Val Loss: 0.9979, Val Accuracy: 57.99%
+2023-10-04 16:32:43,059 - Class 0 Recall: 0.62 True Positives: 65.0/105.0
+2023-10-04 16:32:43,059 - Class 0 False Positive Rate: 0.27
+2023-10-04 16:32:43,059 - Class 0 False Negative Rate: 0.38
+2023-10-04 16:32:43,059 - Class 1 Recall: 0.80 True Positives: 55.0/69.0
+2023-10-04 16:32:43,059 - Class 1 False Positive Rate: 0.86
+2023-10-04 16:32:43,059 - Class 1 False Negative Rate: 0.20
+2023-10-04 16:32:43,059 - Class 2 Recall: 0.37 True Positives: 32.0/87.0
+2023-10-04 16:32:43,059 - Class 2 False Positive Rate: 0.31
+2023-10-04 16:32:43,059 - Class 2 False Negative Rate: 0.63
+2023-10-04 16:32:43,060 - Class 3 Recall: 0.39 True Positives: 29.0/74.0
+2023-10-04 16:32:43,060 - Class 3 False Positive Rate: 0.53
+2023-10-04 16:32:43,060 - Class 3 False Negative Rate: 0.61
+2023-10-04 16:32:43,060 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:32:43,060 - Class 4 False Positive Rate: 0.38
+2023-10-04 16:32:43,060 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:32:54,297 - Epoch [25/300], Train Loss: 1.0499, Val Loss: 0.9818, Val Accuracy: 60.25%
+2023-10-04 16:32:54,298 - Class 0 Recall: 0.66 True Positives: 69.0/105.0
+2023-10-04 16:32:54,298 - Class 0 False Positive Rate: 0.33
+2023-10-04 16:32:54,298 - Class 0 False Negative Rate: 0.34
+2023-10-04 16:32:54,298 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:32:54,298 - Class 1 False Positive Rate: 0.76
+2023-10-04 16:32:54,298 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:32:54,299 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:32:54,299 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:32:54,299 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:32:54,299 - Class 3 Recall: 0.54 True Positives: 40.0/74.0
+2023-10-04 16:32:54,299 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:32:54,299 - Class 3 False Negative Rate: 0.46
+2023-10-04 16:32:54,299 - Class 4 Recall: 0.60 True Positives: 92.0/153.0
+2023-10-04 16:32:54,299 - Class 4 False Positive Rate: 0.20
+2023-10-04 16:32:54,300 - Class 4 False Negative Rate: 0.40
+2023-10-04 16:33:05,429 - Epoch [26/300], Train Loss: 0.9785, Val Loss: 0.9676, Val Accuracy: 59.02%
+2023-10-04 16:33:05,430 - Class 0 Recall: 0.70 True Positives: 73.0/105.0
+2023-10-04 16:33:05,430 - Class 0 False Positive Rate: 0.33
+2023-10-04 16:33:05,430 - Class 0 False Negative Rate: 0.30
+2023-10-04 16:33:05,431 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:33:05,431 - Class 1 False Positive Rate: 0.75
+2023-10-04 16:33:05,431 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:33:05,431 - Class 2 Recall: 0.40 True Positives: 35.0/87.0
+2023-10-04 16:33:05,431 - Class 2 False Positive Rate: 0.37
+2023-10-04 16:33:05,431 - Class 2 False Negative Rate: 0.60
+2023-10-04 16:33:05,432 - Class 3 Recall: 0.55 True Positives: 41.0/74.0
+2023-10-04 16:33:05,432 - Class 3 False Positive Rate: 0.68
+2023-10-04 16:33:05,432 - Class 3 False Negative Rate: 0.45
+2023-10-04 16:33:05,432 - Class 4 Recall: 0.59 True Positives: 91.0/153.0
+2023-10-04 16:33:05,432 - Class 4 False Positive Rate: 0.23
+2023-10-04 16:33:05,432 - Class 4 False Negative Rate: 0.41
+2023-10-04 16:33:16,523 - Epoch [27/300], Train Loss: 0.9095, Val Loss: 0.9587, Val Accuracy: 61.48%
+2023-10-04 16:33:16,524 - Class 0 Recall: 0.67 True Positives: 70.0/105.0
+2023-10-04 16:33:16,524 - Class 0 False Positive Rate: 0.29
+2023-10-04 16:33:16,525 - Class 0 False Negative Rate: 0.33
+2023-10-04 16:33:16,525 - Class 1 Recall: 0.77 True Positives: 53.0/69.0
+2023-10-04 16:33:16,525 - Class 1 False Positive Rate: 0.78
+2023-10-04 16:33:16,525 - Class 1 False Negative Rate: 0.23
+2023-10-04 16:33:16,526 - Class 2 Recall: 0.45 True Positives: 39.0/87.0
+2023-10-04 16:33:16,526 - Class 2 False Positive Rate: 0.39
+2023-10-04 16:33:16,526 - Class 2 False Negative Rate: 0.55
+2023-10-04 16:33:16,526 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:33:16,527 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:33:16,527 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:33:16,527 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:33:16,527 - Class 4 False Positive Rate: 0.35
+2023-10-04 16:33:16,527 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:33:27,773 - Epoch [28/300], Train Loss: 0.8693, Val Loss: 0.9584, Val Accuracy: 61.27%
+2023-10-04 16:33:27,773 - Class 0 Recall: 0.69 True Positives: 72.0/105.0
+2023-10-04 16:33:27,774 - Class 0 False Positive Rate: 0.33
+2023-10-04 16:33:27,774 - Class 0 False Negative Rate: 0.31
+2023-10-04 16:33:27,774 - Class 1 Recall: 0.74 True Positives: 51.0/69.0
+2023-10-04 16:33:27,774 - Class 1 False Positive Rate: 0.78
+2023-10-04 16:33:27,774 - Class 1 False Negative Rate: 0.26
+2023-10-04 16:33:27,774 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:33:27,774 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:33:27,774 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:33:27,775 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:33:27,775 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:33:27,775 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:33:27,775 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:33:27,775 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:33:27,775 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:33:38,959 - Epoch [29/300], Train Loss: 0.8333, Val Loss: 0.9516, Val Accuracy: 60.04%
+2023-10-04 16:33:38,960 - Class 0 Recall: 0.64 True Positives: 67.0/105.0
+2023-10-04 16:33:38,960 - Class 0 False Positive Rate: 0.28
+2023-10-04 16:33:38,960 - Class 0 False Negative Rate: 0.36
+2023-10-04 16:33:38,961 - Class 1 Recall: 0.74 True Positives: 51.0/69.0
+2023-10-04 16:33:38,961 - Class 1 False Positive Rate: 0.79
+2023-10-04 16:33:38,961 - Class 1 False Negative Rate: 0.26
+2023-10-04 16:33:38,961 - Class 2 Recall: 0.46 True Positives: 40.0/87.0
+2023-10-04 16:33:38,961 - Class 2 False Positive Rate: 0.41
+2023-10-04 16:33:38,961 - Class 2 False Negative Rate: 0.54
+2023-10-04 16:33:38,962 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:33:38,962 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:33:38,962 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:33:38,962 - Class 4 Recall: 0.64 True Positives: 98.0/153.0
+2023-10-04 16:33:38,962 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:33:38,963 - Class 4 False Negative Rate: 0.36
+2023-10-04 16:33:50,047 - Epoch [30/300], Train Loss: 1.0899, Val Loss: 0.9493, Val Accuracy: 61.07%
+2023-10-04 16:33:50,047 - Class 0 Recall: 0.72 True Positives: 76.0/105.0
+2023-10-04 16:33:50,047 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:33:50,048 - Class 0 False Negative Rate: 0.28
+2023-10-04 16:33:50,048 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:33:50,048 - Class 1 False Positive Rate: 0.74
+2023-10-04 16:33:50,048 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:33:50,048 - Class 2 Recall: 0.49 True Positives: 43.0/87.0
+2023-10-04 16:33:50,048 - Class 2 False Positive Rate: 0.43
+2023-10-04 16:33:50,048 - Class 2 False Negative Rate: 0.51
+2023-10-04 16:33:50,048 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:33:50,048 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:33:50,048 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:33:50,048 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:33:50,048 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:33:50,048 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:34:01,106 - Epoch [31/300], Train Loss: 1.0828, Val Loss: 0.9374, Val Accuracy: 61.27%
+2023-10-04 16:34:01,107 - Class 0 Recall: 0.67 True Positives: 70.0/105.0
+2023-10-04 16:34:01,107 - Class 0 False Positive Rate: 0.33
+2023-10-04 16:34:01,107 - Class 0 False Negative Rate: 0.33
+2023-10-04 16:34:01,108 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:34:01,108 - Class 1 False Positive Rate: 0.75
+2023-10-04 16:34:01,108 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:34:01,108 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:34:01,108 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:34:01,108 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:34:01,108 - Class 3 Recall: 0.53 True Positives: 39.0/74.0
+2023-10-04 16:34:01,108 - Class 3 False Positive Rate: 0.61
+2023-10-04 16:34:01,109 - Class 3 False Negative Rate: 0.47
+2023-10-04 16:34:01,109 - Class 4 Recall: 0.63 True Positives: 96.0/153.0
+2023-10-04 16:34:01,109 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:34:01,109 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:34:12,173 - Epoch [32/300], Train Loss: 1.0006, Val Loss: 0.9262, Val Accuracy: 61.07%
+2023-10-04 16:34:12,174 - Class 0 Recall: 0.66 True Positives: 69.0/105.0
+2023-10-04 16:34:12,174 - Class 0 False Positive Rate: 0.29
+2023-10-04 16:34:12,174 - Class 0 False Negative Rate: 0.34
+2023-10-04 16:34:12,174 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:34:12,175 - Class 1 False Positive Rate: 0.74
+2023-10-04 16:34:12,175 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:34:12,175 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:34:12,175 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:34:12,175 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:34:12,175 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:34:12,176 - Class 3 False Positive Rate: 0.61
+2023-10-04 16:34:12,176 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:34:12,176 - Class 4 Recall: 0.63 True Positives: 96.0/153.0
+2023-10-04 16:34:12,176 - Class 4 False Positive Rate: 0.27
+2023-10-04 16:34:12,176 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:34:23,305 - Epoch [33/300], Train Loss: 0.8563, Val Loss: 0.9176, Val Accuracy: 62.50%
+2023-10-04 16:34:23,306 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:34:23,306 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:34:23,306 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:34:23,307 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:34:23,307 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:34:23,307 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:34:23,307 - Class 2 Recall: 0.48 True Positives: 42.0/87.0
+2023-10-04 16:34:23,307 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:34:23,307 - Class 2 False Negative Rate: 0.52
+2023-10-04 16:34:23,308 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:34:23,308 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:34:23,308 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:34:23,308 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:34:23,308 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:34:23,308 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:34:34,589 - Epoch [34/300], Train Loss: 0.8688, Val Loss: 0.9149, Val Accuracy: 62.70%
+2023-10-04 16:34:34,589 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:34:34,590 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:34:34,590 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:34:34,590 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:34:34,590 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:34:34,590 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:34:34,590 - Class 2 Recall: 0.59 True Positives: 51.0/87.0
+2023-10-04 16:34:34,590 - Class 2 False Positive Rate: 0.51
+2023-10-04 16:34:34,591 - Class 2 False Negative Rate: 0.41
+2023-10-04 16:34:34,591 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:34:34,591 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:34:34,591 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:34:34,591 - Class 4 Recall: 0.61 True Positives: 94.0/153.0
+2023-10-04 16:34:34,591 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:34:34,591 - Class 4 False Negative Rate: 0.39
+2023-10-04 16:34:45,927 - Epoch [35/300], Train Loss: 0.8464, Val Loss: 0.9061, Val Accuracy: 60.86%
+2023-10-04 16:34:45,928 - Class 0 Recall: 0.66 True Positives: 69.0/105.0
+2023-10-04 16:34:45,928 - Class 0 False Positive Rate: 0.28
+2023-10-04 16:34:45,928 - Class 0 False Negative Rate: 0.34
+2023-10-04 16:34:45,929 - Class 1 Recall: 0.72 True Positives: 50.0/69.0
+2023-10-04 16:34:45,929 - Class 1 False Positive Rate: 0.76
+2023-10-04 16:34:45,929 - Class 1 False Negative Rate: 0.28
+2023-10-04 16:34:45,929 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:34:45,929 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:34:45,929 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:34:45,929 - Class 3 Recall: 0.53 True Positives: 39.0/74.0
+2023-10-04 16:34:45,929 - Class 3 False Positive Rate: 0.64
+2023-10-04 16:34:45,930 - Class 3 False Negative Rate: 0.47
+2023-10-04 16:34:45,930 - Class 4 Recall: 0.61 True Positives: 93.0/153.0
+2023-10-04 16:34:45,930 - Class 4 False Positive Rate: 0.25
+2023-10-04 16:34:45,930 - Class 4 False Negative Rate: 0.39
+2023-10-04 16:34:56,408 - Epoch [36/300], Train Loss: 0.7092, Val Loss: 0.9123, Val Accuracy: 62.50%
+2023-10-04 16:34:56,409 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:34:56,409 - Class 0 False Positive Rate: 0.40
+2023-10-04 16:34:56,409 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:34:56,409 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:34:56,409 - Class 1 False Positive Rate: 0.71
+2023-10-04 16:34:56,409 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:34:56,409 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:34:56,409 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:34:56,409 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:34:56,409 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:34:56,409 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:34:56,409 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:34:56,409 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:34:56,409 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:34:56,409 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:35:06,839 - Epoch [37/300], Train Loss: 0.9871, Val Loss: 0.9225, Val Accuracy: 63.32%
+2023-10-04 16:35:06,839 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:35:06,839 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:35:06,839 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:35:06,839 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:35:06,839 - Class 1 False Positive Rate: 0.74
+2023-10-04 16:35:06,839 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:35:06,839 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:35:06,839 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:35:06,840 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:35:06,840 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:35:06,840 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:35:06,840 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:35:06,840 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:35:06,840 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:35:06,840 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:35:18,120 - Epoch [38/300], Train Loss: 0.7404, Val Loss: 0.9054, Val Accuracy: 61.68%
+2023-10-04 16:35:18,121 - Class 0 Recall: 0.72 True Positives: 76.0/105.0
+2023-10-04 16:35:18,121 - Class 0 False Positive Rate: 0.40
+2023-10-04 16:35:18,121 - Class 0 False Negative Rate: 0.28
+2023-10-04 16:35:18,121 - Class 1 Recall: 0.72 True Positives: 50.0/69.0
+2023-10-04 16:35:18,121 - Class 1 False Positive Rate: 0.72
+2023-10-04 16:35:18,122 - Class 1 False Negative Rate: 0.28
+2023-10-04 16:35:18,122 - Class 2 Recall: 0.49 True Positives: 43.0/87.0
+2023-10-04 16:35:18,122 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:35:18,122 - Class 2 False Negative Rate: 0.51
+2023-10-04 16:35:18,122 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:35:18,122 - Class 3 False Positive Rate: 0.64
+2023-10-04 16:35:18,122 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:35:18,122 - Class 4 Recall: 0.61 True Positives: 94.0/153.0
+2023-10-04 16:35:18,123 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:35:18,123 - Class 4 False Negative Rate: 0.39
+2023-10-04 16:35:29,273 - Epoch [39/300], Train Loss: 1.1043, Val Loss: 0.8942, Val Accuracy: 63.11%
+2023-10-04 16:35:29,274 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:35:29,274 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:35:29,274 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:35:29,274 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:35:29,275 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:35:29,275 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:35:29,275 - Class 2 Recall: 0.51 True Positives: 44.0/87.0
+2023-10-04 16:35:29,275 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:35:29,275 - Class 2 False Negative Rate: 0.49
+2023-10-04 16:35:29,275 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:35:29,275 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:35:29,276 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:35:29,276 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:35:29,276 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:35:29,276 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:35:39,667 - Epoch [40/300], Train Loss: 0.8304, Val Loss: 0.9026, Val Accuracy: 62.70%
+2023-10-04 16:35:39,667 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:35:39,667 - Class 0 False Positive Rate: 0.51
+2023-10-04 16:35:39,667 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:35:39,667 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:35:39,667 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:35:39,667 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:35:39,667 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:35:39,667 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:35:39,667 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:35:39,667 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:35:39,667 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:35:39,667 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:35:39,667 - Class 4 Recall: 0.63 True Positives: 97.0/153.0
+2023-10-04 16:35:39,667 - Class 4 False Positive Rate: 0.27
+2023-10-04 16:35:39,667 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:35:50,023 - Epoch [41/300], Train Loss: 0.8006, Val Loss: 0.8956, Val Accuracy: 61.89%
+2023-10-04 16:35:50,023 - Class 0 Recall: 0.72 True Positives: 76.0/105.0
+2023-10-04 16:35:50,023 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:35:50,023 - Class 0 False Negative Rate: 0.28
+2023-10-04 16:35:50,023 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:35:50,023 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:35:50,023 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:35:50,023 - Class 2 Recall: 0.52 True Positives: 45.0/87.0
+2023-10-04 16:35:50,023 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:35:50,023 - Class 2 False Negative Rate: 0.48
+2023-10-04 16:35:50,023 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:35:50,023 - Class 3 False Positive Rate: 0.61
+2023-10-04 16:35:50,023 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:35:50,023 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:35:50,023 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:35:50,023 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:36:00,459 - Epoch [42/300], Train Loss: 0.8676, Val Loss: 0.9063, Val Accuracy: 62.70%
+2023-10-04 16:36:00,459 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:36:00,460 - Class 0 False Positive Rate: 0.51
+2023-10-04 16:36:00,460 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:36:00,460 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:36:00,460 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:36:00,460 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:36:00,460 - Class 2 Recall: 0.52 True Positives: 45.0/87.0
+2023-10-04 16:36:00,460 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:36:00,460 - Class 2 False Negative Rate: 0.48
+2023-10-04 16:36:00,460 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:36:00,460 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:36:00,460 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:36:00,460 - Class 4 Recall: 0.63 True Positives: 97.0/153.0
+2023-10-04 16:36:00,460 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:36:00,460 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:36:11,576 - Epoch [43/300], Train Loss: 0.8024, Val Loss: 0.8907, Val Accuracy: 62.30%
+2023-10-04 16:36:11,576 - Class 0 Recall: 0.71 True Positives: 75.0/105.0
+2023-10-04 16:36:11,577 - Class 0 False Positive Rate: 0.41
+2023-10-04 16:36:11,577 - Class 0 False Negative Rate: 0.29
+2023-10-04 16:36:11,577 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:36:11,577 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:36:11,577 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:36:11,577 - Class 2 Recall: 0.52 True Positives: 45.0/87.0
+2023-10-04 16:36:11,577 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:36:11,577 - Class 2 False Negative Rate: 0.48
+2023-10-04 16:36:11,578 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:36:11,578 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:36:11,578 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:36:11,578 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:36:11,578 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:36:11,578 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:36:22,707 - Epoch [44/300], Train Loss: 0.7582, Val Loss: 0.8861, Val Accuracy: 62.70%
+2023-10-04 16:36:22,708 - Class 0 Recall: 0.74 True Positives: 78.0/105.0
+2023-10-04 16:36:22,708 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:36:22,708 - Class 0 False Negative Rate: 0.26
+2023-10-04 16:36:22,709 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:36:22,709 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:36:22,709 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:36:22,709 - Class 2 Recall: 0.51 True Positives: 44.0/87.0
+2023-10-04 16:36:22,709 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:36:22,709 - Class 2 False Negative Rate: 0.49
+2023-10-04 16:36:22,710 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:36:22,710 - Class 3 False Positive Rate: 0.62
+2023-10-04 16:36:22,710 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:36:22,710 - Class 4 Recall: 0.64 True Positives: 98.0/153.0
+2023-10-04 16:36:22,710 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:36:22,710 - Class 4 False Negative Rate: 0.36
+2023-10-04 16:36:33,955 - Epoch [45/300], Train Loss: 0.7091, Val Loss: 0.8860, Val Accuracy: 62.70%
+2023-10-04 16:36:33,956 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:36:33,956 - Class 0 False Positive Rate: 0.40
+2023-10-04 16:36:33,956 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:36:33,957 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:36:33,957 - Class 1 False Positive Rate: 0.71
+2023-10-04 16:36:33,957 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:36:33,957 - Class 2 Recall: 0.47 True Positives: 41.0/87.0
+2023-10-04 16:36:33,957 - Class 2 False Positive Rate: 0.41
+2023-10-04 16:36:33,957 - Class 2 False Negative Rate: 0.53
+2023-10-04 16:36:33,957 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:36:33,958 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:36:33,958 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:36:33,958 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:36:33,958 - Class 4 False Positive Rate: 0.35
+2023-10-04 16:36:33,958 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:36:45,067 - Epoch [46/300], Train Loss: 0.6067, Val Loss: 0.8799, Val Accuracy: 63.73%
+2023-10-04 16:36:45,068 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:36:45,068 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:36:45,068 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:36:45,068 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:36:45,069 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:36:45,069 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:36:45,069 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:36:45,069 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:36:45,069 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:36:45,069 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:36:45,069 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:36:45,069 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:36:45,070 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:36:45,070 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:36:45,070 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:36:56,248 - Epoch [47/300], Train Loss: 0.7692, Val Loss: 0.8715, Val Accuracy: 64.14%
+2023-10-04 16:36:56,248 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:36:56,248 - Class 0 False Positive Rate: 0.46
+2023-10-04 16:36:56,249 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:36:56,249 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:36:56,249 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:36:56,249 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:36:56,249 - Class 2 Recall: 0.60 True Positives: 52.0/87.0
+2023-10-04 16:36:56,249 - Class 2 False Positive Rate: 0.51
+2023-10-04 16:36:56,250 - Class 2 False Negative Rate: 0.40
+2023-10-04 16:36:56,250 - Class 3 Recall: 0.53 True Positives: 39.0/74.0
+2023-10-04 16:36:56,250 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:36:56,250 - Class 3 False Negative Rate: 0.47
+2023-10-04 16:36:56,250 - Class 4 Recall: 0.63 True Positives: 97.0/153.0
+2023-10-04 16:36:56,250 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:36:56,250 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:37:06,550 - Epoch [48/300], Train Loss: 1.0754, Val Loss: 0.8859, Val Accuracy: 63.32%
+2023-10-04 16:37:06,550 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:37:06,550 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:37:06,550 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:37:06,550 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:37:06,550 - Class 1 False Positive Rate: 0.72
+2023-10-04 16:37:06,550 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:37:06,550 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:37:06,550 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:37:06,550 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:37:06,550 - Class 3 Recall: 0.51 True Positives: 38.0/74.0
+2023-10-04 16:37:06,550 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:37:06,550 - Class 3 False Negative Rate: 0.49
+2023-10-04 16:37:06,550 - Class 4 Recall: 0.62 True Positives: 95.0/153.0
+2023-10-04 16:37:06,550 - Class 4 False Positive Rate: 0.24
+2023-10-04 16:37:06,550 - Class 4 False Negative Rate: 0.38
+2023-10-04 16:37:16,861 - Epoch [49/300], Train Loss: 0.7992, Val Loss: 0.8947, Val Accuracy: 63.11%
+2023-10-04 16:37:16,861 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:37:16,861 - Class 0 False Positive Rate: 0.51
+2023-10-04 16:37:16,861 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:37:16,861 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:37:16,861 - Class 1 False Positive Rate: 0.71
+2023-10-04 16:37:16,861 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:37:16,861 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:37:16,861 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:37:16,861 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:37:16,861 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:37:16,861 - Class 3 False Positive Rate: 0.54
+2023-10-04 16:37:16,861 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:37:16,861 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:37:16,861 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:37:16,861 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:37:28,115 - Epoch [50/300], Train Loss: 0.7787, Val Loss: 0.8692, Val Accuracy: 63.52%
+2023-10-04 16:37:28,116 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:37:28,116 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:37:28,116 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:37:28,117 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:37:28,117 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:37:28,117 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:37:28,117 - Class 2 Recall: 0.52 True Positives: 45.0/87.0
+2023-10-04 16:37:28,117 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:37:28,117 - Class 2 False Negative Rate: 0.48
+2023-10-04 16:37:28,117 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:37:28,117 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:37:28,117 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:37:28,118 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:37:28,118 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:37:28,118 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:37:38,471 - Epoch [51/300], Train Loss: 0.6563, Val Loss: 0.8812, Val Accuracy: 61.48%
+2023-10-04 16:37:38,471 - Class 0 Recall: 0.70 True Positives: 73.0/105.0
+2023-10-04 16:37:38,471 - Class 0 False Positive Rate: 0.37
+2023-10-04 16:37:38,471 - Class 0 False Negative Rate: 0.30
+2023-10-04 16:37:38,471 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:37:38,471 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:37:38,471 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:37:38,471 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:37:38,471 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:37:38,471 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:37:38,471 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:37:38,471 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:37:38,471 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:37:38,471 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:37:38,471 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:37:38,471 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:37:48,832 - Epoch [52/300], Train Loss: 0.8868, Val Loss: 0.8749, Val Accuracy: 62.70%
+2023-10-04 16:37:48,832 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:37:48,832 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:37:48,832 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:37:48,833 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:37:48,833 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:37:48,833 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:37:48,833 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:37:48,833 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:37:48,833 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:37:48,833 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:37:48,833 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:37:48,833 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:37:48,833 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:37:48,833 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:37:48,833 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:37:59,141 - Epoch [53/300], Train Loss: 0.8293, Val Loss: 0.8823, Val Accuracy: 62.09%
+2023-10-04 16:37:59,141 - Class 0 Recall: 0.71 True Positives: 75.0/105.0
+2023-10-04 16:37:59,141 - Class 0 False Positive Rate: 0.38
+2023-10-04 16:37:59,141 - Class 0 False Negative Rate: 0.29
+2023-10-04 16:37:59,141 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:37:59,141 - Class 1 False Positive Rate: 0.72
+2023-10-04 16:37:59,141 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:37:59,141 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:37:59,141 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:37:59,141 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:37:59,142 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:37:59,142 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:37:59,142 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:37:59,142 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:37:59,142 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:37:59,142 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:38:09,531 - Epoch [54/300], Train Loss: 0.6524, Val Loss: 0.8889, Val Accuracy: 63.73%
+2023-10-04 16:38:09,531 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:38:09,531 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:38:09,531 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:38:09,531 - Class 1 Recall: 0.67 True Positives: 46.0/69.0
+2023-10-04 16:38:09,531 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:38:09,531 - Class 1 False Negative Rate: 0.33
+2023-10-04 16:38:09,531 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:38:09,531 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:38:09,531 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:38:09,531 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:38:09,531 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:38:09,531 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:38:09,532 - Class 4 Recall: 0.64 True Positives: 98.0/153.0
+2023-10-04 16:38:09,532 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:38:09,532 - Class 4 False Negative Rate: 0.36
+2023-10-04 16:38:20,108 - Epoch [55/300], Train Loss: 0.7714, Val Loss: 0.8875, Val Accuracy: 62.30%
+2023-10-04 16:38:20,109 - Class 0 Recall: 0.70 True Positives: 73.0/105.0
+2023-10-04 16:38:20,109 - Class 0 False Positive Rate: 0.32
+2023-10-04 16:38:20,109 - Class 0 False Negative Rate: 0.30
+2023-10-04 16:38:20,109 - Class 1 Recall: 0.72 True Positives: 50.0/69.0
+2023-10-04 16:38:20,109 - Class 1 False Positive Rate: 0.74
+2023-10-04 16:38:20,109 - Class 1 False Negative Rate: 0.28
+2023-10-04 16:38:20,109 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:38:20,109 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:38:20,109 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:38:20,109 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:38:20,109 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:38:20,109 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:38:20,109 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:38:20,109 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:38:20,109 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:38:30,485 - Epoch [56/300], Train Loss: 0.6590, Val Loss: 0.8835, Val Accuracy: 62.70%
+2023-10-04 16:38:30,485 - Class 0 Recall: 0.74 True Positives: 78.0/105.0
+2023-10-04 16:38:30,485 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:38:30,485 - Class 0 False Negative Rate: 0.26
+2023-10-04 16:38:30,485 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:38:30,485 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:38:30,485 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:38:30,485 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:38:30,485 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:38:30,485 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:38:30,485 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:38:30,485 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:38:30,485 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:38:30,485 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:38:30,485 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:38:30,485 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:38:40,810 - Epoch [57/300], Train Loss: 0.6417, Val Loss: 0.8733, Val Accuracy: 63.93%
+2023-10-04 16:38:40,810 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:38:40,810 - Class 0 False Positive Rate: 0.52
+2023-10-04 16:38:40,810 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:38:40,810 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:38:40,810 - Class 1 False Positive Rate: 0.64
+2023-10-04 16:38:40,810 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:38:40,810 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:38:40,810 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:38:40,810 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:38:40,811 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:38:40,811 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:38:40,811 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:38:40,811 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:38:40,811 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:38:40,811 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:38:51,188 - Epoch [58/300], Train Loss: 0.5152, Val Loss: 0.8722, Val Accuracy: 63.32%
+2023-10-04 16:38:51,188 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:38:51,189 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:38:51,189 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:38:51,189 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:38:51,189 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:38:51,189 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:38:51,189 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:38:51,189 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:38:51,189 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:38:51,189 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:38:51,189 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:38:51,189 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:38:51,189 - Class 4 Recall: 0.63 True Positives: 96.0/153.0
+2023-10-04 16:38:51,189 - Class 4 False Positive Rate: 0.26
+2023-10-04 16:38:51,189 - Class 4 False Negative Rate: 0.37
+2023-10-04 16:39:01,544 - Epoch [59/300], Train Loss: 0.5682, Val Loss: 0.8736, Val Accuracy: 63.52%
+2023-10-04 16:39:01,544 - Class 0 Recall: 0.74 True Positives: 78.0/105.0
+2023-10-04 16:39:01,544 - Class 0 False Positive Rate: 0.46
+2023-10-04 16:39:01,544 - Class 0 False Negative Rate: 0.26
+2023-10-04 16:39:01,544 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:39:01,544 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:39:01,544 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:39:01,544 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:39:01,544 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:39:01,544 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:39:01,544 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:39:01,544 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:39:01,544 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:39:01,544 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:39:01,544 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:39:01,544 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:39:12,621 - Epoch [60/300], Train Loss: 0.6788, Val Loss: 0.8688, Val Accuracy: 63.32%
+2023-10-04 16:39:12,622 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:39:12,622 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:39:12,623 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:39:12,623 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:39:12,623 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:39:12,623 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:39:12,623 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:39:12,623 - Class 2 False Positive Rate: 0.43
+2023-10-04 16:39:12,623 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:39:12,624 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:39:12,624 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:39:12,624 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:39:12,624 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:39:12,624 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:39:12,624 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:39:22,903 - Epoch [61/300], Train Loss: 0.7253, Val Loss: 0.8843, Val Accuracy: 61.89%
+2023-10-04 16:39:22,903 - Class 0 Recall: 0.70 True Positives: 74.0/105.0
+2023-10-04 16:39:22,903 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:39:22,903 - Class 0 False Negative Rate: 0.30
+2023-10-04 16:39:22,904 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:39:22,904 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:39:22,904 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:39:22,904 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:39:22,904 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:39:22,904 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:39:22,904 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:39:22,904 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:39:22,904 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:39:22,904 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:39:22,904 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:39:22,904 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:39:33,341 - Epoch [62/300], Train Loss: 0.8173, Val Loss: 0.8732, Val Accuracy: 63.11%
+2023-10-04 16:39:33,341 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:39:33,341 - Class 0 False Positive Rate: 0.46
+2023-10-04 16:39:33,341 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:39:33,342 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:39:33,342 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:39:33,342 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:39:33,342 - Class 2 Recall: 0.59 True Positives: 51.0/87.0
+2023-10-04 16:39:33,342 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:39:33,342 - Class 2 False Negative Rate: 0.41
+2023-10-04 16:39:33,342 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:39:33,342 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:39:33,342 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:39:33,342 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:39:33,342 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:39:33,342 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:39:43,769 - Epoch [63/300], Train Loss: 0.6397, Val Loss: 0.8769, Val Accuracy: 63.73%
+2023-10-04 16:39:43,769 - Class 0 Recall: 0.72 True Positives: 76.0/105.0
+2023-10-04 16:39:43,769 - Class 0 False Positive Rate: 0.38
+2023-10-04 16:39:43,769 - Class 0 False Negative Rate: 0.28
+2023-10-04 16:39:43,769 - Class 1 Recall: 0.74 True Positives: 51.0/69.0
+2023-10-04 16:39:43,769 - Class 1 False Positive Rate: 0.73
+2023-10-04 16:39:43,769 - Class 1 False Negative Rate: 0.26
+2023-10-04 16:39:43,769 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:39:43,769 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:39:43,769 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:39:43,769 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:39:43,769 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:39:43,769 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:39:43,769 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:39:43,769 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:39:43,769 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:39:54,125 - Epoch [64/300], Train Loss: 0.7314, Val Loss: 0.8845, Val Accuracy: 64.34%
+2023-10-04 16:39:54,125 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:39:54,125 - Class 0 False Positive Rate: 0.46
+2023-10-04 16:39:54,125 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:39:54,125 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:39:54,125 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:39:54,125 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:39:54,125 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:39:54,125 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:39:54,125 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:39:54,125 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:39:54,125 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:39:54,125 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:39:54,125 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:39:54,125 - Class 4 False Positive Rate: 0.27
+2023-10-04 16:39:54,125 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:40:04,422 - Epoch [65/300], Train Loss: 0.6160, Val Loss: 0.8796, Val Accuracy: 64.55%
+2023-10-04 16:40:04,423 - Class 0 Recall: 0.80 True Positives: 84.0/105.0
+2023-10-04 16:40:04,423 - Class 0 False Positive Rate: 0.52
+2023-10-04 16:40:04,423 - Class 0 False Negative Rate: 0.20
+2023-10-04 16:40:04,423 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:40:04,423 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:40:04,423 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:40:04,423 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:40:04,423 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:40:04,423 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:40:04,423 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:40:04,423 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:40:04,423 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:40:04,423 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:40:04,423 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:40:04,423 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:40:14,818 - Epoch [66/300], Train Loss: 0.5771, Val Loss: 0.8770, Val Accuracy: 65.57%
+2023-10-04 16:40:14,818 - Class 0 Recall: 0.79 True Positives: 83.0/105.0
+2023-10-04 16:40:14,819 - Class 0 False Positive Rate: 0.50
+2023-10-04 16:40:14,819 - Class 0 False Negative Rate: 0.21
+2023-10-04 16:40:14,819 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:40:14,819 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:40:14,819 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:40:14,819 - Class 2 Recall: 0.59 True Positives: 51.0/87.0
+2023-10-04 16:40:14,819 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:40:14,819 - Class 2 False Negative Rate: 0.41
+2023-10-04 16:40:14,819 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:40:14,819 - Class 3 False Positive Rate: 0.54
+2023-10-04 16:40:14,819 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:40:14,819 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:40:14,819 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:40:14,819 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:40:25,179 - Epoch [67/300], Train Loss: 0.5143, Val Loss: 0.8839, Val Accuracy: 63.52%
+2023-10-04 16:40:25,179 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:40:25,179 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:40:25,179 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:40:25,179 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:40:25,179 - Class 1 False Positive Rate: 0.71
+2023-10-04 16:40:25,179 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:40:25,179 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:40:25,179 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:40:25,179 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:40:25,179 - Class 3 Recall: 0.39 True Positives: 29.0/74.0
+2023-10-04 16:40:25,179 - Class 3 False Positive Rate: 0.52
+2023-10-04 16:40:25,179 - Class 3 False Negative Rate: 0.61
+2023-10-04 16:40:25,179 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:40:25,180 - Class 4 False Positive Rate: 0.37
+2023-10-04 16:40:25,180 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:40:35,519 - Epoch [68/300], Train Loss: 0.6193, Val Loss: 0.8937, Val Accuracy: 63.11%
+2023-10-04 16:40:35,520 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:40:35,520 - Class 0 False Positive Rate: 0.40
+2023-10-04 16:40:35,520 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:40:35,520 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:40:35,520 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:40:35,520 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:40:35,520 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:40:35,520 - Class 2 False Positive Rate: 0.53
+2023-10-04 16:40:35,520 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:40:35,520 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:40:35,520 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:40:35,520 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:40:35,520 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:40:35,520 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:40:35,520 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:40:45,901 - Epoch [69/300], Train Loss: 0.6547, Val Loss: 0.9218, Val Accuracy: 64.14%
+2023-10-04 16:40:45,901 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:40:45,901 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:40:45,901 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:40:45,901 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:40:45,901 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:40:45,901 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:40:45,901 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:40:45,901 - Class 2 False Positive Rate: 0.51
+2023-10-04 16:40:45,901 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:40:45,901 - Class 3 Recall: 0.39 True Positives: 29.0/74.0
+2023-10-04 16:40:45,901 - Class 3 False Positive Rate: 0.49
+2023-10-04 16:40:45,901 - Class 3 False Negative Rate: 0.61
+2023-10-04 16:40:45,901 - Class 4 Recall: 0.69 True Positives: 106.0/153.0
+2023-10-04 16:40:45,901 - Class 4 False Positive Rate: 0.37
+2023-10-04 16:40:45,901 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:40:56,253 - Epoch [70/300], Train Loss: 0.6814, Val Loss: 0.8974, Val Accuracy: 61.89%
+2023-10-04 16:40:56,253 - Class 0 Recall: 0.69 True Positives: 72.0/105.0
+2023-10-04 16:40:56,254 - Class 0 False Positive Rate: 0.34
+2023-10-04 16:40:56,254 - Class 0 False Negative Rate: 0.31
+2023-10-04 16:40:56,254 - Class 1 Recall: 0.72 True Positives: 50.0/69.0
+2023-10-04 16:40:56,254 - Class 1 False Positive Rate: 0.72
+2023-10-04 16:40:56,254 - Class 1 False Negative Rate: 0.28
+2023-10-04 16:40:56,254 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:40:56,254 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:40:56,254 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:40:56,254 - Class 3 Recall: 0.41 True Positives: 30.0/74.0
+2023-10-04 16:40:56,254 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:40:56,254 - Class 3 False Negative Rate: 0.59
+2023-10-04 16:40:56,254 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:40:56,254 - Class 4 False Positive Rate: 0.36
+2023-10-04 16:40:56,254 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:41:06,596 - Epoch [71/300], Train Loss: 0.4858, Val Loss: 0.9079, Val Accuracy: 64.34%
+2023-10-04 16:41:06,596 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:41:06,596 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:41:06,596 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:41:06,596 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:41:06,596 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:41:06,596 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:41:06,596 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:41:06,596 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:41:06,596 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:41:06,596 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:41:06,596 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:41:06,596 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:41:06,596 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:41:06,596 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:41:06,596 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:41:17,003 - Epoch [72/300], Train Loss: 0.5672, Val Loss: 0.8993, Val Accuracy: 63.93%
+2023-10-04 16:41:17,003 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:41:17,003 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:41:17,003 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:41:17,003 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:41:17,003 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:41:17,003 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:41:17,003 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:41:17,003 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:41:17,003 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:41:17,003 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:41:17,003 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:41:17,003 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:41:17,003 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:41:17,003 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:41:17,003 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:41:27,409 - Epoch [73/300], Train Loss: 0.6236, Val Loss: 0.8991, Val Accuracy: 64.55%
+2023-10-04 16:41:27,409 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:41:27,409 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:41:27,409 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:41:27,409 - Class 1 Recall: 0.65 True Positives: 45.0/69.0
+2023-10-04 16:41:27,409 - Class 1 False Positive Rate: 0.62
+2023-10-04 16:41:27,409 - Class 1 False Negative Rate: 0.35
+2023-10-04 16:41:27,409 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:41:27,409 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:41:27,409 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:41:27,409 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:41:27,409 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:41:27,409 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:41:27,409 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:41:27,409 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:41:27,409 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:41:37,659 - Epoch [74/300], Train Loss: 0.5559, Val Loss: 0.8988, Val Accuracy: 63.52%
+2023-10-04 16:41:37,659 - Class 0 Recall: 0.74 True Positives: 78.0/105.0
+2023-10-04 16:41:37,659 - Class 0 False Positive Rate: 0.41
+2023-10-04 16:41:37,659 - Class 0 False Negative Rate: 0.26
+2023-10-04 16:41:37,659 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:41:37,659 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:41:37,659 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:41:37,659 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:41:37,659 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:41:37,659 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:41:37,659 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:41:37,659 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:41:37,659 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:41:37,660 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:41:37,660 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:41:37,660 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:41:48,044 - Epoch [75/300], Train Loss: 0.5863, Val Loss: 0.9110, Val Accuracy: 63.52%
+2023-10-04 16:41:48,044 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:41:48,044 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:41:48,044 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:41:48,044 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:41:48,044 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:41:48,044 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:41:48,044 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:41:48,045 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:41:48,045 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:41:48,045 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:41:48,045 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:41:48,045 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:41:48,045 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:41:48,045 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:41:48,045 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:41:58,377 - Epoch [76/300], Train Loss: 0.7172, Val Loss: 0.9112, Val Accuracy: 63.93%
+2023-10-04 16:41:58,377 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:41:58,377 - Class 0 False Positive Rate: 0.50
+2023-10-04 16:41:58,377 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:41:58,377 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:41:58,377 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:41:58,377 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:41:58,378 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:41:58,378 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:41:58,378 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:41:58,378 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:41:58,378 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:41:58,378 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:41:58,378 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:41:58,378 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:41:58,378 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:42:08,702 - Epoch [77/300], Train Loss: 0.5662, Val Loss: 0.9065, Val Accuracy: 64.34%
+2023-10-04 16:42:08,702 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:42:08,702 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:42:08,702 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:42:08,702 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:42:08,702 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:42:08,702 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:42:08,702 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:42:08,702 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:42:08,702 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:42:08,702 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:42:08,703 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:42:08,703 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:42:08,703 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:42:08,703 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:42:08,703 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:42:19,027 - Epoch [78/300], Train Loss: 0.5397, Val Loss: 0.9102, Val Accuracy: 63.93%
+2023-10-04 16:42:19,027 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:42:19,027 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:42:19,027 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:42:19,027 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:42:19,027 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:42:19,028 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:42:19,028 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:42:19,028 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:42:19,028 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:42:19,028 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:42:19,028 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:42:19,028 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:42:19,028 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:42:19,028 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:42:19,028 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:42:29,365 - Epoch [79/300], Train Loss: 0.7498, Val Loss: 0.8932, Val Accuracy: 64.14%
+2023-10-04 16:42:29,365 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:42:29,365 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:42:29,365 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:42:29,365 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:42:29,365 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:42:29,365 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:42:29,366 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:42:29,366 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:42:29,366 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:42:29,366 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:42:29,366 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:42:29,366 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:42:29,366 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:42:29,366 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:42:29,366 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:42:39,769 - Epoch [80/300], Train Loss: 0.4446, Val Loss: 0.9050, Val Accuracy: 64.75%
+2023-10-04 16:42:39,769 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:42:39,769 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:42:39,769 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:42:39,769 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:42:39,769 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:42:39,769 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:42:39,769 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:42:39,769 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:42:39,769 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:42:39,769 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:42:39,769 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:42:39,769 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:42:39,769 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:42:39,769 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:42:39,770 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:42:50,176 - Epoch [81/300], Train Loss: 0.6151, Val Loss: 0.8967, Val Accuracy: 63.93%
+2023-10-04 16:42:50,176 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:42:50,176 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:42:50,176 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:42:50,176 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:42:50,176 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:42:50,176 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:42:50,176 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:42:50,176 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:42:50,176 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:42:50,176 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:42:50,176 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:42:50,176 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:42:50,177 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:42:50,177 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:42:50,177 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:43:00,794 - Epoch [82/300], Train Loss: 0.6475, Val Loss: 0.8953, Val Accuracy: 63.93%
+2023-10-04 16:43:00,794 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:43:00,794 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:43:00,794 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:43:00,794 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:43:00,794 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:43:00,794 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:43:00,794 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:43:00,794 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:43:00,794 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:43:00,794 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:43:00,794 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:43:00,794 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:43:00,794 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:43:00,794 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:43:00,794 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:43:11,158 - Epoch [83/300], Train Loss: 0.6415, Val Loss: 0.8997, Val Accuracy: 63.93%
+2023-10-04 16:43:11,159 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:43:11,159 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:43:11,159 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:43:11,159 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:43:11,159 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:43:11,159 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:43:11,159 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:43:11,159 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:43:11,159 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:43:11,159 - Class 3 Recall: 0.41 True Positives: 30.0/74.0
+2023-10-04 16:43:11,159 - Class 3 False Positive Rate: 0.53
+2023-10-04 16:43:11,159 - Class 3 False Negative Rate: 0.59
+2023-10-04 16:43:11,159 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:43:11,159 - Class 4 False Positive Rate: 0.36
+2023-10-04 16:43:11,159 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:43:21,525 - Epoch [84/300], Train Loss: 0.6247, Val Loss: 0.8927, Val Accuracy: 64.14%
+2023-10-04 16:43:21,526 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:43:21,526 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:43:21,526 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:43:21,526 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:43:21,526 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:43:21,526 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:43:21,526 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:43:21,526 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:43:21,526 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:43:21,526 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:43:21,526 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:43:21,526 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:43:21,526 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:43:21,526 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:43:21,526 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:43:31,939 - Epoch [85/300], Train Loss: 0.6066, Val Loss: 0.8939, Val Accuracy: 64.14%
+2023-10-04 16:43:31,939 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:43:31,939 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:43:31,939 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:43:31,939 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:43:31,939 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:43:31,939 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:43:31,939 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:43:31,939 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:43:31,939 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:43:31,939 - Class 3 Recall: 0.43 True Positives: 32.0/74.0
+2023-10-04 16:43:31,939 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:43:31,939 - Class 3 False Negative Rate: 0.57
+2023-10-04 16:43:31,939 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:43:31,939 - Class 4 False Positive Rate: 0.35
+2023-10-04 16:43:31,939 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:43:42,279 - Epoch [86/300], Train Loss: 0.6253, Val Loss: 0.9195, Val Accuracy: 64.34%
+2023-10-04 16:43:42,280 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:43:42,280 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:43:42,280 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:43:42,280 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:43:42,280 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:43:42,280 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:43:42,280 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:43:42,280 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:43:42,280 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:43:42,280 - Class 3 Recall: 0.42 True Positives: 31.0/74.0
+2023-10-04 16:43:42,280 - Class 3 False Positive Rate: 0.54
+2023-10-04 16:43:42,280 - Class 3 False Negative Rate: 0.58
+2023-10-04 16:43:42,280 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:43:42,280 - Class 4 False Positive Rate: 0.36
+2023-10-04 16:43:42,280 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:43:52,659 - Epoch [87/300], Train Loss: 0.4700, Val Loss: 0.9042, Val Accuracy: 63.93%
+2023-10-04 16:43:52,659 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:43:52,660 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:43:52,660 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:43:52,660 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:43:52,660 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:43:52,660 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:43:52,660 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:43:52,660 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:43:52,660 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:43:52,660 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:43:52,660 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:43:52,660 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:43:52,660 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:43:52,660 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:43:52,660 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:44:03,016 - Epoch [88/300], Train Loss: 0.6214, Val Loss: 0.8942, Val Accuracy: 64.34%
+2023-10-04 16:44:03,016 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:44:03,016 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:44:03,016 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:44:03,016 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:44:03,016 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:44:03,016 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:44:03,017 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:44:03,017 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:44:03,017 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:44:03,017 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:44:03,017 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:44:03,017 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:44:03,017 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:44:03,017 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:44:03,017 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:44:13,442 - Epoch [89/300], Train Loss: 0.5014, Val Loss: 0.9040, Val Accuracy: 64.75%
+2023-10-04 16:44:13,442 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:44:13,442 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:44:13,442 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:44:13,442 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:44:13,442 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:44:13,442 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:44:13,442 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:44:13,442 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:44:13,442 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:44:13,443 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:44:13,443 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:44:13,443 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:44:13,443 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:44:13,443 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:44:13,443 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:44:23,880 - Epoch [90/300], Train Loss: 0.5466, Val Loss: 0.8978, Val Accuracy: 64.34%
+2023-10-04 16:44:23,880 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:44:23,880 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:44:23,880 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:44:23,880 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:44:23,880 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:44:23,880 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:44:23,880 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:44:23,881 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:44:23,881 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:44:23,881 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:44:23,881 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:44:23,881 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:44:23,881 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:44:23,881 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:44:23,881 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:44:34,310 - Epoch [91/300], Train Loss: 0.5849, Val Loss: 0.9018, Val Accuracy: 64.75%
+2023-10-04 16:44:34,310 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:44:34,311 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:44:34,311 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:44:34,311 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:44:34,311 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:44:34,311 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:44:34,311 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:44:34,311 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:44:34,311 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:44:34,311 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:44:34,311 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:44:34,311 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:44:34,311 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:44:34,311 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:44:34,311 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:44:44,807 - Epoch [92/300], Train Loss: 0.7010, Val Loss: 0.8914, Val Accuracy: 64.55%
+2023-10-04 16:44:44,807 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:44:44,807 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:44:44,807 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:44:44,807 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:44:44,807 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:44:44,807 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:44:44,807 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:44:44,808 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:44:44,808 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:44:44,808 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:44:44,808 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:44:44,808 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:44:44,808 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:44:44,808 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:44:44,808 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:44:55,222 - Epoch [93/300], Train Loss: 0.4793, Val Loss: 0.9027, Val Accuracy: 64.34%
+2023-10-04 16:44:55,222 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:44:55,222 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:44:55,222 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:44:55,222 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:44:55,222 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:44:55,222 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:44:55,222 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:44:55,222 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:44:55,222 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:44:55,222 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:44:55,222 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:44:55,222 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:44:55,222 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:44:55,222 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:44:55,222 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:45:05,599 - Epoch [94/300], Train Loss: 0.7322, Val Loss: 0.8958, Val Accuracy: 63.93%
+2023-10-04 16:45:05,599 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:45:05,599 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:45:05,599 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:45:05,599 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:45:05,599 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:45:05,599 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:45:05,599 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:45:05,599 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:45:05,599 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:45:05,599 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:45:05,599 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:45:05,599 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:45:05,599 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:45:05,599 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:45:05,599 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:45:15,952 - Epoch [95/300], Train Loss: 0.5344, Val Loss: 0.9143, Val Accuracy: 64.14%
+2023-10-04 16:45:15,953 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:45:15,953 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:45:15,953 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:45:15,953 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:45:15,953 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:45:15,953 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:45:15,953 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:45:15,953 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:45:15,953 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:45:15,953 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:45:15,953 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:45:15,953 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:45:15,953 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:45:15,953 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:45:15,953 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:45:26,262 - Epoch [96/300], Train Loss: 0.5654, Val Loss: 0.9104, Val Accuracy: 64.55%
+2023-10-04 16:45:26,262 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:45:26,262 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:45:26,262 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:45:26,262 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:45:26,262 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:45:26,262 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:45:26,262 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:45:26,262 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:45:26,262 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:45:26,263 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:45:26,263 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:45:26,263 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:45:26,263 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:45:26,263 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:45:26,263 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:45:36,584 - Epoch [97/300], Train Loss: 0.5095, Val Loss: 0.8964, Val Accuracy: 63.73%
+2023-10-04 16:45:36,584 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:45:36,584 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:45:36,584 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:45:36,584 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:45:36,584 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:45:36,584 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:45:36,584 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:45:36,585 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:45:36,585 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:45:36,585 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:45:36,585 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:45:36,585 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:45:36,585 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:45:36,585 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:45:36,585 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:45:46,962 - Epoch [98/300], Train Loss: 0.5302, Val Loss: 0.8887, Val Accuracy: 63.73%
+2023-10-04 16:45:46,962 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:45:46,962 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:45:46,962 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:45:46,962 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:45:46,962 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:45:46,963 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:45:46,963 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:45:46,963 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:45:46,963 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:45:46,963 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:45:46,963 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:45:46,963 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:45:46,963 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:45:46,963 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:45:46,963 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:45:57,323 - Epoch [99/300], Train Loss: 0.5756, Val Loss: 0.9208, Val Accuracy: 64.55%
+2023-10-04 16:45:57,323 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:45:57,324 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:45:57,324 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:45:57,324 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:45:57,324 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:45:57,324 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:45:57,324 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:45:57,324 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:45:57,324 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:45:57,324 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:45:57,324 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:45:57,324 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:45:57,324 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:45:57,324 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:45:57,324 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:46:07,692 - Epoch [100/300], Train Loss: 0.5461, Val Loss: 0.8939, Val Accuracy: 64.14%
+2023-10-04 16:46:07,692 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:46:07,692 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:46:07,692 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:46:07,692 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:46:07,692 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:46:07,692 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:46:07,692 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:46:07,692 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:46:07,692 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:46:07,692 - Class 3 Recall: 0.42 True Positives: 31.0/74.0
+2023-10-04 16:46:07,692 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:46:07,692 - Class 3 False Negative Rate: 0.58
+2023-10-04 16:46:07,692 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:46:07,692 - Class 4 False Positive Rate: 0.36
+2023-10-04 16:46:07,692 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:46:18,084 - Epoch [101/300], Train Loss: 0.5984, Val Loss: 0.9004, Val Accuracy: 64.14%
+2023-10-04 16:46:18,084 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:46:18,084 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:46:18,084 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:46:18,084 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:46:18,084 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:46:18,084 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:46:18,084 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:46:18,084 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:46:18,084 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:46:18,084 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:46:18,084 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:46:18,084 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:46:18,084 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:46:18,084 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:46:18,084 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:46:28,517 - Epoch [102/300], Train Loss: 0.5039, Val Loss: 0.9103, Val Accuracy: 64.55%
+2023-10-04 16:46:28,517 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:46:28,517 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:46:28,517 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:46:28,517 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:46:28,517 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:46:28,517 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:46:28,517 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:46:28,517 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:46:28,517 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:46:28,517 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:46:28,517 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:46:28,517 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:46:28,517 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:46:28,517 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:46:28,517 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:46:38,883 - Epoch [103/300], Train Loss: 0.6009, Val Loss: 0.8975, Val Accuracy: 63.52%
+2023-10-04 16:46:38,883 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:46:38,883 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:46:38,883 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:46:38,883 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:46:38,883 - Class 1 False Positive Rate: 0.71
+2023-10-04 16:46:38,883 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:46:38,884 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:46:38,884 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:46:38,884 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:46:38,884 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:46:38,884 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:46:38,884 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:46:38,884 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:46:38,884 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:46:38,884 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:46:49,241 - Epoch [104/300], Train Loss: 0.6128, Val Loss: 0.9257, Val Accuracy: 64.55%
+2023-10-04 16:46:49,242 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:46:49,242 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:46:49,242 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:46:49,242 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:46:49,242 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:46:49,242 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:46:49,242 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:46:49,242 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:46:49,242 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:46:49,242 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:46:49,242 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:46:49,242 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:46:49,242 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:46:49,242 - Class 4 False Positive Rate: 0.27
+2023-10-04 16:46:49,242 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:46:59,606 - Epoch [105/300], Train Loss: 0.8171, Val Loss: 0.9130, Val Accuracy: 63.73%
+2023-10-04 16:46:59,606 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:46:59,606 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:46:59,606 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:46:59,606 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:46:59,606 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:46:59,606 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:46:59,606 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:46:59,606 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:46:59,606 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:46:59,606 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:46:59,606 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:46:59,606 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:46:59,606 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:46:59,606 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:46:59,606 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:47:09,959 - Epoch [106/300], Train Loss: 0.5027, Val Loss: 0.8992, Val Accuracy: 64.55%
+2023-10-04 16:47:09,959 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:47:09,959 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:47:09,959 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:47:09,959 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:47:09,959 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:47:09,959 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:47:09,959 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:47:09,959 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:47:09,959 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:47:09,959 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:47:09,959 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:47:09,959 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:47:09,959 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:47:09,959 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:47:09,959 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:47:20,290 - Epoch [107/300], Train Loss: 0.5968, Val Loss: 0.8973, Val Accuracy: 63.93%
+2023-10-04 16:47:20,291 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:47:20,291 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:47:20,291 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:47:20,291 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:47:20,291 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:47:20,291 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:47:20,291 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:47:20,291 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:47:20,291 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:47:20,291 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:47:20,291 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:47:20,291 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:47:20,291 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:47:20,291 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:47:20,291 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:47:30,662 - Epoch [108/300], Train Loss: 0.5947, Val Loss: 0.8942, Val Accuracy: 65.16%
+2023-10-04 16:47:30,662 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:47:30,663 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:47:30,663 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:47:30,663 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:47:30,663 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:47:30,663 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:47:30,663 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:47:30,663 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:47:30,663 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:47:30,663 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:47:30,663 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:47:30,663 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:47:30,663 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:47:30,663 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:47:30,663 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:47:41,008 - Epoch [109/300], Train Loss: 0.6053, Val Loss: 0.8976, Val Accuracy: 64.34%
+2023-10-04 16:47:41,008 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:47:41,008 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:47:41,009 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:47:41,009 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:47:41,009 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:47:41,009 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:47:41,009 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:47:41,009 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:47:41,009 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:47:41,009 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:47:41,009 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:47:41,009 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:47:41,009 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:47:41,009 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:47:41,009 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:47:51,361 - Epoch [110/300], Train Loss: 0.6778, Val Loss: 0.8925, Val Accuracy: 64.14%
+2023-10-04 16:47:51,362 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:47:51,362 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:47:51,362 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:47:51,362 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:47:51,362 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:47:51,362 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:47:51,362 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:47:51,362 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:47:51,362 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:47:51,362 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:47:51,362 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:47:51,362 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:47:51,362 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:47:51,362 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:47:51,362 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:48:01,718 - Epoch [111/300], Train Loss: 0.6129, Val Loss: 0.9027, Val Accuracy: 64.14%
+2023-10-04 16:48:01,718 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:48:01,718 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:48:01,718 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:48:01,718 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:48:01,718 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:48:01,718 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:48:01,718 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:48:01,718 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:48:01,718 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:48:01,719 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:48:01,719 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:48:01,719 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:48:01,719 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:48:01,719 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:48:01,719 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:48:12,039 - Epoch [112/300], Train Loss: 0.8257, Val Loss: 0.9064, Val Accuracy: 64.96%
+2023-10-04 16:48:12,039 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:48:12,039 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:48:12,039 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:48:12,039 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:48:12,039 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:48:12,039 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:48:12,040 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:48:12,040 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:48:12,040 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:48:12,040 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:48:12,040 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:48:12,040 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:48:12,040 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:48:12,040 - Class 4 False Positive Rate: 0.34
+2023-10-04 16:48:12,040 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:48:22,405 - Epoch [113/300], Train Loss: 0.6099, Val Loss: 0.9048, Val Accuracy: 64.55%
+2023-10-04 16:48:22,405 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:48:22,405 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:48:22,405 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:48:22,405 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:48:22,405 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:48:22,405 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:48:22,405 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:48:22,405 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:48:22,405 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:48:22,405 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:48:22,405 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:48:22,405 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:48:22,405 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:48:22,405 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:48:22,405 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:48:32,726 - Epoch [114/300], Train Loss: 0.7091, Val Loss: 0.9018, Val Accuracy: 64.34%
+2023-10-04 16:48:32,726 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:48:32,726 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:48:32,726 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:48:32,726 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:48:32,726 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:48:32,726 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:48:32,726 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:48:32,726 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:48:32,726 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:48:32,726 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:48:32,726 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:48:32,726 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:48:32,726 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:48:32,726 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:48:32,726 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:48:43,271 - Epoch [115/300], Train Loss: 0.6897, Val Loss: 0.9010, Val Accuracy: 64.14%
+2023-10-04 16:48:43,271 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:48:43,271 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:48:43,271 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:48:43,271 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:48:43,271 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:48:43,271 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:48:43,271 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:48:43,271 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:48:43,271 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:48:43,271 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:48:43,271 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:48:43,271 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:48:43,271 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:48:43,271 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:48:43,271 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:48:53,690 - Epoch [116/300], Train Loss: 0.5277, Val Loss: 0.9005, Val Accuracy: 64.55%
+2023-10-04 16:48:53,690 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:48:53,690 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:48:53,690 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:48:53,691 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:48:53,691 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:48:53,691 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:48:53,691 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:48:53,691 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:48:53,691 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:48:53,691 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:48:53,691 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:48:53,691 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:48:53,691 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:48:53,691 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:48:53,691 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:49:03,983 - Epoch [117/300], Train Loss: 0.7343, Val Loss: 0.8959, Val Accuracy: 64.75%
+2023-10-04 16:49:03,983 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:49:03,983 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:49:03,983 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:49:03,983 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:49:03,983 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:49:03,983 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:49:03,983 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:49:03,983 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:49:03,983 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:49:03,983 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:49:03,983 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:49:03,983 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:49:03,984 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:49:03,984 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:49:03,984 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:49:14,313 - Epoch [118/300], Train Loss: 0.6176, Val Loss: 0.9077, Val Accuracy: 64.55%
+2023-10-04 16:49:14,314 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:49:14,314 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:49:14,314 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:49:14,314 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:49:14,314 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:49:14,314 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:49:14,314 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:49:14,314 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:49:14,314 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:49:14,314 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:49:14,314 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:49:14,314 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:49:14,314 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:49:14,314 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:49:14,314 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:49:24,702 - Epoch [119/300], Train Loss: 0.6431, Val Loss: 0.9164, Val Accuracy: 63.11%
+2023-10-04 16:49:24,703 - Class 0 Recall: 0.72 True Positives: 76.0/105.0
+2023-10-04 16:49:24,703 - Class 0 False Positive Rate: 0.41
+2023-10-04 16:49:24,703 - Class 0 False Negative Rate: 0.28
+2023-10-04 16:49:24,703 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:49:24,703 - Class 1 False Positive Rate: 0.71
+2023-10-04 16:49:24,703 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:49:24,703 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:49:24,703 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:49:24,703 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:49:24,703 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:49:24,703 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:49:24,703 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:49:24,703 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:49:24,703 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:49:24,703 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:49:35,226 - Epoch [120/300], Train Loss: 0.6706, Val Loss: 0.8967, Val Accuracy: 64.14%
+2023-10-04 16:49:35,227 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:49:35,227 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:49:35,227 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:49:35,227 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:49:35,227 - Class 1 False Positive Rate: 0.66
+2023-10-04 16:49:35,227 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:49:35,227 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:49:35,227 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:49:35,227 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:49:35,227 - Class 3 Recall: 0.50 True Positives: 37.0/74.0
+2023-10-04 16:49:35,227 - Class 3 False Positive Rate: 0.61
+2023-10-04 16:49:35,227 - Class 3 False Negative Rate: 0.50
+2023-10-04 16:49:35,227 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:49:35,227 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:49:35,227 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:49:45,690 - Epoch [121/300], Train Loss: 0.7301, Val Loss: 0.9048, Val Accuracy: 64.34%
+2023-10-04 16:49:45,690 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:49:45,690 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:49:45,690 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:49:45,690 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:49:45,690 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:49:45,690 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:49:45,690 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:49:45,690 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:49:45,690 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:49:45,690 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:49:45,690 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:49:45,691 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:49:45,691 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:49:45,691 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:49:45,691 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:49:56,080 - Epoch [122/300], Train Loss: 0.5527, Val Loss: 0.8958, Val Accuracy: 64.75%
+2023-10-04 16:49:56,081 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:49:56,081 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:49:56,081 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:49:56,081 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:49:56,081 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:49:56,081 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:49:56,081 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:49:56,081 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:49:56,081 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:49:56,081 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:49:56,081 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:49:56,081 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:49:56,081 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:49:56,081 - Class 4 False Positive Rate: 0.34
+2023-10-04 16:49:56,081 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:50:06,698 - Epoch [123/300], Train Loss: 0.4717, Val Loss: 0.8970, Val Accuracy: 64.14%
+2023-10-04 16:50:06,699 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:50:06,699 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:50:06,699 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:50:06,699 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:50:06,699 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:50:06,699 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:50:06,699 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:50:06,699 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:50:06,699 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:50:06,699 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:50:06,699 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:50:06,699 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:50:06,699 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:50:06,699 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:50:06,699 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:50:17,118 - Epoch [124/300], Train Loss: 0.5807, Val Loss: 0.8969, Val Accuracy: 63.73%
+2023-10-04 16:50:17,118 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:50:17,118 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:50:17,118 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:50:17,118 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:50:17,118 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:50:17,118 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:50:17,119 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:50:17,119 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:50:17,119 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:50:17,119 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:50:17,119 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:50:17,119 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:50:17,119 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:50:17,119 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:50:17,119 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:50:27,612 - Epoch [125/300], Train Loss: 0.4838, Val Loss: 0.8862, Val Accuracy: 64.75%
+2023-10-04 16:50:27,613 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:50:27,613 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:50:27,613 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:50:27,613 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:50:27,613 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:50:27,613 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:50:27,613 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:50:27,613 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:50:27,613 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:50:27,613 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:50:27,613 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:50:27,613 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:50:27,613 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:50:27,613 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:50:27,613 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:50:38,251 - Epoch [126/300], Train Loss: 0.4930, Val Loss: 0.8925, Val Accuracy: 63.73%
+2023-10-04 16:50:38,252 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:50:38,252 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:50:38,252 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:50:38,252 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:50:38,252 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:50:38,252 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:50:38,252 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:50:38,252 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:50:38,252 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:50:38,252 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:50:38,252 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:50:38,252 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:50:38,252 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:50:38,252 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:50:38,252 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:50:48,663 - Epoch [127/300], Train Loss: 0.5845, Val Loss: 0.8945, Val Accuracy: 64.14%
+2023-10-04 16:50:48,663 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:50:48,663 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:50:48,663 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:50:48,663 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:50:48,664 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:50:48,664 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:50:48,664 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:50:48,664 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:50:48,664 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:50:48,664 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:50:48,664 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:50:48,664 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:50:48,664 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:50:48,664 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:50:48,664 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:50:59,195 - Epoch [128/300], Train Loss: 0.5862, Val Loss: 0.8951, Val Accuracy: 64.34%
+2023-10-04 16:50:59,195 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:50:59,196 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:50:59,196 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:50:59,196 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:50:59,196 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:50:59,196 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:50:59,196 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:50:59,196 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:50:59,196 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:50:59,196 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:50:59,196 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:50:59,196 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:50:59,196 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:50:59,196 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:50:59,196 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:51:09,740 - Epoch [129/300], Train Loss: 0.6412, Val Loss: 0.9030, Val Accuracy: 63.73%
+2023-10-04 16:51:09,740 - Class 0 Recall: 0.74 True Positives: 78.0/105.0
+2023-10-04 16:51:09,740 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:51:09,740 - Class 0 False Negative Rate: 0.26
+2023-10-04 16:51:09,740 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:51:09,740 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:51:09,740 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:51:09,740 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:51:09,740 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:51:09,740 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:51:09,740 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:51:09,740 - Class 3 False Positive Rate: 0.60
+2023-10-04 16:51:09,740 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:51:09,741 - Class 4 Recall: 0.65 True Positives: 99.0/153.0
+2023-10-04 16:51:09,741 - Class 4 False Positive Rate: 0.27
+2023-10-04 16:51:09,741 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:51:20,349 - Epoch [130/300], Train Loss: 0.7047, Val Loss: 0.8951, Val Accuracy: 63.93%
+2023-10-04 16:51:20,349 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:51:20,349 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:51:20,349 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:51:20,350 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:51:20,350 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:51:20,350 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:51:20,350 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:51:20,350 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:51:20,350 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:51:20,350 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:51:20,350 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:51:20,350 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:51:20,350 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:51:20,350 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:51:20,350 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:51:30,866 - Epoch [131/300], Train Loss: 0.5881, Val Loss: 0.9096, Val Accuracy: 63.73%
+2023-10-04 16:51:30,867 - Class 0 Recall: 0.73 True Positives: 77.0/105.0
+2023-10-04 16:51:30,867 - Class 0 False Positive Rate: 0.42
+2023-10-04 16:51:30,867 - Class 0 False Negative Rate: 0.27
+2023-10-04 16:51:30,867 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:51:30,867 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:51:30,867 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:51:30,867 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:51:30,867 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:51:30,867 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:51:30,867 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:51:30,867 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:51:30,867 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:51:30,867 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:51:30,867 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:51:30,867 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:51:41,473 - Epoch [132/300], Train Loss: 0.5790, Val Loss: 0.8939, Val Accuracy: 64.14%
+2023-10-04 16:51:41,473 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:51:41,474 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:51:41,474 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:51:41,474 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:51:41,474 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:51:41,474 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:51:41,474 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:51:41,474 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:51:41,474 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:51:41,474 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:51:41,474 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:51:41,474 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:51:41,474 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:51:41,474 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:51:41,474 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:51:52,130 - Epoch [133/300], Train Loss: 0.7209, Val Loss: 0.9140, Val Accuracy: 64.14%
+2023-10-04 16:51:52,130 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:51:52,130 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:51:52,130 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:51:52,130 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:51:52,130 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:51:52,130 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:51:52,130 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:51:52,130 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:51:52,130 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:51:52,130 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:51:52,130 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:51:52,130 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:51:52,131 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:51:52,131 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:51:52,131 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:52:02,812 - Epoch [134/300], Train Loss: 0.5295, Val Loss: 0.9053, Val Accuracy: 64.34%
+2023-10-04 16:52:02,812 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:52:02,812 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:52:02,812 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:52:02,812 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:52:02,812 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:52:02,812 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:52:02,812 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:52:02,812 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:52:02,812 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:52:02,812 - Class 3 Recall: 0.42 True Positives: 31.0/74.0
+2023-10-04 16:52:02,812 - Class 3 False Positive Rate: 0.54
+2023-10-04 16:52:02,812 - Class 3 False Negative Rate: 0.58
+2023-10-04 16:52:02,812 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:52:02,812 - Class 4 False Positive Rate: 0.35
+2023-10-04 16:52:02,812 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:52:13,422 - Epoch [135/300], Train Loss: 0.4971, Val Loss: 0.9076, Val Accuracy: 63.93%
+2023-10-04 16:52:13,422 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:52:13,422 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:52:13,422 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:52:13,422 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:52:13,422 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:52:13,423 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:52:13,423 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:52:13,423 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:52:13,423 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:52:13,423 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:52:13,423 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:52:13,423 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:52:13,423 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:52:13,423 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:52:13,423 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:52:24,064 - Epoch [136/300], Train Loss: 0.5929, Val Loss: 0.9077, Val Accuracy: 64.75%
+2023-10-04 16:52:24,064 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:52:24,064 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:52:24,064 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:52:24,064 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:52:24,064 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:52:24,064 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:52:24,064 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:52:24,064 - Class 2 False Positive Rate: 0.50
+2023-10-04 16:52:24,064 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:52:24,064 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:52:24,064 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:52:24,064 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:52:24,064 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:52:24,064 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:52:24,064 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:52:34,541 - Epoch [137/300], Train Loss: 0.6466, Val Loss: 0.9017, Val Accuracy: 64.14%
+2023-10-04 16:52:34,541 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:52:34,541 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:52:34,541 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:52:34,541 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:52:34,541 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:52:34,541 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:52:34,541 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:52:34,541 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:52:34,541 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:52:34,541 - Class 3 Recall: 0.42 True Positives: 31.0/74.0
+2023-10-04 16:52:34,541 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:52:34,541 - Class 3 False Negative Rate: 0.58
+2023-10-04 16:52:34,541 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:52:34,541 - Class 4 False Positive Rate: 0.36
+2023-10-04 16:52:34,541 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:52:44,880 - Epoch [138/300], Train Loss: 0.3966, Val Loss: 0.8931, Val Accuracy: 64.14%
+2023-10-04 16:52:44,881 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:52:44,881 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:52:44,881 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:52:44,881 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:52:44,881 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:52:44,881 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:52:44,881 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:52:44,881 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:52:44,881 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:52:44,881 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:52:44,881 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:52:44,881 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:52:44,881 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:52:44,881 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:52:44,881 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:52:55,318 - Epoch [139/300], Train Loss: 0.7003, Val Loss: 0.8937, Val Accuracy: 63.73%
+2023-10-04 16:52:55,318 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:52:55,318 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:52:55,318 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:52:55,318 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:52:55,318 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:52:55,319 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:52:55,319 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:52:55,319 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:52:55,319 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:52:55,319 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:52:55,319 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:52:55,319 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:52:55,319 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:52:55,319 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:52:55,319 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:53:05,774 - Epoch [140/300], Train Loss: 0.6775, Val Loss: 0.8941, Val Accuracy: 63.93%
+2023-10-04 16:53:05,774 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:53:05,774 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:53:05,774 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:53:05,774 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:53:05,774 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:53:05,774 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:53:05,774 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:53:05,774 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:53:05,774 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:53:05,774 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:53:05,774 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:53:05,774 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:53:05,774 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:53:05,774 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:53:05,774 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:53:16,247 - Epoch [141/300], Train Loss: 0.5151, Val Loss: 0.8931, Val Accuracy: 64.34%
+2023-10-04 16:53:16,247 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:53:16,247 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:53:16,247 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:53:16,247 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:53:16,247 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:53:16,247 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:53:16,247 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:53:16,247 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:53:16,247 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:53:16,247 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:53:16,247 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:53:16,247 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:53:16,247 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:53:16,248 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:53:16,248 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:53:26,737 - Epoch [142/300], Train Loss: 0.7123, Val Loss: 0.9071, Val Accuracy: 63.32%
+2023-10-04 16:53:26,737 - Class 0 Recall: 0.74 True Positives: 78.0/105.0
+2023-10-04 16:53:26,737 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:53:26,737 - Class 0 False Negative Rate: 0.26
+2023-10-04 16:53:26,737 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:53:26,737 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:53:26,737 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:53:26,737 - Class 2 Recall: 0.53 True Positives: 46.0/87.0
+2023-10-04 16:53:26,737 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:53:26,737 - Class 2 False Negative Rate: 0.47
+2023-10-04 16:53:26,738 - Class 3 Recall: 0.43 True Positives: 32.0/74.0
+2023-10-04 16:53:26,738 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:53:26,738 - Class 3 False Negative Rate: 0.57
+2023-10-04 16:53:26,738 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:53:26,738 - Class 4 False Positive Rate: 0.35
+2023-10-04 16:53:26,738 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:53:37,175 - Epoch [143/300], Train Loss: 0.4329, Val Loss: 0.8947, Val Accuracy: 64.14%
+2023-10-04 16:53:37,175 - Class 0 Recall: 0.75 True Positives: 79.0/105.0
+2023-10-04 16:53:37,176 - Class 0 False Positive Rate: 0.43
+2023-10-04 16:53:37,176 - Class 0 False Negative Rate: 0.25
+2023-10-04 16:53:37,176 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:53:37,176 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:53:37,176 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:53:37,176 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:53:37,176 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:53:37,176 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:53:37,176 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:53:37,176 - Class 3 False Positive Rate: 0.55
+2023-10-04 16:53:37,176 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:53:37,176 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:53:37,176 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:53:37,176 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:53:47,544 - Epoch [144/300], Train Loss: 0.6276, Val Loss: 0.8973, Val Accuracy: 64.96%
+2023-10-04 16:53:47,544 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:53:47,544 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:53:47,544 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:53:47,544 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:53:47,544 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:53:47,544 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:53:47,544 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:53:47,544 - Class 2 False Positive Rate: 0.44
+2023-10-04 16:53:47,545 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:53:47,545 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:53:47,545 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:53:47,545 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:53:47,545 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:53:47,545 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:53:47,545 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:53:57,978 - Epoch [145/300], Train Loss: 0.6364, Val Loss: 0.8929, Val Accuracy: 65.16%
+2023-10-04 16:53:57,978 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:53:57,978 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:53:57,978 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:53:57,978 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:53:57,978 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:53:57,978 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:53:57,978 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:53:57,978 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:53:57,978 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:53:57,978 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:53:57,978 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:53:57,978 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:53:57,978 - Class 4 Recall: 0.69 True Positives: 105.0/153.0
+2023-10-04 16:53:57,978 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:53:57,978 - Class 4 False Negative Rate: 0.31
+2023-10-04 16:54:08,503 - Epoch [146/300], Train Loss: 0.4683, Val Loss: 0.8884, Val Accuracy: 64.34%
+2023-10-04 16:54:08,503 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:54:08,504 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:54:08,504 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:54:08,504 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:54:08,504 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:54:08,504 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:54:08,504 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:54:08,504 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:54:08,504 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:54:08,504 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:54:08,504 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:54:08,504 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:54:08,504 - Class 4 Recall: 0.67 True Positives: 103.0/153.0
+2023-10-04 16:54:08,504 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:54:08,504 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:54:19,177 - Epoch [147/300], Train Loss: 0.6845, Val Loss: 0.8994, Val Accuracy: 64.14%
+2023-10-04 16:54:19,177 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:54:19,177 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:54:19,177 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:54:19,177 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:54:19,177 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:54:19,177 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:54:19,177 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:54:19,177 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:54:19,177 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:54:19,177 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:54:19,177 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:54:19,177 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:54:19,177 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:54:19,177 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:54:19,177 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:54:29,811 - Epoch [148/300], Train Loss: 0.6078, Val Loss: 0.9055, Val Accuracy: 64.55%
+2023-10-04 16:54:29,811 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:54:29,811 - Class 0 False Positive Rate: 0.48
+2023-10-04 16:54:29,811 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:54:29,811 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:54:29,811 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:54:29,811 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:54:29,811 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:54:29,811 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:54:29,811 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:54:29,811 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:54:29,811 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:54:29,811 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:54:29,811 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:54:29,811 - Class 4 False Positive Rate: 0.28
+2023-10-04 16:54:29,811 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:54:40,448 - Epoch [149/300], Train Loss: 0.4604, Val Loss: 0.9031, Val Accuracy: 64.34%
+2023-10-04 16:54:40,448 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:54:40,448 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:54:40,449 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:54:40,449 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:54:40,449 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:54:40,449 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:54:40,449 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:54:40,449 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:54:40,449 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:54:40,449 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:54:40,449 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:54:40,449 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:54:40,449 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:54:40,449 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:54:40,449 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:54:51,083 - Epoch [150/300], Train Loss: 0.5309, Val Loss: 0.9055, Val Accuracy: 65.16%
+2023-10-04 16:54:51,083 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:54:51,083 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:54:51,083 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:54:51,083 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:54:51,083 - Class 1 False Positive Rate: 0.68
+2023-10-04 16:54:51,083 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:54:51,083 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:54:51,083 - Class 2 False Positive Rate: 0.49
+2023-10-04 16:54:51,083 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:54:51,083 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:54:51,083 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:54:51,083 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:54:51,083 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:54:51,083 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:54:51,083 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:55:01,667 - Epoch [151/300], Train Loss: 0.6347, Val Loss: 0.9014, Val Accuracy: 63.93%
+2023-10-04 16:55:01,667 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:55:01,667 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:55:01,667 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:55:01,667 - Class 1 Recall: 0.70 True Positives: 48.0/69.0
+2023-10-04 16:55:01,667 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:55:01,667 - Class 1 False Negative Rate: 0.30
+2023-10-04 16:55:01,667 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:55:01,667 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:55:01,667 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:55:01,667 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:55:01,667 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:55:01,667 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:55:01,667 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:55:01,667 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:55:01,667 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:55:12,295 - Epoch [152/300], Train Loss: 0.5641, Val Loss: 0.9093, Val Accuracy: 64.14%
+2023-10-04 16:55:12,295 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:55:12,295 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:55:12,295 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:55:12,295 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:55:12,295 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:55:12,295 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:55:12,295 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:55:12,295 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:55:12,295 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:55:12,295 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:55:12,295 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:55:12,295 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:55:12,295 - Class 4 Recall: 0.68 True Positives: 104.0/153.0
+2023-10-04 16:55:12,295 - Class 4 False Positive Rate: 0.33
+2023-10-04 16:55:12,295 - Class 4 False Negative Rate: 0.32
+2023-10-04 16:55:22,900 - Epoch [153/300], Train Loss: 0.4831, Val Loss: 0.9064, Val Accuracy: 64.14%
+2023-10-04 16:55:22,900 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:55:22,900 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:55:22,900 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:55:22,900 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:55:22,900 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:55:22,900 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:55:22,900 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:55:22,900 - Class 2 False Positive Rate: 0.45
+2023-10-04 16:55:22,900 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:55:22,900 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:55:22,900 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:55:22,900 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:55:22,900 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:55:22,900 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:55:22,900 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:55:33,544 - Epoch [154/300], Train Loss: 0.5678, Val Loss: 0.9008, Val Accuracy: 64.14%
+2023-10-04 16:55:33,544 - Class 0 Recall: 0.77 True Positives: 81.0/105.0
+2023-10-04 16:55:33,545 - Class 0 False Positive Rate: 0.45
+2023-10-04 16:55:33,545 - Class 0 False Negative Rate: 0.23
+2023-10-04 16:55:33,545 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:55:33,545 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:55:33,545 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:55:33,545 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:55:33,545 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:55:33,545 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:55:33,545 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:55:33,545 - Class 3 False Positive Rate: 0.58
+2023-10-04 16:55:33,545 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:55:33,545 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:55:33,545 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:55:33,545 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:55:44,165 - Epoch [155/300], Train Loss: 0.3908, Val Loss: 0.8989, Val Accuracy: 64.14%
+2023-10-04 16:55:44,165 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:55:44,165 - Class 0 False Positive Rate: 0.49
+2023-10-04 16:55:44,165 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:55:44,165 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:55:44,165 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:55:44,165 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:55:44,165 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:55:44,165 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:55:44,165 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:55:44,165 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:55:44,165 - Class 3 False Positive Rate: 0.59
+2023-10-04 16:55:44,165 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:55:44,165 - Class 4 Recall: 0.65 True Positives: 100.0/153.0
+2023-10-04 16:55:44,165 - Class 4 False Positive Rate: 0.27
+2023-10-04 16:55:44,165 - Class 4 False Negative Rate: 0.35
+2023-10-04 16:55:54,752 - Epoch [156/300], Train Loss: 0.4960, Val Loss: 0.9068, Val Accuracy: 64.34%
+2023-10-04 16:55:54,752 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:55:54,752 - Class 0 False Positive Rate: 0.47
+2023-10-04 16:55:54,752 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:55:54,752 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:55:54,752 - Class 1 False Positive Rate: 0.69
+2023-10-04 16:55:54,752 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:55:54,752 - Class 2 Recall: 0.55 True Positives: 48.0/87.0
+2023-10-04 16:55:54,752 - Class 2 False Positive Rate: 0.47
+2023-10-04 16:55:54,752 - Class 2 False Negative Rate: 0.45
+2023-10-04 16:55:54,752 - Class 3 Recall: 0.46 True Positives: 34.0/74.0
+2023-10-04 16:55:54,752 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:55:54,752 - Class 3 False Negative Rate: 0.54
+2023-10-04 16:55:54,752 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:55:54,753 - Class 4 False Positive Rate: 0.31
+2023-10-04 16:55:54,753 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:56:05,413 - Epoch [157/300], Train Loss: 0.8215, Val Loss: 0.9051, Val Accuracy: 64.55%
+2023-10-04 16:56:05,413 - Class 0 Recall: 0.78 True Positives: 82.0/105.0
+2023-10-04 16:56:05,413 - Class 0 False Positive Rate: 0.50
+2023-10-04 16:56:05,413 - Class 0 False Negative Rate: 0.22
+2023-10-04 16:56:05,413 - Class 1 Recall: 0.68 True Positives: 47.0/69.0
+2023-10-04 16:56:05,413 - Class 1 False Positive Rate: 0.67
+2023-10-04 16:56:05,413 - Class 1 False Negative Rate: 0.32
+2023-10-04 16:56:05,413 - Class 2 Recall: 0.57 True Positives: 50.0/87.0
+2023-10-04 16:56:05,413 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:56:05,413 - Class 2 False Negative Rate: 0.43
+2023-10-04 16:56:05,413 - Class 3 Recall: 0.47 True Positives: 35.0/74.0
+2023-10-04 16:56:05,413 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:56:05,413 - Class 3 False Negative Rate: 0.53
+2023-10-04 16:56:05,413 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:56:05,413 - Class 4 False Positive Rate: 0.30
+2023-10-04 16:56:05,413 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:56:15,982 - Epoch [158/300], Train Loss: 0.5820, Val Loss: 0.9181, Val Accuracy: 64.55%
+2023-10-04 16:56:15,982 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:56:15,982 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:56:15,982 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:56:15,982 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:56:15,982 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:56:15,982 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:56:15,982 - Class 2 Recall: 0.56 True Positives: 49.0/87.0
+2023-10-04 16:56:15,982 - Class 2 False Positive Rate: 0.48
+2023-10-04 16:56:15,982 - Class 2 False Negative Rate: 0.44
+2023-10-04 16:56:15,982 - Class 3 Recall: 0.49 True Positives: 36.0/74.0
+2023-10-04 16:56:15,982 - Class 3 False Positive Rate: 0.57
+2023-10-04 16:56:15,982 - Class 3 False Negative Rate: 0.51
+2023-10-04 16:56:15,982 - Class 4 Recall: 0.66 True Positives: 101.0/153.0
+2023-10-04 16:56:15,982 - Class 4 False Positive Rate: 0.29
+2023-10-04 16:56:15,982 - Class 4 False Negative Rate: 0.34
+2023-10-04 16:56:26,605 - Epoch [159/300], Train Loss: 0.5939, Val Loss: 0.8963, Val Accuracy: 63.73%
+2023-10-04 16:56:26,606 - Class 0 Recall: 0.76 True Positives: 80.0/105.0
+2023-10-04 16:56:26,606 - Class 0 False Positive Rate: 0.44
+2023-10-04 16:56:26,606 - Class 0 False Negative Rate: 0.24
+2023-10-04 16:56:26,606 - Class 1 Recall: 0.71 True Positives: 49.0/69.0
+2023-10-04 16:56:26,606 - Class 1 False Positive Rate: 0.70
+2023-10-04 16:56:26,606 - Class 1 False Negative Rate: 0.29
+2023-10-04 16:56:26,606 - Class 2 Recall: 0.54 True Positives: 47.0/87.0
+2023-10-04 16:56:26,606 - Class 2 False Positive Rate: 0.46
+2023-10-04 16:56:26,606 - Class 2 False Negative Rate: 0.46
+2023-10-04 16:56:26,606 - Class 3 Recall: 0.45 True Positives: 33.0/74.0
+2023-10-04 16:56:26,606 - Class 3 False Positive Rate: 0.56
+2023-10-04 16:56:26,606 - Class 3 False Negative Rate: 0.55
+2023-10-04 16:56:26,606 - Class 4 Recall: 0.67 True Positives: 102.0/153.0
+2023-10-04 16:56:26,606 - Class 4 False Positive Rate: 0.32
+2023-10-04 16:56:26,606 - Class 4 False Negative Rate: 0.33
+2023-10-04 16:56:37,276 - Validation loss hasn't improved for 100 epochs. Stopping training.
+2023-10-04 16:56:38,026 - Finished Training. Model Saved
+2023-10-04 16:56:40,681 - Quadratic Weighted Kappa (QWK) Score: 0.8711
+2023-10-04 16:56:40,681 - Overall False Positive Rate: 0.08
+2023-10-04 16:56:40,681 - Overall False Negative Rate: 0.33
+2023-10-04 16:56:40,681 - Accuracy on test data: 67.42% (329/488)
+2023-10-04 16:56:40,681 - We got 329 correct!
+2023-10-04 16:56:40,681 - ######### END #########

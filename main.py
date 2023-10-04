@@ -6,7 +6,7 @@ import torchvision.transforms as transforms
 import csv
 from PIL import Image
 from torch.utils.data import Dataset, SubsetRandomSampler, DataLoader
-from torch.optim.lr_scheduler import ReduceLROnPlateau, OneCycleLR
+from torch.optim.lr_scheduler import ReduceLROnPlateau, OneCycleLR, StepLR
 import matplotlib.pyplot as plt
 from sklearn.utils.class_weight import compute_class_weight
 # import sys
@@ -22,18 +22,22 @@ from embryo_dataset import EmbryoDataset
 
 
 # Hyperparameters
-learning_rate = 1e-6
+learning_rate = 0.0001 #1e-6
 lower_lr = 0.000001
 batch_size = 64
 num_epochs = 300
+gamma = 10
+power = 0.75
+current_iteration = [0]  # Using a list to make it mutable inside the lambda function
 
+# NUM_EPOCHS_BEFORE_FINE_TUNING = 150
 losses = []
 
 
 # Set up logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(message)s',
-                    handlers=[logging.FileHandler("training_log_resnet50_0310.txt"),
+                    handlers=[logging.FileHandler("training_log_resnet50_0410_sgd_wd1e-4.txt"),
                               logging.StreamHandler()])  # StreamHandler is for console
 logger = logging.getLogger()
 
@@ -44,26 +48,26 @@ logger = logging.getLogger()
 # ])
 train_transform = transforms.Compose([
     # transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),
-    transforms.Resize((224,224)),
+    # transforms.Resize((224,224)),
     # transforms.Pad((7, 7)),
-    # transforms.RandomHorizontalFlip(),
-    # transforms.RandomRotation(degrees=15),
-    # transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15, hue=0.1),
+    transforms.RandomHorizontalFlip(),
+    transforms.RandomRotation(10),
+    transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15, hue=0.1),
     transforms.ToTensor(),
-    # transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+    transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+    # transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
 val_transform = transforms.Compose([
-        transforms.Resize((224,224)),
+        # transforms.Resize((224,224)),
         # transforms.Pad((7, 7)),
         transforms.ToTensor(),
-        # transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+        transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+        # transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
 
 full_dataset = EmbryoDataset(txt_path="ed4_as_target.txt")
-train_indices, val_indices, test_indices = split_indices(len(full_dataset), train_pct=0.6, val_pct=0.2, seed=18, stratify=full_dataset.label_list)
+train_indices, val_indices, test_indices = split_indices(len(full_dataset), train_pct=0.6, val_pct=0.2, seed=1000, stratify=full_dataset.label_list)
 logger.info(f"{len(train_indices)}, {len(val_indices)}, {len(test_indices)}")
 
 train_dataset = EmbryoDataset(txt_path="ed4_as_target.txt", transform=train_transform)
@@ -78,16 +82,16 @@ train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, sampler=
 val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, sampler=val_sampler)
 test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, sampler=test_sampler)
 
-# for images, labels in train_loader:
-#     print(images.size(), labels.size())
-#     break
+max_iter = num_epochs * len(train_loader)
+def lr_lambda(epoch):
+    decay = (1 + gamma * current_iteration[0] / max_iter) ** (-power)
+    current_iteration[0] += 1  # Increment the iteration
+    return decay
+
 
 # Initialize Model and Optimizer
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
 model = ResNet50Classifier(num_classes=5).to(device)
-
-# model = SingleLabelMultiClassModel(num_classes=5).to(device)
 
 
 labels = [int(label) for label in full_dataset.label_list]
@@ -100,10 +104,12 @@ class_weights = torch.FloatTensor(class_weights).to(device)
 
 
 criterion = nn.CrossEntropyLoss(weight=class_weights)
-optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)
-
-
+optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9, weight_decay=1e-4)
 scheduler = ReduceLROnPlateau(optimizer, 'min')  # 'min' indicates reducing LR when a quantity (val loss in our case) stops decreasing
+# lambda_poly = lambda epoch: gamma * (1 - epoch / num_epochs) ** power
+# scheduler = optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda_poly)
+
+# scheduler = optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lr_lambda)
 
 
 num_classes = 5
@@ -115,7 +121,7 @@ val_acc = []
 
 
 # Early Stopping
-patience = 200  # Number of epochs to wait for improvement before stopping
+patience = 50  # Number of epochs to wait for improvement before stopping
 best_valid_loss = float('inf')
 best_valid_epoch = 0
 
@@ -123,6 +129,7 @@ best_val_loss = float('inf')
 epochs_no_improve = 0
 patience_epochs = 10
 fine_tuning_started = False # Flag to indicate if fine-tuning has started
+
 
 # for epoch in range(300, total_epochs):
 for epoch in range(num_epochs):
@@ -135,12 +142,15 @@ for epoch in range(num_epochs):
         # Forward pass
         outputs = model(images)
         loss = criterion(outputs, labels)
+        # losses.append(loss.detach().cpu().numpy())
         tr_loss += loss.item()
 
         # Backward pass and optimization
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+
+        # scheduler.step()
 
     tr_loss /= len(train_loader)  #average loss per batch for the epoch
     losses.append(tr_loss)
@@ -181,14 +191,12 @@ for epoch in range(num_epochs):
     valloss.append(val_loss)
     val_acc.append(accuracy)
 
-
-
     # Early Stopping
     if val_loss < best_valid_loss:
         best_valid_loss = val_loss
         best_valid_epoch = epoch
         # Save the model checkpoint whenever validation loss improves
-        torch.save(model.state_dict(), 'model_resnet50_0310.pth')
+        torch.save(model.state_dict(), 'October_Metrics/model_resnet50_0410_sgd_wd1e-4.pth')
     if epoch - best_valid_epoch >= patience:
         logger.info(f"Validation loss hasn't improved for {patience} epochs. Stopping training.")
         break
@@ -202,9 +210,8 @@ for epoch in range(num_epochs):
         logger.info(f"Class {i} False Negative Rate: {fnr:.2f}")
 
 # Save model
-torch.save(model.state_dict(), f'model_resnet50_2109.pth')
+torch.save(model.state_dict(), "October_Metrics/model_resnet50_0410_sgd_wd1e-4.pth")
 logger.info('Finished Training. Model Saved')
-
 
 # Graph it out!
 plt.figure(figsize=(8, 6))
@@ -219,7 +226,7 @@ plt.xlabel('Epoch')
 plt.title("Training and Validation Loss over Epochs")
 plt.legend(loc="upper right")  # Add a legend
 plt.tight_layout() 
-plt.savefig("Losses_plot_resnet50_0310.png", dpi=300)
+plt.savefig("October_Metrics/Losses_plot_resnet50_0410_sgd_wd1e-4.png", dpi=300)
 # plt.show()
 
 plt.clf()
@@ -228,13 +235,13 @@ plt.plot(val_acc)
 plt.ylabel("Validation Accuracy")
 plt.xlabel('Epoch')
 plt.title("Validation Accuracy over Epochs")
-plt.savefig("val_accuracy_plot_resnet50_0310.png", dpi=300)
+plt.savefig("October_Metrics/val_accuracy_plot_resnet50_0410_sgd_wd1e-4.png", dpi=300)
 
 
 
 #INFERENCE
 
-def infer_and_write_results(model, dataloader, indices, dataset, device, csv_filename='results_resnet50_0310.csv'):
+def infer_and_write_results(model, dataloader, indices, dataset, device, csv_filename='October_Metrics/results_resnet50_0410_sgd_wd1e-4.csv'):
     """
     Use the trained model to make predictions on the dataloader and save results in a CSV.
     """
@@ -287,7 +294,7 @@ def infer_and_write_results(model, dataloader, indices, dataset, device, csv_fil
     plt.xlabel('Predicted labels')
     plt.ylabel('True labels')
     plt.title('Confusion Matrix')
-    plt.savefig("confusion_matrix_resnet50_0310.png", dpi=300)
+    plt.savefig("October_Metrics/confusion_matrix_resnet50_0410_sgd_wd1e-4.png", dpi=300)
     # plt.show()
     qwk = cohen_kappa_score(true_labels, predicted_labels, weights='quadratic')
     logger.info(f'Quadratic Weighted Kappa (QWK) Score: {qwk:.4f}')
@@ -304,13 +311,12 @@ def infer_and_write_results(model, dataloader, indices, dataset, device, csv_fil
     logger.info('######### END #########')
 
 # Load trained model
-model_path = "model_resnet50_2109.pth"
+model_path = "October_Metrics/model_resnet50_0410_sgd_wd1e-4.pth"
 model = ResNet50Classifier(num_classes=5).to(device)
-
-# model = SingleLabelMultiClassModel(num_classes=5).to(device)
-
 model.load_state_dict(torch.load(model_path))
 
 # Call the function
-infer_and_write_results(model, test_loader, test_indices, full_dataset, device, 'results_resnet50_0310.csv')
+infer_and_write_results(model, test_loader, test_indices, full_dataset, device, 'October_Metrics/results_resnet50_0410_sgd_wd1e-4.csv')
+# log_file.close()
+
 
